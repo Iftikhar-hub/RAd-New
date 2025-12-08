@@ -101,7 +101,7 @@ const Hero = () => {
               <img
                 src={Group}
                 alt="Group"
-                className="w-full max-w-[1000px] h-[612px] rounded-[16px]"
+                className="w-full max-w-[1000px] mx-auto  h-[612px] rounded-[16px]"
               />
 
               <div className="absolute inset-0 bg-black/80 flex justify-center items-center rounded-[16px]">
