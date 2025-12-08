@@ -93,7 +93,7 @@ const RADStudioHere = () => {
                       max-[744px]:gap-[48px]
 
                       max-[375px]:grid-cols-1 max-[375px]:max-w-[343px]"
-          >
+           >
             <div
               className="row1-1 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
                         max-[744px]:max-w-[336px]
@@ -236,7 +236,7 @@ const RADStudioHere = () => {
                         max-[744px]:max-w-[336px]
                         max-[375px]:justify-center max-[375px]:items-center max-[375px]:gap-[16px]
                         cursor-pointer"
-            >
+             >
               <img
                 src={andriod}
                 alt="andriod"
@@ -268,8 +268,8 @@ const RADStudioHere = () => {
 
           <div
             className="rads-2 flex flex-row max-w-[88px] h-[36px] gap-[16px]
-          cursor-pointer"
-          >
+           cursor-pointer"
+           >
             <img
               src={previous}
               alt="previous"
@@ -277,6 +277,7 @@ const RADStudioHere = () => {
             />
             <img src={next} alt="next" />
           </div>
+
         </div>
       </section>
     );

@@ -32,10 +32,10 @@ const Hero = () => {
           </div>
 
           <div
-            className="hero-container-2 flex w-full max-w-[434px] h-auto gap-[16px] justify-center
+            className="hero-container-2 flex  w-[92%] h-auto gap-[16px] justify-center
             max-[425px]:flex-col max-[425px]:items-center max-[425px]:mt-auto
                 max-[375px]:flex-col max-[375px]:items-center max-[375px]:mt-auto "
-          >
+           >
             <div
               className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px]
 
@@ -45,24 +45,24 @@ const Hero = () => {
             >
               <button
                 type="button"
-                className="w-full max-w-[141px] h-[24px] font-archivo font-medium text-[16px] leading-[24px] text-[#FFFFFF]"
+                className="w-full cursor-pointer max-w-[141px] h-[24px] font-archivo font-medium text-[16px] leading-[24px] text-[#FFFFFF]"
               >
                 Start You Free Trial
               </button>
             </div>
 
             <div
-              className="btn-2 flex w-full max-w-[229px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] justify-center items-center border border-[#171717] 
-              max-[425px]:max-w-[393px] 
+              className="btn-2 cursor-pointer flex w-full max-w-[229px] h-[48px] rounded-[10px]   gap-[8px] justify-center items-center border border-[#171717] 
+              max-[425px]:max-w-[393px] cursor-pointer
                     max-[375px]:max-w-[343px]
-                     hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
                     
-            hover:text-[white] "
+                    
+             "
             >
               <button
                 type="secondary"
-                className="font-archivo font-medium text-[15px] leading-[24px] text-[#171717]
-                 hover:text-[white] "
+                className="font-archivo cursor-pointer font-medium text-[15px] leading-[24px] text-[#171717]
+                 hover:text-[#087008] "
               >
                 Request a Product Demo
               </button>
@@ -115,10 +115,10 @@ const Hero = () => {
           </div>
 
           <div
-            className="heroLower w-[100%]  rounded-[16px] border py-[24px] px-[32px]   
+            className="heroLower w-[96%] mx-auto  rounded-[16px] border py-[24px] px-[32px]   
                     gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
                     max-[1440px]:max-w-[1000px] 
-                     max-[1024px]:w-[90%] max-[1024px]:mx-auto
+                     max-[1024px]:w-[95%] max-[1024px]:mx-auto
 
                     max-[744px]:max-w-[695px]  max-[744px]:gap-[32px]
 

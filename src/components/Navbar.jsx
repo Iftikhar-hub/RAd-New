@@ -13,7 +13,7 @@ const Navbar = () => {
           max-[375px]:w-full max-[375px]:max-w-[375px]"
     >
       <section
-        className="w-[100%] h-[70px] px-[196px] py-[16px] flex justify-between items-center
+        className="max-w-[1920px] mx-auto h-[70px] px-[196px] py-[16px] flex justify-between items-center
               max-[1440px]:max-w-[1440px] max-[1449px]:px-[80px]
 
               max-[768px]:max-w-[768px] max-[768px]:py-[16px] max-[768px]:px-[24px]
@@ -109,9 +109,7 @@ const Navbar = () => {
             <p>Getit</p>
           </div>
           <div className="Link-1 flex cursor-pointer justify-center">
-            <p className="ppppppp hover:text-[#8e0d0d] w-full max-[1440px]:max-w-[73px]">
-              New Tools
-            </p>
+            <p className="ppppppp hover:text-[#8e0d0d] w-full ">New Tools</p>
           </div>
         </div>
 
@@ -127,7 +125,7 @@ const Navbar = () => {
                   max-[425px]:justify-end"
         >
           <button
-            className="btn w-full max-w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]
+            className="btn cursor-pointer w-full max-w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]
                     max-[425px]:hidden
                     hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
                     hover:bg-clip-text hover:text-transparent"
@@ -138,11 +136,11 @@ const Navbar = () => {
 
           <button
             type="button"
-            className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] py-[8px] px-[11px] gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-[#262626] 
+            className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] py-[8px] px-[11px] gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-[#262626] cursor-pointer
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
                     
             hover:text-[white]
-            max-[425px]:hidden"
+            max-[470px]:hidden"
           >
             Buy now
           </button>
@@ -166,7 +164,7 @@ const Navbar = () => {
       </section>
 
       <div
-        className="navBottom w-[100%] mx-auto h-[53px] flex justify-between items-center  
+        className="navBottom max-w-[1920px] mx-auto h-[53px] flex justify-between items-center  
               rounded-[6px] py-[16px] px-[192px]
               max-[1449px]:max-w-[1440px] max-[1449px]:h-[53px] max-[1449px]:px-[80px]
               

@@ -13,7 +13,7 @@ const Header = () => {
                py-[16px]
                
                max-[1440px]:w-[100%]
-               max-[744px]:w-[100%] max-[744px]:px-[24px]
+               max-[744px]:w-[100%] max-[744px]:px-[24px] max-[744px]:flex-col max-[744px]:gap-[12px]
                
                max-[425px]:flex-col max-[425px]:m-[0px] max-[425px]:p-[16px] max-[425px]:gap-[10px]
                max-[375px]:flex-col max-[375px]:m-[0px] max-[375px]:p-[16px] max-[375px]:gap-[8px]"
@@ -21,7 +21,7 @@ const Header = () => {
           <div
             className="text-sm flex flex-row
 
-             max-[500px]:max-w-[470px] max-[500px]:flex max-[500px]:flex-col max-[500px]:items-center
+             max-[500px]:max-w-[470px] max-[500px]:flex max-[545px]:flex-col max-[545px]:items-center
             
             max-[375px]:max-w-[345px] max-[375px]:flex max-[375px]:flex-col max-[375px]:items-center
                    "

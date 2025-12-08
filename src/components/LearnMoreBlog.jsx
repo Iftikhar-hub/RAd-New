@@ -35,11 +35,11 @@ const data = [
 const LearnMoreBlog = () => {
     return (
       <section
-        className="Learn_More_Blog w-[100%] mt-[128px] relative m-auto
-         max-[1440px]:max-w-[1280px]   max-[1440px]:gap-[80px]
+        className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto
+         max-[1440px]:max-w-[1440px]   max-[1440px]:gap-[80px]
          max-[1024px]:max-w-[864px] overflow-x-clip
 
-         max-[768px]:max-w-[718px]  max-[768px]:gap-[64px]
+         
          max-[744px]:max-w-[695px]  max-[744px]:gap-[64px]
 
          max-[425px]:max-w-[393px]  max-[425px]:h-auto max-[425px]:gap-[30px]
@@ -47,7 +47,7 @@ const LearnMoreBlog = () => {
 
          max-[375px]:max-w-[343px]  max-[375px]:h-auto max-[375px]:gap-[30px]
          max-[375px]:mt-[80px]"
-      >
+       >
         <p
           className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
             max-[1440px]:left-[232px]
@@ -138,7 +138,7 @@ const LearnMoreBlog = () => {
 
         <img
           className="max-w-[60px] w-full h-[80px] absolute top-[-1px] right-[300px] max-[1440px]:right-[149px]
-            max-[1280px]:hidden
+            max-[1550px]:hidden
             max-[744px]:hidden"
           src={MLB_Arrow}
           alt="MLB_Arrow"

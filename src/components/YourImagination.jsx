@@ -92,7 +92,7 @@ const dataTab = [
     ],
   },
   {
-    name: "Code Quality",
+    name: "Quality",
     image: coswQuility,
     title: "Improve the Quality of Your Code with Delphi.",
     points: [
@@ -136,12 +136,13 @@ const YourImagination = () => {
         </p>
       </div>
 
-      <div className="Imagination-Container flex flex-col items-center w-full max-w-[1536px] max-[1440px]:max-w-[1280px] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] max-[744px]:max-w-[696px] max-[744px]:gap-[24px] max-[375px]:max-w-[343px] max-[375px]:h-auto">
+      <div className="Imagination-Container flex flex-col items-center px-[30px] w-full max-w-[1536px] max-[1440px]:max-w-[1280px] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] max-[744px]:max-w-[696px] max-[744px]:gap-[24px] max-[375px]:max-w-[343px] max-[375px]:h-auto">
         <div
           className="ImaginationNav flex flex-row w-full h-f rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between 
-        max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px] max-[1024px]:overflow-x-scroll
-        max-[1024px]:overflow-y-hidden max-[1024px]:max-w-[900px] max-[1024px]:w-full max-[1024px]:h-[60px] max-[1024px]:justify-start max-[1024px]:items-center
-        
+        max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px] 
+        max-[1024px]:overflow-x-scroll
+        max-[1024px]:overflow-y-hidden max-[1024px]:max-w-[900px] max-[1024px]:w-full max-[1024px]:h-[80px] max-[1024px]:justify-start max-[1024px]:items-center
+
         max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden max-[768px]:max-w-[760px] max-[768px]:w-full max-[768px]:h-[60px] max-[768px]:justify-start max-[768px]:items-center max-[768px]:py-[35px]
         
         max-[744px]:max-w-[744px] max-[744px]:w-full max-[744px]:h-[68px] max-[744px]:overflow-x-scroll max-[744px]:overflow-y-hidden max-[744px]:justify-start max-[744px]:items-center max-[744px]:py-[35px]"
@@ -151,7 +152,7 @@ const YourImagination = () => {
               key={tab.name}
               onClick={() => setActiveTab(tab.name)}
               className={`cursor-pointer flex flex-row max-w-[217.14px] h-[57px] py-[14px] px-[24px] rounded-[12px] justify-center items-center font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-center 
-                max-[1440px]:max-w-[180px] max-[1440px]:h-[57px]
+               
                  max-[744px]:max-w-[107px] max-[744px]:h-[52px] max-[744px]:text-[20px] group relative
                    ${
                      activeTab === tab.name
