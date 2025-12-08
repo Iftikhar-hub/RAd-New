@@ -25,7 +25,7 @@ const RADStudioHere = () => {
         max-[375px]:max-w-[343px] max-[375px]:gap-[48px] max-[375px]:mt-[0px] "
       >
         <div
-          className="RAD-Studio-Here-1 flex flex-col justify-center items-center w-full max-w-[1274px] h- 
+          className="RAD-Studio-Here-1 flex flex-col justify-center items-center mx-auto w-full max-w-[1250px] px-[10px] h- 
              [204px] gap-[24px] relative max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
              max-[1024px]:max-w-[863px] max-[744px]:pl-[20px] max-[744px]:pr-[20px]
              max-[744px]:max-w-[696px] max-[744px]:gap-[16px]
@@ -76,13 +76,13 @@ const RADStudioHere = () => {
         </div>
 
         <div
-          className="RAD-Studio-Here-1 flex flex-col items-center w-full max-w-[1274px] h- 
+          className="RAD-Studio-Here-1 flex flex-col items-center w-full max-w-[1230px] h- 
              auto gap-[24px] max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
              max-[1024px]:max-w-[863px]
              max-[744px]:pl-[20px] max-[744px]:pr-[20px]
              max-[744px]:max-w-[696px] max-[744px]:gap-[48px]
               max-[375px]:max-w-[343px]"
-        >
+         >
           <div
             className="rads-1-row1 grid  relative grid-cols-3 w-full max-w-[1274px]  gap-[32px]
 
