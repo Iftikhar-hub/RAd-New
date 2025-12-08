@@ -15,7 +15,7 @@ const JoinOurCoummunity = () => {
         max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:mt-[80px]"
       >
         <div
-          className="JOC_content flex relative flex-col w-full max-w-[633px] gap-[32px]
+          className="JOC_content flex relative flex-col w-full max-w-[655px] gap-[32px]
              max-[1440px]:max-w-[514px]  max-[1440px]:gap-[32px] z-10
 
              max-[800px]:max-w-[750px] max-[800px]:items-center 
@@ -109,7 +109,7 @@ const JoinOurCoummunity = () => {
         </div>
 
         <div
-          className="JOC_map w-full max-w-[850px] h-[438px] flex justify-center items-center
+          className="JOC_map w-full max-w-[870px] h-[438px] flex justify-center items-center
             max-[1440px]:max-w-[734px]
 
             max-[768px]:max-w-[718px] 

@@ -17,12 +17,12 @@ const RADFooter = () => {
         max-[375px]:max-w-[375px] max-[375px]:w-full"
     >
       <div
-        className="Footer_Content  flex flex-row justify-center w-[100%] h-[342px] gap-[32px]
+        className="Footer_Content  flex flex-row justify-center w-full max-w-[1540px] mx-auto h-[342px] gap-[32px]
             max-[1440px]:max-w-[1280px] max-[1440px]:flex-col max-[1440px]:h-auto max-[1440px]:gap-[24px]
             max-[768px]:max-w-[718px]  max-[768px]:gap-[48px]
             max-[744px]:max-w-[695px]  max-[744px]:gap-[48px]
             "
-       >
+      >
         <div
           className="Footer_Content_left flex flex-row gap-[16px]
                 max-[1440px]:max-w-[202px] max-[1440px]:h-[35px] cursor-pointer"
@@ -44,7 +44,7 @@ const RADFooter = () => {
 
                      max-[425px]:max-w-[393px] max-[425px]:h-auto  max-[425px]:grid-cols-2
                      max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
-         >
+        >
           <div className="FCR_1 flex flex-col gap-[26px]">
             <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] z-30 ">
               Products
@@ -187,13 +187,12 @@ const RADFooter = () => {
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
               DE: +49 (0)6103-3866-100
             </p>
-           
           </div>
         </div>
       </div>
 
       <div
-        className="Bottom_Footer w-[100%] h-[24px] flex justify-between items-center
+        className="Bottom_Footer w-full max-w-[1540px] mx-auto h-[24px] flex justify-between items-center
                 max-[1440px]:max-w-[1280px] max-[1440px]:h-[24px] max-[1440px]:gap[32px]
                
                 max-[768px]:max-w-[718px]

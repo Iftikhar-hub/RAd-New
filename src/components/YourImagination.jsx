@@ -117,7 +117,7 @@ const YourImagination = () => {
 
   return (
     <section
-      className="Your-Imagination flex flex-col w-full max-w-[1536px] gap-[48px] ml-auto mr-auto mt-[128px] 
+      className="Your-Imagination flex flex-col w-[100%] gap-[48px] ml-auto mr-auto mt-[128px] 
     max-[1440px]:max-w-[1280px] max-[1440px]:gap-[48px]
     max-[1024px]:max-w-[1024px]
     max-[768px]:max-w-[768px] max-[768px]:items-center
@@ -136,9 +136,9 @@ const YourImagination = () => {
         </p>
       </div>
 
-      <div className="Imagination-Container flex flex-col items-center px-[30px] w-full max-w-[1536px] max-[1440px]:max-w-[1280px] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] max-[744px]:max-w-[696px] max-[744px]:gap-[24px] max-[375px]:max-w-[343px] max-[375px]:h-auto">
+      <div className="Imagination-Container flex flex-col items-center mx-auto px-[30px] w-full max-w-[1920px] max-[1440px]:max-w-[1280px] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] max-[744px]:max-w-[696px] max-[744px]:gap-[24px] max-[375px]:max-w-[343px] max-[375px]:h-auto">
         <div
-          className="ImaginationNav flex flex-row w-full h-f rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between 
+          className="ImaginationNav flex flex-row  h-f rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1540px] mx-auto
         max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px] 
         max-[1024px]:overflow-x-scroll
         max-[1024px]:overflow-y-hidden max-[1024px]:max-w-[900px] max-[1024px]:w-full max-[1024px]:h-[80px] max-[1024px]:justify-start max-[1024px]:items-center
@@ -175,7 +175,7 @@ const YourImagination = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="ImaginationHero flex justify-center items-center w-full max-w-[1536px] rounded-[16px] mt-[32px]
+            className="ImaginationHero flex justify-center items-center mx-auto w-full max-w-[1920px] rounded-[16px] mt-[32px]
             max-[1440px]:max-w-[1280px] max-[1440px]:h-auto max-[1440px]:gap-[32px]
             max-[1024px]:flex-col max-[1024px]:max-w-[974px]
             max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-   [768px]:justify-center max-[768px]:gap-[0px]

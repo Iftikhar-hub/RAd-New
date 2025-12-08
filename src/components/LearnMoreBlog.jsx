@@ -67,7 +67,7 @@ const LearnMoreBlog = () => {
         </p>
 
         <div
-          className="LMB_content_1 w-full relative max-w-[1462px] gap-[100px] mx-auto z-10  
+          className="LMB_content_1 w-full relative max-w-[1540px] gap-[100px] mx-auto z-10  
                  grid grid-cols-3 mt-[90px] 
                  max-[1500px]:pl-[20px]   max-[1500px]:pr-[20px] 
                  
