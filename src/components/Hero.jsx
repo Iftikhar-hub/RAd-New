@@ -18,14 +18,14 @@ const Hero = () => {
         >
           <div className="hero-container-1 flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
             <p
-              className="hero_cp1 font-archivo font-[600] text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)] 
+              className="hero_cp1 font-Archivo font-[600] text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)]  
                     bg-clip-text text-transparent
                     max-[744px]:text-[40px] "
             >
               RAD Studio 11.2
             </p>
 
-            <p className="hero_cp2 flex flex-col  gap-[16px]  font-archivo font-[400] text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px] ">
+            <p className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-[400] text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]">
               Build Apps 5x Faster With One Codebase for Windows, Android, iOS,
               macOS, and Linux.
             </p>
@@ -53,7 +53,7 @@ const Hero = () => {
 
             <div
               className="btn-2 flex w-full max-w-[229px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] justify-center items-center border border-[#171717] 
-              max-[425px]:max-w-[393px]
+              max-[425px]:max-w-[393px] 
                     max-[375px]:max-w-[343px]
                      hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
                     
@@ -166,10 +166,10 @@ const Hero = () => {
 
           <div
             className="elip_h1 w-full max-w-[440px] h-[440px]  absolute top-[172px]  
-          left-[-437px] opacity-[10%] border border-white blur-[500px] bg-[#6366F1]"
+          left-[-437px] opacity-[20%] border border-white blur-[500px] bg-[#6366F1]"
           ></div>
 
-          <div className="elip_h2 w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[10%] border border-white blur-[500px] bg-[#E11D48]"></div>
+          <div className="elip_h2 w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[20%] border border-white blur-[500px] bg-[#E11D48]"></div>
         </div>
       </section>
     );

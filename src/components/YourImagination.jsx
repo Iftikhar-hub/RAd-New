@@ -141,6 +141,7 @@ const YourImagination = () => {
           className="ImaginationNav flex flex-row w-full h-f rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between 
         max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px] max-[1024px]:overflow-x-scroll
         max-[1024px]:overflow-y-hidden max-[1024px]:max-w-[900px] max-[1024px]:w-full max-[1024px]:h-[60px] max-[1024px]:justify-start max-[1024px]:items-center
+        
         max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden max-[768px]:max-w-[760px] max-[768px]:w-full max-[768px]:h-[60px] max-[768px]:justify-start max-[768px]:items-center max-[768px]:py-[35px]
         
         max-[744px]:max-w-[744px] max-[744px]:w-full max-[744px]:h-[68px] max-[744px]:overflow-x-scroll max-[744px]:overflow-y-hidden max-[744px]:justify-start max-[744px]:items-center max-[744px]:py-[35px]"
