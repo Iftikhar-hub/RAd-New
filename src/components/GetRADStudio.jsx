@@ -100,6 +100,7 @@ const GetRADStudio = () => {
                 className="GRS-p1 opacity-100 font-archivo font-normal text-[24px] leading-[150%] tracking-[0px] 
                         text-[#262626] text-center
                         max-[425px]:text-[20px] max-[540px]:text-[16px]
+                        max-[425px]:px-[5px]
                         max-[744px]:text-[20px]"
               >
                 One code base, Native on any platform, Fast frame work.
