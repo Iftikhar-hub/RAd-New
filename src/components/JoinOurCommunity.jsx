@@ -84,15 +84,15 @@ const JoinOurCoummunity = () => {
                 max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:flex-col"
           >
             <input
-              className="JOC_emailAddress w-full max-w-[354px] h-[100%] rounded-[8px] border border-[#D4D4D4] bg-[#FFFFFFCC] py-[18px] px-[20px] gap=[10px] backdrop-blur-[32px] text-[red]
+              className="JOC_emailAddress w-full max-w-[354px] h-[100%] rounded-[8px] border 
+              border-[#055e05] bg-[#FFFFFFCC] py-[18px] px-[20px] gap=[10px] backdrop-blur-[32px]
                     max-[1440px]:max-w-[361px] max-[1440px]:h-[48px] max-[1440px]:py-[12px] max-[1440px]:px-[20px] max-[1440px]:gap-[10px]"
               type="text"
               placeholder="Your Email"
-             
             />
 
             <button
-              className="Btn_Subs w-full max-w-[121px] h-[52px] px-[24px] py-[14px] rounded-[8px] bg-[#262626] shadow-[0_4px_32px_0_#FF5E651A] font-figtree font-medium text-[16px] leading-[24px] tracking-[0px] text-white flex items-center justify-center gap-[10px]
+              className="Btn_Subs w-full cursor-pointer max-w-[121px] h-[52px] px-[24px] py-[14px] rounded-[8px] bg-[#262626] shadow-[0_4px_32px_0_#FF5E651A] font-figtree font-medium text-[16px] leading-[24px] tracking-[0px] text-white flex items-center justify-center gap-[10px]
                     max-[1440px]:max-w-[122px] max-[1440px]:h-[48px]
                     max-[425px]:max-w-[393px]
                     max-[375px]:max-w-[343px] hover:bg-[#565454]"

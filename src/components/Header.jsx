@@ -47,7 +47,7 @@ const Header = () => {
                     max-[1024px]:hidden
                    "
             >
-              <a href="#" className="hover:text-[#A3A3A3] ">
+              <a href="#" className="hover:text-[#A3A3A3] group">
                 My Downloads
               </a>
               <a href="#" className="hover:text-gray-300">

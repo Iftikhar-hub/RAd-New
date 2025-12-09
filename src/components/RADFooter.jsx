@@ -45,12 +45,12 @@ const RADFooter = () => {
                      max-[425px]:max-w-[393px] max-[425px]:h-auto  max-[425px]:grid-cols-2
                      max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
         >
-          <div className="FCR_1 flex flex-col gap-[26px]">
-            <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] z-30 ">
+          <div className="FCR_1 flex z-10 flex-col gap-[26px]">
+            <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] z-10 ">
               Products
             </p>
 
-            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
+            <p className="FCR_p2 z-10 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
               RAD STUDIO™
             </p>
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">

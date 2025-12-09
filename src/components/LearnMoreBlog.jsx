@@ -47,7 +47,7 @@ const LearnMoreBlog = () => {
 
          max-[375px]:max-w-[343px]  max-[375px]:h-auto max-[375px]:gap-[30px]
          max-[375px]:mt-[80px]"
-       >
+      >
         <p
           className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
             max-[1440px]:left-[232px]
@@ -118,7 +118,7 @@ const LearnMoreBlog = () => {
                            group z-10"
                   >
                     Read More
-                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#8e0d0d] transition-all duration-500 ease-out group-hover:w-full"></span>
+                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
                   </p>
 
                   <img

@@ -232,7 +232,7 @@ const YourImagination = () => {
                   ))}
                   <p className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[375px]:text-end cursor-pointer group hover:text-[#055e05]">
                     Read More
-                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#FE3B76] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
+                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
                   </p>
                 </div>
               </div>
@@ -244,7 +244,7 @@ const YourImagination = () => {
               >
                 <p className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group">
                   Download RAD Studio Feature Matrix
-                  <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#FE3B76] transition-all duration-500 ease-out group-hover:w-full"></span>
+                  <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
                 </p>
                 <img
                   className="cloudImage cursor-pointer w-full max-w-[28px] h-[28px]"

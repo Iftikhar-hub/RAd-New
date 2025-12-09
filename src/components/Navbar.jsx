@@ -36,18 +36,18 @@ const Navbar = () => {
                 max-[1200px]:hidden"
         >
           <div className="Link-1 cursor-pointer flex items-center justify-center ">
-            <p className="group relative hover:text-[#8e0d0d]">
+            <p className="group relative hover:text-[#055e05]">
               Products
               <div
                 className="absolute left-[-50px] top-[30px]  bg-white shadow-xl rounded-lg opacity-0 gap-[4px] p-[12px] z-20
                invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
               >
                 <ul className="flex flex-col text-[14px] gap-[15px] font-inter  leading-[16px] text-[#525252]">
-                  <li className="hover:text-[#8e0d0d]">RAD Studio</li>
-                  <li className="hover:text-[#8e0d0d]">Delphi</li>
-                  <li className="hover:text-[#8e0d0d]">C++ Builder</li>
-                  <li className="hover:text-[#8e0d0d]">Inter Base</li>
-                  <li className="hover:text-[#8e0d0d]">RAD Server</li>
+                  <li className="hover:text-[#055e05]">RAD Studio</li>
+                  <li className="hover:text-[#055e05]">Delphi</li>
+                  <li className="hover:text-[#055e05]">C++ Builder</li>
+                  <li className="hover:text-[#055e05]">Inter Base</li>
+                  <li className="hover:text-[#055e05]">RAD Server</li>
                 </ul>
               </div>
             </p>
@@ -58,20 +58,20 @@ const Navbar = () => {
             />
           </div>
           <div className="Link-1 cursor-pointer flex items-center justify-center max-[1440px]:max-w-[100px]">
-            <p className="FTpp w-full max-[1440px]:max-w-[90px] hover:text-[#8e0d0d] relative group">
+            <p className="FTpp w-full max-[1440px]:max-w-[90px] hover:text-[#055e05] relative group">
               Free Tools
               <div
-                className="absolute left-[-50px] top-[30px] bg-white shadow-xl rounded-lg opacity-0  z-20 gap-[4px] p-[12px]
+                className="absolute left-[-50px] top-[30px] bg-white shadow-xl rounded-lg opacity-0  z-20 gap-[4px] p-[12px] 
                invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
               >
                 <ul className="flex flex-col text-[14px] gap-[15px] font-inter leading-[16px] text-[#525252]">
-                  <li className="hover:text-[#8e0d0d]">C++ Compiler</li>
-                  <li className="hover:text-[#8e0d0d]">Delphi Communit Ed.</li>
-                  <li className="hover:text-[#8e0d0d]">Rest Debugger</li>
-                  <li className="hover:text-[#8e0d0d]">FMX Stencils</li>
-                  <li className="hover:text-[#8e0d0d]">PyScripter</li>
-                  <li className="hover:text-[#8e0d0d]">CPP Check</li>
-                  <li className="hover:text-[#8e0d0d]">Python Libraries</li>
+                  <li className="hover:text-[#055e05] hover:bg-amber-100">C++ Compiler</li>
+                  <li className="hover:text-[#055e05]">Delphi Communit Ed.</li>
+                  <li className="hover:text-[#055e05]">Rest Debugger</li>
+                  <li className="hover:text-[#055e05]">FMX Stencils</li>
+                  <li className="hover:text-[#055e05]">PyScripter</li>
+                  <li className="hover:text-[#055e05]">CPP Check</li>
+                  <li className="hover:text-[#055e05]">Python Libraries</li>
                 </ul>
               </div>
             </p>
@@ -81,21 +81,21 @@ const Navbar = () => {
               className="downArrow max-w-[19px] h-[19px]"
             />
           </div>
-          <div className="Link-1 hover:text-[#8e0d0d] cursor-pointer flex items-center justify-center">
+          <div className="Link-1 hover:text-[#055e05] cursor-pointer flex items-center justify-center">
             <p>Blog</p>
           </div>
           <div className="Link-1 relative group cursor-pointer flex items-center justify-center">
-            <p className="hover:text-[#8e0d0d]">
+            <p className="hover:text-[#055e05]">
               Resources
               <div
                 className="absolute left-[-50px] top-[30px] bg-white shadow-xl rounded-lg  opacity-0  z-20 gap-[4px] p-[12px]
                invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
               >
                 <ul className="flex flex-col text-[14px] gap-[15px] font-inter leading-[16px] text-[#525252]">
-                  <li className="hover:text-[#8e0d0d]">Learn</li>
-                  <li className="hover:text-[#8e0d0d]">Engage</li>
-                  <li className="hover:text-[#8e0d0d]">Partner</li>
-                  <li className="hover:text-[#8e0d0d]">Support</li>
+                  <li className="hover:text-[#055e05]">Learn</li>
+                  <li className="hover:text-[#055e05]">Engage</li>
+                  <li className="hover:text-[#055e05]">Partner</li>
+                  <li className="hover:text-[#055e05]">Support</li>
                 </ul>
               </div>
             </p>
@@ -109,7 +109,7 @@ const Navbar = () => {
             <p>Getit</p>
           </div>
           <div className="Link-1 flex cursor-pointer justify-center">
-            <p className="ppppppp hover:text-[#8e0d0d] w-full ">New Tools</p>
+            <p className="ppppppp hover:text-[#055e05] w-full ">New Tools</p>
           </div>
         </div>
 
@@ -147,7 +147,7 @@ const Navbar = () => {
 
           <button
             type="button"
-            className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] bg-[#262626] flex items-center justify-center gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-white
+            className="btn w-full cursor-pointer max-w-[89px] h-[38px] rounded-lg border border-[#262626] bg-[#262626] flex items-center justify-center gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-white
             
             hover:bg-[#565454]"
           >
