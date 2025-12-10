@@ -192,7 +192,8 @@ const YourImagination = () => {
                max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
             >
               <img
-                className="IgnitPic max-w-[482px] h-[394px] max-[425px]:max-w-[297px] max-[425px]:h-[238px] max-[375px]:max-w-[247px] max-[375px]:h-[188px]"
+                className="IgnitPic max-w-[482px] h-[394px] max-[425px]:max-w-[297px] max-[425px]:h-[238px] max-[375px]:max-w-[247px] max-[375px]:h-[188px] 
+                max-[600px]:h-[300px]"
                 src={currentTab?.image}
                 alt={currentTab?.name}
               />
