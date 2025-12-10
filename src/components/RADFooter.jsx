@@ -7,8 +7,8 @@ import logoGithub from "../assets/icons/logoGithub.png";
 const RADFooter = () => {
   return (
     <section
-      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  
-        max-[1440px]:max-w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px] max-[1440px]:px-[80px]
+      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  px-[196px] max-[1440px]:px-[30px]
+        max-[1440px]:max-w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
         max-[744px]:max-[744px] max-[744px]:px-4 max-[744px]:h-[930px] 
@@ -192,7 +192,7 @@ const RADFooter = () => {
       </div>
 
       <div
-        className="Bottom_Footer w-full max-w-[1540px] mx-auto h-[24px] flex justify-between items-center
+        className="Bottom_Footer w-full max-w-[1540px] mx-auto h-[24px] flex justify-between items-center mt-[180px]
                 max-[1440px]:max-w-[1280px] max-[1440px]:h-[24px] max-[1440px]:gap[32px]
                
                 max-[768px]:max-w-[718px]
@@ -212,7 +212,7 @@ const RADFooter = () => {
         </p>
 
         <div
-          className="BF_Icons flex flex-row w-full mr-[32px] max-w-[864px] justify-end h-[24px] gap-[24px]
+          className="BF_Icons flex flex-row l mr-[32px] max-w-[864px] justify-end h-[24px] gap-[24px]
                 max-[1440px]:max-w-[624px] max-[1440px]:mr-[0]
                 max-[768px]:max-w-[431px]
                 max-[425px]:max-w-[168px] max-[425px]:justify-between

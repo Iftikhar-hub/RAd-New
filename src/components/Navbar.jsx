@@ -14,7 +14,7 @@ const Navbar = () => {
     >
       <section
         className="max-w-[1920px] mx-auto h-[70px] px-[196px] py-[16px] flex justify-between items-center
-              max-[1440px]:max-w-[1440px] max-[1449px]:px-[80px]
+              max-[1440px]:max-w-[1440px] max-[1440px]:px-[30px]
 
               max-[768px]:max-w-[768px] max-[768px]:py-[16px] max-[768px]:px-[24px]
               max-[744px]:max-w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]
@@ -65,7 +65,9 @@ const Navbar = () => {
                invisible transition-all duration-300 group-hover:visible group-hover:opacity-100"
               >
                 <ul className="flex flex-col text-[14px] gap-[15px] font-inter leading-[16px] text-[#525252]">
-                  <li className="hover:text-[#055e05] hover:bg-amber-100">C++ Compiler</li>
+                  <li className="hover:text-[#055e05] hover:bg-amber-100">
+                    C++ Compiler
+                  </li>
                   <li className="hover:text-[#055e05]">Delphi Communit Ed.</li>
                   <li className="hover:text-[#055e05]">Rest Debugger</li>
                   <li className="hover:text-[#055e05]">FMX Stencils</li>
@@ -160,13 +162,21 @@ const Navbar = () => {
             max-[1200px]:block
             "
           />
+
+          {/* <div className="humburgerMenue">
+            <ul>
+              <li>
+                <a href="#"></a>
+              </li>
+            </ul>
+          </div> */}
         </div>
       </section>
 
       <div
         className="navBottom max-w-[1920px] mx-auto h-[53px] flex justify-between items-center  
-              rounded-[6px] py-[16px] px-[192px]
-              max-[1449px]:max-w-[1440px] max-[1449px]:h-[53px] max-[1449px]:px-[80px]
+              rounded-[6px] py-[16px] px-[192px] max-[1440px]:px-[30px]
+              max-[1449px]:max-w-[1440px] max-[1449px]:h-[53px] 
               
               
               max-[768px]:max-w-[768px] max-[768px]:h-[90px] max-[768px]:px-[24px] max-[768px]:py-[16px] max-[800px]:flex-col max-[800px]:gap-[16px]

@@ -36,11 +36,11 @@ const LearnMoreBlog = () => {
     return (
       <section
         className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto
-         max-[1440px]:max-w-[1440px]   max-[1440px]:gap-[80px]
-         max-[1024px]:max-w-[864px] overflow-x-clip
+         max-[1440px]:max-w-[1440px] max-[1440px]:px-[30px]   max-[1440px]:gap-[80px] px-[196px]
+          overflow-x-clip
 
          
-         max-[744px]:max-w-[695px]  max-[744px]:gap-[64px]
+          max-[744px]:gap-[64px]
 
          max-[425px]:max-w-[393px]  max-[425px]:h-auto max-[425px]:gap-[30px]
          max-[425px]:mt-[80px]

@@ -5,17 +5,17 @@ import rad from "../assets/icons/rad.png";
 const Hero = () => {
     return (
       <section
-        className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]  mx-auto overflow-x-clip
+        className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]  mx-auto overflow-x-clip 
          
         max-[744px]:max-w-[744px] 
         max-[375px]:max-w-[375px] "
-      >
+       >
         <div
           className="hero-container relative opacity-100 flex flex-col justify-center items-center 
              max-w-[434px] w-full h-auto gap-[24px]  z-10
              max-[744px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
-        >
+         >
           <div className="hero-container-1 flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
             <p
               className="hero_cp1 font-Archivo font-[600] text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)]  
@@ -72,7 +72,7 @@ const Hero = () => {
 
         <div
           className="heroPicture w-full max-w-[1274px] h-[712px] relative
-            max-[1024px]:max-w-[864px] z-10
+            max-[1024px]:max-w-[864px] z-10 px-[35px]
             
               max-[1440px]:max-w-[1000px] max-[1024px]:max-w-[718px]
               max-[1440px]:w-full max-[900px]:h-[886px] max-[1440px]:gap-[64px]
@@ -83,7 +83,7 @@ const Hero = () => {
               max-[744px]:max-w-[695px] max-[744px]:h-[544px] max-[744px]:gap-[48px]
               max-[425px]:max-w-[393px]
               max-[375px]:max-w-[343px]"
-        >
+         >
           <div className="relative  w-[100%] mx-auto px-4 sm:px-6">
             <div className="md:hidden w-full aspect-video relative">
               <img

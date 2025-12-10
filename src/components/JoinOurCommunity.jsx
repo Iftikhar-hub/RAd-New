@@ -3,9 +3,9 @@ import GlobalUsers from "../assets/icons/GlobalUsers.png";
 const JoinOurCoummunity = () => {
     return (
       <section
-        className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] overflow-x-clip
-         max-[1440px]:h-[640px]
-         max-[1024px]:max-w-[864px] max-[1560px]:pl-[30px] max-[1560px]:pr-[30px]
+        className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] overflow-x-clip px-[196px]
+         max-[1440px]:h-[640px] max-[1440px]:px-[30px]
+          
 
         max-[800px]:max-w-[800px] max-[800px]:mt-[180px] max-[800px]:flex-col
 
