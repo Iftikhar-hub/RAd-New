@@ -202,17 +202,14 @@ const Navbar = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 30 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="absolute hidden max-[1200px]:flex top-[150px] left-[2px]  w-[98%] bg-[#262626] shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px] text-white font-medium max-[1200px]:block z-20
+              className="absolute hidden max-[1200px]:flex top-[150px] left-[2px]  w-[98%] bg-gray-200 shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px] text-black font-medium max-[1200px]:block z-20
               max-[744px]:top-[170px]
               max-[545px]:top-[200px]  
               "
             >
-              <div className="Link-1 bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px] flex gap-[5px] cursor-pointer">
+              <div className="Link-1 bg-gray-100 justify-between px-[10px] py-[5px] w-full rounded-[4px] flex gap-[5px] cursor-pointer">
                 <p>Products</p>
-                <button
-                  onClick={toggleP}
-                  className="text-white focus:outline-none"
-                >
+                <button onClick={toggleP} className=" focus:outline-none">
                   {Open ? <FaTimes /> : <FaArrowDown />}
                 </button>
 
@@ -222,7 +219,7 @@ const Navbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 30 }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
-                    className="absolute hidden max-[1200px]:flex top-[50px] left-[10px]  w-[98%] bg-[#262626] shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px] text-white font-medium max-[1200px]:block z-20
+                    className="absolute hidden max-[1200px]:flex top-[50px] left-[10px]  w-[98%] bg-gray-100 shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px]  font-medium max-[1200px]:block z-20
                     max-[744px]:top-[60px]
                    max-[545px]:top-[50px] max-[503px]:w-[97%]   "
                   >
@@ -233,12 +230,9 @@ const Navbar = () => {
                   </motion.div>
                 )}
               </div>
-              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px] ">
+              <div className="Link-1 flex cursor-pointer bg-gray-100 justify-between px-[10px] py-[5px] w-full rounded-[4px] ">
                 <p>New Tools</p>
-                <button
-                  onClick={toggleNT}
-                  className="text-white focus:outline-none"
-                >
+                <button onClick={toggleNT} className=" focus:outline-none">
                   {OpenNT ? <FaTimes /> : <FaArrowDown />}
                 </button>
 
@@ -248,7 +242,7 @@ const Navbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 30 }}
                     transition={{ duration: 0.5, ease: "easeInOut" }}
-                    className="absolute hidden max-[1200px]:flex top-[100px] left-[10px]  w-[98%] bg-[#262626] shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px] text-white font-medium max-[1200px]:block z-20
+                    className="absolute hidden max-[1200px]:flex top-[100px] left-[10px]  w-[98%] bg-gray-100 shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px]  font-medium max-[1200px]:block z-20
                     max-[744px]:top-[100px]
                    max-[545px]:top-[100px] max-[503px]:w-[97%]   "
                   >
@@ -260,15 +254,15 @@ const Navbar = () => {
                 )}
               </div>
 
-              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px]">
+              <div className="Link-1 flex cursor-pointer bg-gray-100 justify-between px-[10px] py-[5px] w-full rounded-[4px]">
                 <p>Blog</p>
               </div>
 
-              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px]">
+              <div className="Link-1 flex cursor-pointer bg-gray-100 justify-between px-[10px] py-[5px] w-full rounded-[4px]">
                 <p>Resources</p>
               </div>
 
-              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px]">
+              <div className="Link-1 flex cursor-pointer bg-gray-100 justify-between px-[10px] py-[5px] w-full rounded-[4px]">
                 <p>Getit</p>
               </div>
 
