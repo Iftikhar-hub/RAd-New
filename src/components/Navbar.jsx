@@ -3,7 +3,7 @@ import rightArrow from "../assets/icons/rightArrow.png";
 import downArrow from "../assets/icons/downArrow.png";
 // import menaImage from "../assets/icons/menaImage.png";
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaArrowRight, FaArrowDown } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -11,16 +11,21 @@ import { motion, AnimatePresence } from "framer-motion";
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
-  
-
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-  const [Open, setOpen] = useState(false);
 
-  const toggleSide = () => {
+
+  const [Open, setOpen] = useState(false);
+  const toggleP = () => {
     setOpen(!Open);
   };
+
+  const [OpenNT, setOpenNT] = useState(false);
+  const toggleNT = () => {
+    setOpenNT(!OpenNT);
+  };
+
  
 
   return (
@@ -202,29 +207,73 @@ const Navbar = () => {
               max-[545px]:top-[200px]  
               "
             >
-              <div className="Link-1 flex cursor-pointer">
+              <div className="Link-1 bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px] flex gap-[5px] cursor-pointer">
                 <p>Products</p>
-                {/* <button
-                  onClick={toggleSide}
-                  className="text-neutral-600 focus:outline-none"
+                <button
+                  onClick={toggleP}
+                  className="text-white focus:outline-none"
                 >
-                  {Open ? <FaTimes size={24} /> : <FaBars size={24} />}
-                </button> */}
+                  {Open ? <FaTimes /> : <FaArrowDown />}
+                </button>
+
+                {Open && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 30 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    className="absolute hidden max-[1200px]:flex top-[50px] left-[10px]  w-[98%] bg-[#262626] shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px] text-white font-medium max-[1200px]:block z-20
+                    max-[744px]:top-[60px]
+                   max-[545px]:top-[50px] max-[503px]:w-[97%]   "
+                  >
+                    <p>RAD Studio</p>
+                    <p>Delphi</p>
+                    <p>C++ Builder</p>
+                    <p>Interbase</p>
+                  </motion.div>
+                )}
               </div>
-              <div className="Link-1 flex cursor-pointer ">
-                <p>Free Tools</p>
+              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px] ">
+                <p>New Tools</p>
+                <button
+                  onClick={toggleNT}
+                  className="text-white focus:outline-none"
+                >
+                  {OpenNT ? <FaTimes /> : <FaArrowDown />}
+                </button>
+
+                {OpenNT && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -30 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 30 }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
+                    className="absolute hidden max-[1200px]:flex top-[100px] left-[10px]  w-[98%] bg-[#262626] shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px] text-white font-medium max-[1200px]:block z-20
+                    max-[744px]:top-[100px]
+                   max-[545px]:top-[100px] max-[503px]:w-[97%]   "
+                  >
+                    <p>CPP Check</p>
+                    <p>Python</p>
+                    <p>REST Debugger</p>
+                    <p>PyScripter</p>
+                  </motion.div>
+                )}
               </div>
-              <div className="Link-1 flex cursor-pointer ">
+
+              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px]">
                 <p>Blog</p>
               </div>
-              <div className="Link-1 flex cursor-pointer ">
+
+              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px]">
                 <p>Resources</p>
               </div>
-              <div className="Link-1 flex cursor-pointer ">
+
+              <div className="Link-1 flex cursor-pointer bg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px]">
                 <p>Getit</p>
               </div>
-              <div className="Link-1 flex cursor-pointer ">
-                <p>New Tools</p>
+
+              <div className="Link-1 flex cursor-pointerbg-[#333333] justify-between px-[10px] py-[5px] w-full rounded-[4px] ">
+                <p>Free Tools</p>
               </div>
             </motion.div>
           )}
