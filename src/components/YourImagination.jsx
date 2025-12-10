@@ -181,7 +181,7 @@ const YourImagination = () => {
             max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-   [768px]:justify-center max-[768px]:gap-[0px]
             max-[744px]:max-w-[696px] max-[744px]:h-auto max-[744px]:flex-col max-[744px]:items-center max-   [744px]:justify-center max-[744px]:gap-[0px]
             max-[425px]:max-w-[393px] max-[375px]:max-w-[343px]"
-          >
+           >
             <div
               className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] 
                 p-[48px] bg-[#CECECE33] 
