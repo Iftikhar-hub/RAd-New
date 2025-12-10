@@ -109,7 +109,7 @@ const JoinOurCoummunity = () => {
         </div>
 
         <div
-          className="JOC_map w-full max-w-[870px] h-[438px] flex justify-center items-center
+          className="JOC_map w-full max-w-[870px]  flex justify-center items-center
             max-[1440px]:max-w-[734px]
 
             max-[768px]:max-w-[718px] 
@@ -118,9 +118,9 @@ const JoinOurCoummunity = () => {
             max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] max-[375px]:mt-[30px]"
         >
           <img
-            className="jm w-[100%] h-[410px] max-[744px]:h-[365px] 
-             max-[425px]:h-[160px]
-            max-[375px]:h-[160px]"
+            className="jm w-[100%]  
+             
+           "
             src={GlobalUsers}
             alt="GlobalUsers"
           />
