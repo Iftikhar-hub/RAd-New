@@ -11,9 +11,15 @@ import { motion, AnimatePresence } from "framer-motion";
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
+  
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+  };
+  const [Open, setOpen] = useState(false);
+
+  const toggleSide = () => {
+    setOpen(!Open);
   };
  
 
@@ -190,14 +196,20 @@ const Navbar = () => {
               initial={{ opacity: 0, y: -30 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 30 }}
-              transition={{ duration: 0.4, ease: "easeInOut" }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
               className="absolute hidden max-[1200px]:flex top-[150px] left-[2px]  w-[98%] bg-[#262626] shadow-lg py-5 px-4 flex flex-col rounded-[5px] items-baseline   gap-4 text-[14px] text-white font-medium max-[1200px]:block z-20
               max-[744px]:top-[170px]
-              max-[545px]:top-[190px]  
+              max-[545px]:top-[200px]  
               "
             >
               <div className="Link-1 flex cursor-pointer">
                 <p>Products</p>
+                {/* <button
+                  onClick={toggleSide}
+                  className="text-neutral-600 focus:outline-none"
+                >
+                  {Open ? <FaTimes size={24} /> : <FaBars size={24} />}
+                </button> */}
               </div>
               <div className="Link-1 flex cursor-pointer ">
                 <p>Free Tools</p>
