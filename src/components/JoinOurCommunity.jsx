@@ -112,7 +112,7 @@ const JoinOurCoummunity = () => {
           className="JOC_map w-full max-w-[870px]  flex justify-center items-center
             max-[1440px]:max-w-[734px]
 
-            max-[768px]:max-w-[718px] 
+            max-[768px]:max-w-[718px] max-[800px]:mt-[30px]
             max-[744px]:max-w-[695px] 
             max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-[209px] max-[425px]:mt-[30px] 
             max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] max-[375px]:mt-[30px]"

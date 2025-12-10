@@ -7,7 +7,7 @@ import logoGithub from "../assets/icons/logoGithub.png";
 const RADFooter = () => {
   return (
     <section
-      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  px-[196px] max-[1440px]:px-[30px]
+      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  px-[196px] max-[1440px]:px-[30px] bg-white z-10
         max-[1440px]:max-w-[1440px] max-[1440px]:h-[593px] max-[1440px]:py-[48px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
