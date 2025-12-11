@@ -104,7 +104,7 @@ const JoinOurCoummunity = () => {
 
           <div
             className="elip-j11 w-full max-w-[869px] h-[869px]  absolute bottom-[-692px]  
-          right-[181px] opacity-[10%] border border-white -z-20 blur-[200px]  bg-[#E11D48]"
+          right-[181px] opacity-[10%] border border-white -z-20 blur-[500px]  bg-[#E11D48]"
           ></div>
         </div>
 

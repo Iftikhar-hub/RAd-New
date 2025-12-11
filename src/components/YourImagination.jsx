@@ -254,7 +254,7 @@ const YourImagination = () => {
                 />
               </div>
 
-              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[100px] absolute top-[0]"></div>
+              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[250px] absolute top-[0]"></div>
             </div>
           </motion.div>
         </AnimatePresence>
