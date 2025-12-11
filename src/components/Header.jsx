@@ -17,7 +17,7 @@ const Header = () => {
                
                max-[425px]:flex-col max-[425px]:m-[0px] max-[425px]:p-[16px] max-[425px]:gap-[10px]
                max-[375px]:flex-col max-[375px]:m-[0px] max-[375px]:p-[16px] max-[375px]:gap-[8px]"
-        >
+         >
           <div
             className="text-sm flex flex-row
 

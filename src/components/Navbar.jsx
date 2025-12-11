@@ -3,7 +3,7 @@ import rightArrow from "../assets/icons/rightArrow.png";
 import downArrow from "../assets/icons/downArrow.png";
 // import menaImage from "../assets/icons/menaImage.png";
 import { useState } from "react";
-import { FaBars, FaTimes, FaArrowRight, FaArrowDown } from "react-icons/fa";
+import { FaBars, FaTimes, FaArrowRight, FaArrowDown, FaMinus } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -163,9 +163,10 @@ const Navbar = () => {
           <button
             type="button"
             className="btn w-full max-w-[89px] h-[38px] rounded-lg border border-[#262626] py-[8px] px-[11px] gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-[#262626] cursor-pointer
-             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+            hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+                    hover:bg-clip-text hover:text-transparent
                     
-            hover:text-[white]
+           
             max-[470px]:hidden"
           >
             Buy now
@@ -328,47 +329,64 @@ const Navbar = () => {
         </div>
 
         <div
-          className="navBottom-left flex items-center h-[21px] gap-[8px]
-                max-[500px]:grid max-[500px]:grid-cols-3 max-[500px]:max-w-[344px]
-                max-[395px]:grid-cols-2"
-        >
-          <a
+          className="navBottom-right flex items-center h-[21px] gap-[8px]
+                max-[500px]:grid max-[500px]:grid-cols-3 max-[500px]:max-w-[350px]
+                max-[400px]:grid-cols-2"
+         >
+
+          <div className="flex items-center gap-2 max-[500px]:pl-3">
+            
+           
+           <a
             className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline decoration-[#262626]
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
-          >
-            What's New? -
-          </a>
+           >
+            What's New? 
+            
+           </a>
+            <FaMinus className="text-[#A3A3A3] w-[5px] max-[400px]:hidden" />
+          </div>
 
-          <a
+          <div className="flex items-center gap-2" >
+           <a
             className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
-          >
-            Product Edition -
-          </a>
+           >
+            Product Edition 
+           </a>
+           <FaMinus className="text-[#A3A3A3] w-[5px] max-[400px]:hidden" />
+          </div>
 
-          <a
+          <div className="flex items-center gap-2 max-[400px]:pl-3">
+            <a
             className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
-          >
+           >
             Previous Version
-          </a>
+           </a>
+           <FaMinus className="text-[#A3A3A3] w-[5px] max-[500px]:hidden max-[400px]:hidden" />
+          </div>
 
-          <a
-            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[500px]:ml-[135px] max-[395px]:ml-[0]
+          <div>
+           <a
+            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[500px]:ml-[135px] max-[400px]:ml-[0]
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
             href="#"
-          >
+           >
             Customers
-          </a>
+           </a>
+          </div>
+
+
         </div>
       </div>
     </div>

@@ -165,7 +165,7 @@ const GetRADStudio = () => {
                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:justify-center max-[375px]:items-center hover:bg-[#565454]"
           >
             <button
-              className="btn-download font-archivo font-medium text-[16px] leading-[24px] tracking-[0px] text-white"
+              className="btn-download cursor-pointer font-archivo font-medium text-[16px] leading-[24px] tracking-[0px] text-white"
               type="button"
             >
               Download Now

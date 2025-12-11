@@ -156,7 +156,7 @@ const YourImagination = () => {
                  max-[744px]:max-w-[107px] max-[744px]:h-[52px] max-[744px]:text-[20px] group relative
                    ${
                      activeTab === tab.name
-                       ? "bg-[#262626] text-white"
+                       ? "bg-[#262626] text-white px-[50px] "
                        : "text-[#525252] hover:text-[#055e05]"
                    }`}
             >

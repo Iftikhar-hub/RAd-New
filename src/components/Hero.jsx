@@ -62,7 +62,8 @@ const Hero = () => {
               <button
                 type="secondary"
                 className="font-archivo cursor-pointer font-medium text-[15px] leading-[24px] text-[#171717]
-                 hover:text-[#087008] "
+                 hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+                    hover:bg-clip-text hover:text-transparent "
               >
                 Request a Product Demo
               </button>
@@ -115,7 +116,7 @@ const Hero = () => {
           </div>
 
           <div
-            className="heroLower w-[96%] mx-auto  rounded-[16px] border py-[24px] px-[32px]   
+            className="heroLower w-[96%] mx-auto  rounded-[16px] border border-[#e5e5e5] py-[24px] px-[32px]   
                     gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
                     max-[1440px]:max-w-[1000px] 
                      max-[1024px]:w-[95%] max-[1024px]:mx-auto
@@ -126,7 +127,8 @@ const Hero = () => {
                     max-[600px]:p-[16px]
                     
                     max-[375px]:max-w-[343px]  max-[375px]:flex-col
-                    max-[375px]:p-[16px]"
+                    max-[375px]:p-[16px]
+                    "
           >
             <div
               className="logoLN flex flex-row justify-center items-center max-w-[1011px]  gap-4
@@ -156,7 +158,7 @@ const Hero = () => {
              "
             >
               <button
-                className="w-[119px] h-[19px] font-archivo font-medium text-[16px] leading-[19.2px] tracking-normal text-[#FFFFFF]"
+                className="w-[119px] h-[19px] font-archivo font-medium text-[16px] leading-[19.2px] tracking-normal text-[#FFFFFF] cursor-pointer"
                 type="button"
               >
                 View Resources
