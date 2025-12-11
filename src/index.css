@@ -18,3 +18,7 @@
 body {
     font-family: 'Archivo';
 }
+
+.scrollHide{
+    scrollbar-width :none
+}

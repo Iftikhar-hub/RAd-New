@@ -138,8 +138,9 @@ const YourImagination = () => {
 
       <div className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1440px]:px-[30px] max-[1440px]:max-w-[1280px] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] max-[744px]:max-w-[696px] max-[744px]:gap-[24px] max-[375px]:max-w-[343px] max-[375px]:h-auto">
         <div
-          className="ImaginationNav flex flex-row  h-f rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1540px] mx-auto
-        max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px] 
+          className="ImaginationNav flex flex-row  h-f rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1540px] mx-auto  scrollHide
+        max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px]
+
         max-[1024px]:overflow-x-scroll
         max-[1024px]:overflow-y-hidden max-[1024px]:max-w-[900px] max-[1024px]:w-full max-[1024px]:h-[80px] max-[1024px]:justify-start max-[1024px]:items-center
 
