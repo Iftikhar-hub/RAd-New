@@ -6,16 +6,18 @@ const Hero = () => {
     return (
       <section
         className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]  mx-auto overflow-x-clip 
+
+        max-[745px]:mt-[48px]
          
-        max-[744px]:max-w-[744px] 
+        max-[745px]:max-w-[744px] 
         max-[375px]:max-w-[375px] "
-       >
+      >
         <div
           className="hero-container relative opacity-100 flex flex-col justify-center items-center 
              max-w-[434px] w-full h-auto gap-[24px]  z-10
              max-[744px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
-         >
+        >
           <div className="hero-container-1 flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
             <p
               className="hero_cp1 font-Archivo font-[600] text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)]  
@@ -25,7 +27,11 @@ const Hero = () => {
               RAD Studio 11.2
             </p>
 
-            <p className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-[400] text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]">
+            <p
+              className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-[400] text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
+            max-[425px]:px-[20px]
+            max-[375px]:px-[10px]"
+            >
               Build Apps 5x Faster With One Codebase for Windows, Android, iOS,
               macOS, and Linux.
             </p>
@@ -34,13 +40,15 @@ const Hero = () => {
           <div
             className="hero-container-2 flex  w-[92%] h-auto gap-[16px] justify-center
             max-[425px]:flex-col max-[425px]:items-center max-[425px]:mt-auto
-                max-[375px]:flex-col max-[375px]:items-center max-[375px]:mt-auto "
-           >
+                max-[375px]:flex-col max-[375px]:items-center max-[375px]:mt-auto 
+                max-[425px]:w-[86%]
+                max-[375px]:w-[93%]"
+          >
             <div
               className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px]
 
               max-[425px]:max-w-[393px] 
-                    max-[375px]:max-w-[343px] justify-center items-center
+                    max-[375px]:max-w-[343px] justify-center items-center max-[375px]:px-[0px]
                     hover:bg-[#565454]"
             >
               <button
@@ -72,21 +80,28 @@ const Hero = () => {
         </div>
 
         <div
-          className="heroPicture w-full max-w-[1274px] h-[712px] relative
-            max-[1024px]:max-w-[864px] z-10 
+          className="heroPicture w-[1274px]  h-[712px] relative
+            z-10 
+            max-[1441px]:w-full 
             
-              max-[1440px]:max-w-[1000px] max-[1024px]:max-w-[718px]
+              max-[1441px]:px-[40px] max-[1230px]:px-[10px]
+
+               max-[1024px]:w-full 
               max-[1440px]:w-full max-[900px]:h-[886px] max-[1440px]:gap-[64px]
                
 
              
 
-              max-[744px]:max-w-[695px] max-[744px]:h-[544px] max-[744px]:gap-[48px]
+              max-[744px]:max-w-[695px] max-[747px]:h-min
+              max-[744px]:gap-[48px]
               max-[425px]:max-w-[393px]
-              max-[375px]:max-w-[343px]"
-         >
+              max-[375px]:w-[100%]"
+        >
           <div className="relative  w-[100%] mx-auto px-4 sm:px-6">
-            <div className="md:hidden w-full aspect-video relative">
+            <div
+              className="md:hidden w-full aspect-video relative 
+             "
+            >
               <img
                 src={Group}
                 alt="Group"
@@ -118,7 +133,7 @@ const Hero = () => {
           <div
             className="heroLower w-[96%] mx-auto  rounded-[16px] border border-[#e5e5e5] py-[24px] px-[32px]   
                     gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
-                    max-[1440px]:max-w-[1000px] 
+                    
                      max-[1024px]:w-[95%] max-[1024px]:mx-auto
 
                     max-[744px]:max-w-[695px]  max-[744px]:gap-[32px]
@@ -126,8 +141,8 @@ const Hero = () => {
                     max-[600px]:mx-auto max-[600px]:flex-col
                     max-[600px]:p-[16px]
                     
-                    max-[375px]:max-w-[343px]  max-[375px]:flex-col
-                    max-[375px]:p-[16px]
+                      max-[375px]:flex-col
+                    max-[376px]:px-[16px] max-[376px]:w-[90%]
                     "
           >
             <div
@@ -136,16 +151,17 @@ const Hero = () => {
                      max-[744px]:justify-start
 
                      max-[600px]:flex-col max-[600px]:justify-center max-[600px]:mt-[18px]
-                     max-[375px]:flex-col max-[375px]:justify-center max-[375px]:mt-[18px]"
+                     max-[375px]:flex-col max-[375px]:justify-center max-[375px]:mt-[18px]
+                     max-[375px]"
             >
               <img src={rad} alt="rad" className="w-[48px] h-[48px]" />
 
-              <div className="flex flex-col">
-                <p className="text-[#262626] font-archivo font-semibold text-[22px] leading-[33px] tracking-normal">
+              <div className="flex flex-col items-center">
+                <p className="text-[#262626] font-archivo font-semibold text-[22px] leading-[33px] tracking-normal max-[375px]:text-[18px]">
                   RAD Studio 11.2 Resources
                 </p>
 
-                <p className="text-[#262626] font-archivo font-[400] text-[17px] leading-[150%] tracking-normal">
+                <p className="text-[#262626] font-archivo font-[400] text-[17px] leading-[150%] tracking-normal max-[376px]:text-[16px] max-[375px]:text-[14px]">
                   PDF's Videos & Courses of the Product
                 </p>
               </div>
@@ -168,10 +184,17 @@ const Hero = () => {
 
           <div
             className="elip_h1 w-full max-w-[440px] h-[440px]  absolute top-[172px]  
-          left-[-437px] opacity-[20%] border border-white blur-[500px] bg-[#6366F1]"
+          left-[-437px] opacity-[20%] border border-white blur-[500px] bg-[#6366F1]
+          max-[747px]:hidden"
           ></div>
 
-          <div className="elip_h2 w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[20%] border border-white blur-[500px] bg-[#E11D48]"></div>
+          <div
+            className="MSE hidden w-full max-w-[765px] h-[765px]  absolute top-[-670px]  
+          left-[-121px] opacity-[10%] border border-white blur-[100px] bg-[#3B82F6] -z-10
+          max-[747px]:block"
+          ></div>
+
+          <div className="elip_h2 w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[20%] border border-white blur-[500px] bg-[#E11D48] max-[747px]:hidden"></div>
         </div>
       </section>
     );

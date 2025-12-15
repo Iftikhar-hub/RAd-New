@@ -11,7 +11,10 @@ export default {
       },
       screens: {
         '3xl': '1920px',   
-      }
+      },
+      fontSize: {
+      responsive: "clamp(10px, 3vw, 18px)",
+    },
     },
   },
   plugins: [],

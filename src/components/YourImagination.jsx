@@ -109,9 +109,9 @@ const dataTab = [
 
 
 
-
 const YourImagination = () => {
   const [activeTab, setActiveTab] = useState("Design");
+  
 
   const currentTab = dataTab.find((tab) => tab.name === activeTab);
 
@@ -121,32 +121,36 @@ const YourImagination = () => {
     max-[1440px]:max-w-[1280px] max-[1440px]:gap-[48px]
     max-[1024px]:max-w-[1024px]
     max-[768px]:max-w-[768px] max-[768px]:items-center
-    max-[744px]:max-w-[744px] max-[744px]:gap-[48px] max-[744px]:mt-[80px] max-[744px]:items-center
-    max-[744px]:overflow-x-hidden
+
+    max-[746px]:max-w-[744px] max-[746px]:gap-[48px] max-[746px]:mt-[80px] max-[746px]:items-center
+    max-[746px]:overflow-x-hidden
     max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:mt-[80px]
-    max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:mt-[80px]"
+    max-[376px]:w-[100%] max-[375px]:h-auto max-[375px]:mt-[80px]"
     >
       <div className="Imagination-pTag-span m-auto max-[425px]:hidden">
-        <p className="Imagination-p1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] text-[#262626] max-[744px]:text-[36px]">
+        <p className="Imagination-p1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] text-[#262626] max-[746px]:text-[36px]">
           Ignite
-          <span className="Imagination-s1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[744px]:text-[36px]">
+          <span className="Imagination-s1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[746px]:text-[36px]">
             {" "}
             Your Imagination
           </span>
         </p>
       </div>
 
-      <div className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1440px]:px-[30px] max-[1440px]:max-w-[1280px] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] max-[744px]:max-w-[696px] max-[744px]:gap-[24px] max-[375px]:max-w-[343px] max-[375px]:h-auto">
+      <div
+        className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1441px]:px-[30px] max-[1441px]:w-[95%] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] 
+      max-[746px]:w-[95%] max-[746px]:gap-[24px] max-[376px]:w-[100%] max-[376px]:h-auto "
+      >
         <div
-          className="ImaginationNav flex flex-row  h-f rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1540px] mx-auto  scrollHide
-        max-[1440px]:max-w-[1316px] max-[1440px]:h-[73px] max-[1440px]:gap-[8px]
+          className="ImaginationNav flex flex-row rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1540px] mx-auto overflow-x-scroll scrollHide
+        max-[1441px]:w-[96%] max-[1440px]:h-[73px] max-[1440px]:gap-[8px]
 
-        max-[1024px]:overflow-x-scroll
+        max-[1024px]:overflow-x-scroll 
         max-[1024px]:overflow-y-hidden max-[1024px]:max-w-[900px] max-[1024px]:w-full max-[1024px]:h-[80px] max-[1024px]:justify-start max-[1024px]:items-center
 
         max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden max-[768px]:max-w-[760px] max-[768px]:w-full max-[768px]:h-[60px] max-[768px]:justify-start max-[768px]:items-center max-[768px]:py-[35px]
         
-        max-[744px]:max-w-[744px] max-[744px]:w-full max-[744px]:h-[68px] max-[744px]:overflow-x-scroll max-[744px]:overflow-y-hidden max-[744px]:justify-start max-[744px]:items-center max-[744px]:py-[35px]"
+        max-[746px]:max-w-[744px] max-[746px]:w-full max-[746px]:h-[68px] max-[746px]:overflow-x-scroll max-[746px]:overflow-y-hidden max-[746px]:justify-start max-[746px]:items-center max-[746px]:py-[35px]"
         >
           {dataTab.map((tab) => (
             <a
@@ -154,7 +158,7 @@ const YourImagination = () => {
               onClick={() => setActiveTab(tab.name)}
               className={`cursor-pointer flex flex-row max-w-[217.14px] h-[57px] py-[14px] px-[24px] rounded-[12px] justify-center items-center font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-center 
                
-                 max-[744px]:max-w-[107px] max-[744px]:h-[52px] max-[744px]:text-[20px] group relative
+                 max-[746px]:max-w-[107px] max-[746px]:h-[52px] max-[746px]:text-[20px] group relative
                    ${
                      activeTab === tab.name
                        ? "bg-[#262626] text-white px-[50px] "
@@ -177,23 +181,27 @@ const YourImagination = () => {
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
             className="ImaginationHero flex justify-center items-center mx-auto w-full max-w-[1920px] rounded-[16px] mt-[32px]
-            max-[1440px]:max-w-[1280px] max-[1440px]:h-auto max-[1440px]:gap-[32px]
+            max-[1441px]:w-[96%] max-[144px]:h-auto max-[1440px]:gap-[32px]
             max-[1024px]:flex-col max-[1024px]:max-w-[974px]
             max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-   [768px]:justify-center max-[768px]:gap-[0px]
-            max-[744px]:max-w-[696px] max-[744px]:h-auto max-[744px]:flex-col max-[744px]:items-center max-   [744px]:justify-center max-[744px]:gap-[0px]
-            max-[425px]:max-w-[393px] max-[375px]:max-w-[343px]"
-           >
+
+            max-[746px]:w-full max-[746px]:h-auto max-[746px]:flex-col max-[746px]:items-center max-   [744px]:justify-center max-[746px]:gap-[0px]
+            max-[425px]:max-w-[393px] max-[376px]:max-w-[343px]"
+          >
             <div
               className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] 
                 p-[48px] bg-[#CECECE33] 
-               max-[1440px]:max-w-[733px]
+               max-[1440px]:max-w-[733px] rounded-tl-[12px] rounded-bl-[12px]
                max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
-               max-[744px]:max-w-[696px] max-[744px]:h-[460px] max-[744px]:p-[64px]
+               max-[746px]:max-w-[696px] max-[746px]:rounded-tl-xl max-[746px]:rounded-tr-xl
+               max-[746px]:rounded-bl-[0px]
+                max-[746px]:h-[460px] max-[746px]:p-[64px]
                max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
-               max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[375px]:px-[32px]"
+               max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[376px]:px-[32px]
+               max-[425px]:rounded-[12px]"
             >
               <img
-                className="IgnitPic max-w-[482px] h-[394px] max-[425px]:max-w-[297px] max-[425px]:h-[238px] max-[375px]:max-w-[247px] max-[375px]:h-[188px] 
+                className="IgnitPic max-w-[482px] h-[394px] max-[425px]:max-w-[297px]  max-[376px]:max-w-[247px] max-[425px]:h-[188px] 
                 max-[600px]:h-[300px]"
                 src={currentTab?.image}
                 alt={currentTab?.name}
@@ -203,36 +211,37 @@ const YourImagination = () => {
             <div
               className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 
               max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px]  max-[1440px]:px-[32px]
-              max-[744px]:max-w-[696px] max-[744px]:gap-[16px] max-[375px]:max-w-[343px]
+              max-[746px]:max-w-[696px] max-[746px]:gap-[16px] max-[375px]:max-w-[343px]
               max-[1024px]:max-w-[1024px]"
             >
               <div
                 className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px] 
             max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
-            max-[744px]:max-w-[632px] max-[744px]:h-auto max-[744px]:items-center
+            max-[746px]:max-w-[632px] max-[746px]:h-auto max-[746px]:items-center
             max-[425px]:max-w-[295px] z-10
-            max-[345px]:h-auto max-[375px]:max-w-[295px] max-[375px]:h-auto max-[1024px]:max-w-[900px]"
+            max-[345px]:h-auto max-[376px]:w-[100%] max-[375px]:h-auto max-[1024px]:max-w-[900px]"
               >
                 <p
                   className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717] 
-              max-[744px]:text-[24px]
-              max-[375px]:text-[24px]"
+              max-[746px]:text-[23px]
+              max-[376px]:text-[21px]"
                 >
                   {currentTab?.title}
                 </p>
                 <div
                   className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px] max-[1440px]:gap-[24px] 
-              max-[375px]:max-w-[295px] max-[375px]:h-auto"
+                  max-[376px]:w-[100%] 
+                  "
                 >
                   {currentTab?.points.map((point, i) => (
                     <p
                       key={i}
-                      className="ipTag-1-1 list-item opacity-100 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#171717]"
+                      className="ipTag-1-1 list-item opacity-100 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#171717] max-[425px]:text-[14px]"
                     >
                       {point}
                     </p>
                   ))}
-                  <p className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[375px]:text-end cursor-pointer group hover:text-[#055e05]">
+                  <p className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[400px]:text-end cursor-pointer group hover:text-[#055e05]">
                     Read More
                     <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
                   </p>
@@ -241,10 +250,13 @@ const YourImagination = () => {
 
               <div
                 className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px] 
-                 max-[744px]:ml-[21px] z-10
-                 max-[375px]:max-w-[295px] max-[375px]:w-full max-[375px]:ml-[0px] max-[375px]:items-center "
+                 max-[746px]:ml-[21px] z-10
+                 max-[376px]:max-w-[295px] max-[376px]:w-full max-[376px]:ml-[0px] max-[376px]:items-center "
               >
-                <p className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group">
+                <p
+                  className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group
+                max-[425px]:text-[14px]"
+                >
                   Download RAD Studio Feature Matrix
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
                 </p>

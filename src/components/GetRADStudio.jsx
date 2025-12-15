@@ -78,7 +78,7 @@ const GetRADStudio = () => {
 
                     max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto
                     max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto"
-             >
+            >
               <p
                 className="GRC-ps font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
                         max-[744px]:text-[40px]
@@ -101,7 +101,8 @@ const GetRADStudio = () => {
                         text-[#262626] text-center
                         max-[425px]:text-[20px] max-[540px]:text-[16px]
                         max-[425px]:px-[5px]
-                        max-[744px]:text-[20px]"
+                        max-[744px]:text-[20px]
+                        max-[425px]:px-[30px]"
               >
                 One code base, Native on any platform, Fast frame work.
               </p>
@@ -162,7 +163,7 @@ const GetRADStudio = () => {
           <div
             className="GRC-btns h-[48px] opacity-100 flex gap-[8px] rounded-[10px] 
                 px-[24px] py-[12px] bg-[#171717] mt-[48px]
-                max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:justify-center max-[375px]:items-center hover:bg-[#565454]"
+                max-[376px]:max-w-[343px] max-[425px]:w-[90%] max-[425px]:justify-center max-[425px]:items-center hover:bg-[#565454] max-[376px]:mt-[32px]"
           >
             <button
               className="btn-download cursor-pointer font-archivo font-medium text-[16px] leading-[24px] tracking-[0px] text-white"

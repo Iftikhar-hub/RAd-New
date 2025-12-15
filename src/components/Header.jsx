@@ -3,48 +3,70 @@ import { FaSearch, FaShoppingCart, FaGlobe } from "react-icons/fa";
 const Header = () => {
     return (
       <section
-        className="headerTopp w-[100%]  bg-[#262626] text-white px-4 py-2
+        className="headerTopp w-[100%] relative bg-[#262626] text-white px-4 py-2
           max-[1440px]:max-w-[1440px] 
           max-[744px]:max-w-[744px]
-          max-[375px]:max-w-[375px] "
+          max-[375px]:max-w-[375px] z-[100]"
       >
         <div
           className="hd_t1 w-[100%] mx-auto flex justify-between items-center  
                py-[16px]
                
-               max-[1440px]:w-[100%]
-               max-[744px]:w-[100%] max-[744px]:px-[24px] max-[744px]:flex-col max-[744px]:gap-[12px]
+               max-[1440px]:w-[100%] max-[1441px]:px-[70px]  max-[1230px]:px-[20px]
+               max-[744px]:w-[100%] max-[592px]:flex-col max-[744px]:gap-[12px]
+               max-[745px]:px-[10px]
                
-               max-[425px]:flex-col max-[425px]:m-[0px] max-[425px]:p-[16px] max-[425px]:gap-[10px]
-               max-[375px]:flex-col max-[375px]:m-[0px] max-[375px]:p-[16px] max-[375px]:gap-[8px]"
-         >
+               max-[425px]:flex-col max-[425px]:m-[0px]  max-[425px]:gap-[10px]
+               max-[375px]:flex-col max-[375px]:m-[0px]  max-[375px]:gap-[8px]"
+        >
           <div
             className="text-sm flex flex-row
+           
 
-             max-[500px]:max-w-[470px] max-[500px]:flex max-[545px]:flex-col max-[545px]:items-center
+              max-[500px]:flex  max-[545px]:items-center
             
-            max-[375px]:max-w-[345px] max-[375px]:flex max-[375px]:flex-col max-[375px]:items-center
+           ] max-[470px]:flex max-[514px]:flex-col max-[470px]:items-center
                    "
           >
-            <p className="header_PS max-[375px]:text-[12px]">
+            <p
+              className="header_PS max-[612px]:text-[13px] max-[471px]:text-[16px] text-white
+              max-[460px]:text-[15px] max-[435px]:text-[14px] max-[411px]:text-[13px]
+            max-[378px]:text-[13px] max-[353px]:text-[12px] 
+            max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
+            max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
+            max-[325px]:text-[10px]"
+            >
               See what’s new in Delphi,
-              <span className="font-semibold ml-1 max-[375px]:text-[12px]">
+              <span
+                className="font-semibold ml-1 max-[612px]:text-[13px] max-[471px]:text-[17px] text-white max-
+                max-[460px]:text-[16px] max-[435px]:text-[15px]
+                [378px]:text-[13px] max-[353px]:text-[12px]
+               max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
+               max-[514px]:text-[17px]
+               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]"
+              >
                 C++ Builder, and RAD Studio
               </span>
             </p>
+
             <a
               href="#"
-              className="underline ml-2 text-gray-300 max-[375px]:text-[#FFFFFF]"
+              className="underline ml-2 text-white 
+              max-[592px]:flex max-[592px]:items-center max-[592px]:text-[16px] 
+              max-[578px]:text-[15px] max-[546px]:text-[14px]
+              max-[514px]:text-[16px]
+              max-[460px]:text-[14px] max-[411px]:text-[13px]
+              max-[373px]:text-[12px] max-[349px]:text-[11px]"
             >
               Watch the Replay
             </a>
           </div>
 
-          <div className="flex items-center space-x-6 max-[375px]:mr-[14px]">
+          <div className="flex items-center space-x-6 ">
             <div
               className="flex space-x-6 text-sm
                     max-[1200px]:text-[12px]
-                    max-[1024px]:hidden
+                    max-[1060px]:hidden
                    "
             >
               <a href="#" className="hover:text-[#A3A3A3] group">

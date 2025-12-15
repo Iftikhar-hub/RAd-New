@@ -38,10 +38,11 @@ const Navbar = () => {
     >
       <section
         className="max-w-[1920px] mx-auto h-[70px] px-[196px] py-[16px] flex justify-between items-center
-              max-[1440px]:max-w-[1440px] max-[1440px]:px-[30px]
+              max-[1440px]:max-w-[1440px] max-[1441px]:px-[80px] max-[1230px]:px-[30px] 
 
               max-[768px]:max-w-[768px] max-[768px]:py-[16px] max-[768px]:px-[24px]
               max-[744px]:max-w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]
+              max-[747px]:relative max-[747px]:z-100 max-[747px]:bg-white
 
               max-[375px]:w-full max-[375px]:max-w-[375px]"
       >
@@ -277,8 +278,9 @@ const Navbar = () => {
 
       <div
         className="navBottom max-w-[1920px] mx-auto h-[53px] flex justify-between items-center  
-              rounded-[6px] py-[16px] px-[192px] max-[1440px]:px-[30px]
-              max-[1449px]:max-w-[1440px] max-[1449px]:h-[53px] 
+              rounded-[6px] py-[16px] px-[192px] 
+              max-[1449px]:max-w-[1440px] max-[1449px]:h-[53px]  max-[1441px]:px-[80px] 
+              max-[1230px]:px-[30px]
               
               
               max-[768px]:max-w-[768px] max-[768px]:h-[90px] max-[768px]:px-[24px] max-[768px]:py-[16px] max-[800px]:flex-col max-[800px]:gap-[16px]
@@ -331,62 +333,116 @@ const Navbar = () => {
         <div
           className="navBottom-right flex items-center h-[21px] gap-[8px]
                 max-[500px]:grid max-[500px]:grid-cols-3 max-[500px]:max-w-[350px]
-                max-[400px]:grid-cols-2"
-         >
-
+                max-[400px]:hidden"
+        >
           <div className="flex items-center gap-2 max-[500px]:pl-3">
-            
-           
-           <a
-            className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline decoration-[#262626]
+            <a
+              className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline decoration-[#262626]
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
-            href="#"
-           >
-            What's New? 
-            
-           </a>
+              href="#"
+            >
+              What's New?
+            </a>
             <FaMinus className="text-[#A3A3A3] w-[5px] max-[400px]:hidden" />
           </div>
 
-          <div className="flex items-center gap-2" >
-           <a
-            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+          <div className="flex items-center gap-2">
+            <a
+              className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
-            href="#"
-           >
-            Product Edition 
-           </a>
-           <FaMinus className="text-[#A3A3A3] w-[5px] max-[400px]:hidden" />
+              href="#"
+            >
+              Product Edition
+            </a>
+            <FaMinus className="text-[#A3A3A3] w-[5px] max-[400px]:hidden" />
           </div>
 
           <div className="flex items-center gap-2 max-[400px]:pl-3">
             <a
-            className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+              className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
-            href="#"
-           >
-            Previous Version
-           </a>
-           <FaMinus className="text-[#A3A3A3] w-[5px] max-[500px]:hidden max-[400px]:hidden" />
+              href="#"
+            >
+              Previous Version
+            </a>
+            <FaMinus className="text-[#A3A3A3] w-[5px] max-[500px]:hidden max-[400px]:hidden" />
           </div>
 
           <div>
-           <a
-            className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[500px]:ml-[135px] max-[400px]:ml-[0]
+            <a
+              className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline max-[500px]:ml-[135px] max-[400px]:ml-[0]
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]"
-            href="#"
-           >
-            Customers
-           </a>
+              href="#"
+            >
+              Customers
+            </a>
+          </div>
+        </div>
+
+        <div className="hidden max-[400px]:flex flex-col justify-center items-center gap-[8px]">
+          <div
+            className="hidden navBottom-right items-center h-[21px] w-full 
+                 max-[400px]:flex justify-between 
+                "
+          >
+            <div className="flex items-center gap-2 mx-auto  max-[376px]:mx-none">
+              <a
+                className="flex items-center  gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline decoration-[#262626]
+            
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
+              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+                href="#"
+              >
+                What's New?
+              </a>
+              <FaMinus className="text-[#A3A3A3] w-[5px] " />
+            </div>
+
+            <div className="flex items-center gap-2 mx-auto max-[376px]:mx-none">
+              <a
+                className="flex items-center gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+            
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
+              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+                href="#"
+              >
+                Product Edition
+              </a>
+              <FaMinus className="text-[#A3A3A3] w-[5px] " />
+            </div>
+
+            <div className="flex items-center gap-2 ">
+              <a
+                className="flex items-center  gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
+              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+                href="#"
+              >
+                Previous Version
+              </a>
+            </div>
           </div>
 
-
+          <div className="flex items-center gap-2 ">
+            <a
+              className="flex items-center  gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+             hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
+              hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
+              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+              href="#"
+            >
+              Customer
+            </a>
+          </div>
         </div>
       </div>
     </div>

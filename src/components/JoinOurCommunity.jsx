@@ -4,12 +4,14 @@ const JoinOurCoummunity = () => {
     return (
       <section
         className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] overflow-x-clip px-[196px]
-         max-[1440px]:h-[640px] max-[1440px]:px-[30px]
+         max-[1440px]:h-[640px] max-[1441px]:px-[80px]
           
 
-        max-[800px]:max-w-[800px] max-[800px]:mt-[180px] max-[800px]:flex-col
+        max-[800px]:max-w-[800px] max-[800px]:mt-[80px] max-[800px]:flex-col
+        max-[800px]:px-[60px]
+        max-[746px]:px-[10px]
 
-        max-[744px]:max-w-[744px] max-[744px]:flex-col
+       
 
         max-[425px]:max-w-[425px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:mt-[80px]
         max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:mt-[80px]"
@@ -19,7 +21,7 @@ const JoinOurCoummunity = () => {
              max-[1440px]:max-w-[514px]  max-[1440px]:gap-[32px] z-10
 
              max-[800px]:max-w-[750px] max-[800px]:items-center 
-             max-[744px]:max-w-[695px] max-[744px]:items-center 
+             
 
 
              max-[425px]:max-w-[425px] max-[425px]:h-auto max-[425px]:gap-[32px] max-[425px]:top-[48px] 
@@ -28,7 +30,7 @@ const JoinOurCoummunity = () => {
         >
           <div
             className="JOC_c1 flex flex-col w-[100%]  gap-[8px]
-                   max-[1440px]:gap-[8px] max-[744px]:text-center max-[375px]:mt-[-100px]
+                   max-[1440px]:gap-[8px]max-[746px]:text-center max-[375px]:mt-[-100px]
                    max-[375px]:h-auto"
           >
             <div
@@ -36,31 +38,90 @@ const JoinOurCoummunity = () => {
 
                max-[800px]:items-center max-[800px]:gap-[8px]
               
-              max-[744px]:flex max-[744px]:justify-center
-               max-[744px]:items-center max-[744px]:gap-[8px]
+             
                max-[662px]:block
                 max-[425px]:block
-                    max-[375px]:block"
+                    "
             >
               <p
-                className="JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800
+                className="JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800 max-[1441px]:hidden
                     
                         max-[800px]:text-[36px] 
                         
-                        max-[425px]:text-[30px]
+                        max-[425px]:hidden
                         max-[375px]:text-[30px]"
               >
                 Join Our
               </p>
               <p
-                className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent
+                className="JOC_developer font-archivo font-semibold text-[45px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent 
+                max-[1441px]:hidden
                     
                        max-[800px]:text-[36px] 
                     
-                       max-[425px]:text-[27px]
+                       max-[425px]:hidden
                        max-[375px]:text-[27px]"
               >
                 Global Developer Community
+              </p>
+
+              <p
+                className="hidden JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800
+                max-[1441px]:block 
+                
+                
+                
+                    max-[766px]:text-[34px]
+                        max-[1150px]:text-[36px] 
+                        
+                        max-[425px]:hidden max-[425px]:text-[32px]
+                        max-[376px]:text-[27px]"
+              >
+                Join Our
+                <span
+                  className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
+                  
+                    max-[766px]:text-[34px]
+                       max-[1150px]:text-[36px] 
+                    
+                       max-[425px]:text-[32px]
+                       max-[376px]:text-[27px]"
+                >
+                  Global
+                </span>
+              </p>
+              <span
+                className=" hidden JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
+                  max-[1441px]:block
+                  max-[425px]:hidden
+                    max-[766px]:text-[34px]
+                       max-[1150px]:text-[36px] 
+                    
+                       max-[425px]:text-[32px]
+                       max-[376px]:text-[27px]"
+              >
+                Developer Community
+              </span>
+
+              <p
+                className="hidden JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800
+                    
+                        max-[800px]:text-[36px] 
+                        
+                        max-[425px]:block max-[425px]:text-[32px]
+                        max-[376px]:text-[27px]"
+              >
+                Join Our
+                <span
+                  className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
+                    
+                       max-[800px]:text-[36px] 
+                    
+                       max-[425px]:text-[32px]
+                       max-[376px]:text-[27px]"
+                >
+                  Global Developer Community
+                </span>
               </p>
             </div>
 
@@ -79,7 +140,7 @@ const JoinOurCoummunity = () => {
                 max-[1440px]:h-[48px] 
 
                 max-[768px]:mt-[auto]
-                max-[744px]:mt-[auto]
+               max-[746px]:mt-[auto]
                 max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:flex-col
                 max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:flex-col"
           >
@@ -113,9 +174,9 @@ const JoinOurCoummunity = () => {
             max-[1440px]:max-w-[734px]
 
             max-[768px]:max-w-[718px] max-[800px]:mt-[30px]
-            max-[744px]:max-w-[695px] 
+           max-[746px]:max-w-[695px] 
             max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-[209px] max-[425px]:mt-[30px] 
-            max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] max-[375px]:mt-[30px]"
+            max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] max-[376px]:mt-[40px]"
         >
           <img
             className="jm w-[100%]  
