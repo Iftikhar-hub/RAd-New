@@ -21,7 +21,7 @@ const RADStudioHere = () => {
        max-[745px]:gap-[48px]
        max-[747px]:mt-[80px]
         
-        max-[425px]:w-[100%] max-[425px]:gap-[48px] max-[425px]:mt-[0px] 
+        max-[425px]:w-[100%] max-[425px]:gap-[48px] max-[425px]:mt-[80px] 
          max-[375px]:gap-[48px] max-[375px]:mt-[0px] "
       >
         <div
@@ -89,7 +89,7 @@ const RADStudioHere = () => {
              max-[744px]:max-w-[696px] max-[744px]:gap-[48px]
               max-[375px]:max-w-[343px]
               px-[35px]"
-         >
+        >
           <div
             className="rads-1-row1 grid  relative grid-cols-3 w-full max-w-[1274px]  gap-[32px]
 
@@ -272,6 +272,8 @@ const RADStudioHere = () => {
 
             <div className="elip-4 w-full max-w-[644px] h-[644px]  absolute top-[283px]  left-[1552px] opacity-[10%] border border-white bg-[#6366F1] blur-[100px] "></div>
           </div>
+
+          <div className="MS-rs1 hidden w-full max-w-[869px] h-[1520px]  absolute top-[-90px]  left-[-235px] opacity-[10%] border border-white bg-[#3B82F6] blur-[100px] max-[377px]:block"></div>
 
           <div
             className="rads-2 flex flex-row max-w-[88px] h-[36px] gap-[16px]

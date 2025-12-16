@@ -14,7 +14,7 @@ const GetRADStudio = () => {
          max-[1440px]:h-[562px] 
          
         
-        max-[744px]:max-w-[744px]
+        max-[744px]:max-w-[744px] z-100
 
         max-[425px]:max-w-[425px] max-[425px]:w-full
         max-[375px]:max-w-[375px] max-[375px]:w-full"
@@ -177,6 +177,8 @@ const GetRADStudio = () => {
         <div className="elip-6 w-full -z-10 max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]"></div>
 
         <div className="elip-7 w-full -z-10 max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]"></div>
+
+       
       </section>
     );
 

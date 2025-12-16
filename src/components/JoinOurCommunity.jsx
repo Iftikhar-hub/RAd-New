@@ -4,7 +4,7 @@ const JoinOurCoummunity = () => {
     return (
       <section
         className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] overflow-x-clip px-[196px]
-         max-[1440px]:h-[640px] max-[1441px]:px-[80px]
+         max-[1440px]:h-[640px] max-[1441px]:px-[80px] max-[1024px]:z-100 max-[1024px]:bg-white
           
 
         max-[800px]:max-w-[800px] max-[800px]:mt-[80px] max-[800px]:flex-col
@@ -104,7 +104,7 @@ const JoinOurCoummunity = () => {
               </span>
 
               <p
-                className="hidden JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800
+                className="hidden JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800 text-center
                     
                         max-[800px]:text-[36px] 
                         

@@ -7,11 +7,12 @@ import logoGithub from "../assets/icons/logoGithub.png";
 const RADFooter = () => {
   return (
     <section
-      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  px-4 max-[1440px]:px-[30px] bg-white z-10
+      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  px-4 max-[1440px]:px-[30px] bg-white z-10 
         max-[1441px]:max-w-[1440px] max-[1441px]:h-[593px] max-[1441px]:py-[48px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
         max-[744px]:max-[744px] max-[744px]:px-4 max-[744px]:h-[930px] 
+        max-[747px]:overflow-x-clip
 
         max-[425px]:max-w-[425px] max-[425px]:w-full
         max-[375px]:max-w-[375px] max-[375px]:w-full"
@@ -99,7 +100,7 @@ const RADFooter = () => {
           </div>
 
           <div
-            className="FCR_3 flex flex-col  gap-[26px]
+            className="FCR_3 flex flex-col   gap-[26px]
                     "
           >
             <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937]">
@@ -187,17 +188,19 @@ const RADFooter = () => {
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
               DE: +49 (0)6103-3866-100
             </p>
+            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
+              info@embarcadero.com
+            </p>
           </div>
         </div>
 
         <div
-          className="hidden Footer_Content_right flex justify-between gap-[70px]
+          className="hidden Footer_Content_right  justify-between gap-[70px]
                      max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[32px]
 
 
-                     max-[1024]:max-w-[974] max-[1024px]:grid max-[1024px]:grid-cols-3
-                     max-[768px]:max-w-[718px] max-[768px]:grid max-[768px]:grid-cols-3
-
+                     
+                    max-[425px]:grid
                      max-[425px]:max-w-[393px] max-[425px]:h-auto  max-[425px]:grid-cols-2
                      max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
         >
@@ -355,19 +358,21 @@ const RADFooter = () => {
         className="Bottom_Footer w-full py-5 mx-auto h-[24px] flex justify-between items-center mt-[180px]
                 max-[1441px]:max-w-[1280px] max-[1441px]:h-[24px] max-[1441px]:gap[32px]
                 max-[1441px]:mt-[40px]
+
+                max-[747px]:pb-[0px]
                
                 max-[768px]:max-w-[718px]
 
                 max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:flex-col max-[425px]:gap-[16px]
                 max-[425px]:mt-[32px]
 
-                max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:flex-col max-[375px]:gap-[16px]
-                max-[375px]:mt-[32px]"
+                max-[377px]:max-w-[343px] max-[375px]:h-auto max-[377px]:flex-col max-[375px]:gap-[16px]
+                max-[377px]:mt-[32px] "
       >
         <p
           className="BF_P font-[Archivo]  font-normal text-[14px] leading-[14px] text-[#1F2937]
             max-[1440px]:ml-[0]
-                max-[375px]:hidden"
+                max-[377px]:hidden"
         >
           2022 Embarcadero Inc. All Rights Reserved
         </p>
@@ -402,11 +407,15 @@ const RADFooter = () => {
         </div>
         <p
           className="BF_P font-[Archivo] hidden font-normal text-[14px] leading-[14px] text-[#1F2937]
-                 max-[375px]:block "
+                 max-[377px]:block "
         >
           2022 Embarcadero Inc. All Rights Reserved
         </p>
       </div>
+
+      <div className="MS-f1 hidden max-[747px]:block  w-full max-w-[869px] h-[869px]  absolute top-[-446px]  left-[-130px] opacity-[4%] border border-white blur-[500px] bg-[#E11D48] overflow-x-hidden"></div>
+
+      <div className="MS-f2 hidden max-[747px]:block  w-full max-w-[731px] h-fill-available  absolute top-[644px]  left-[373px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4] overflow-x-hidden overflow-y-hidden"></div>
     </section>
   );
 };

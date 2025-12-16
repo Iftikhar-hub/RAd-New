@@ -22,3 +22,7 @@ body {
 .scrollHide{
     scrollbar-width :none
 }
+
+.h-fill-available {
+    height: -webkit-fill-available;
+}

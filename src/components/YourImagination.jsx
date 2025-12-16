@@ -241,16 +241,20 @@ const YourImagination = () => {
                       {point}
                     </p>
                   ))}
-                  <p className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[400px]:text-end cursor-pointer group hover:text-[#055e05]">
+                  <p className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:hidden max-[400px]:block">
                     Read More
                     <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
                   </p>
                 </div>
               </div>
+              <p className="ipReadMore hidden relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:block max-[400px]:hidden">
+                Read More
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
+              </p>
 
               <div
                 className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px] 
-                 max-[746px]:ml-[21px] z-10
+                  z-10
                  max-[376px]:max-w-[295px] max-[376px]:w-full max-[376px]:ml-[0px] max-[376px]:items-center "
               >
                 <p

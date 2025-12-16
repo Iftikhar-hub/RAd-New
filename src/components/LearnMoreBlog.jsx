@@ -40,7 +40,7 @@ const LearnMoreBlog = () => {
           overflow-x-clip
 
          
-          max-[747px]:gap-[64px] max-[747px]:px-[0px]
+          max-[746px]:gap-[64px]
 
          max-[425px]:max-w-[393px]  max-[425px]:h-auto max-[425px]:gap-[30px]
          max-[425px]:mt-[80px]
@@ -51,7 +51,7 @@ const LearnMoreBlog = () => {
         <p
           className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
             max-[1440px]:left-[232px]
-            max-[747px]:text-[36px] max-[747px]:left-[54px]
+            max-[746px]:text-[36px] max-[746px]:left-[54px]
             max-[425px]:text-[30px]
             max-[376px]:text-[30px]
             "
@@ -59,7 +59,7 @@ const LearnMoreBlog = () => {
           Learn More on the <span></span> 
           <span
             className="LMB_S font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[8px]
-                max-[747px]:text-[36px] 
+                max-[746px]:text-[36px] 
                 max-[425px]:text-[30px]
                 max-[375px]:text-[30px]"
           >
@@ -83,10 +83,10 @@ const LearnMoreBlog = () => {
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
-                 max-[768px]:grid-cols-2 max-[747px]:mt-[64px]
+                 max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[747px]:gap-[48px] max-[747px]:w-[100%]
-                 max-[747px]:grid-cols-2
+                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -99,11 +99,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                  >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -112,7 +112,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   3 Main C++ Compiler Tips to Develop Successful Apps
                   
@@ -120,7 +120,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -140,11 +140,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -153,7 +153,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   Top 5 Platforms For Windows Applications Development in 2022
                   
@@ -161,7 +161,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -181,11 +181,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -194,7 +194,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   Everything You Need to Know About Cross-Platform Development
                   
@@ -202,7 +202,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -232,10 +232,10 @@ const LearnMoreBlog = () => {
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
-                 max-[768px]:grid-cols-2 max-[747px]:mt-[64px]
+                 max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[747px]:gap-[48px] max-[747px]:w-[100%]
-                 max-[747px]:grid-cols-2
+                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -248,11 +248,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                  >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -261,7 +261,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  A Complete Guide To Programming In C++ – Visual Programming
                   
@@ -269,7 +269,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -289,11 +289,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -302,7 +302,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   A Complete Guide To Programming In C++ – Object Oriented Programming
                   
@@ -310,7 +310,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -330,11 +330,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -343,7 +343,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   How C++ Works With Libraries and More
                   
@@ -351,7 +351,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -396,10 +396,10 @@ const LearnMoreBlog = () => {
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
-                 max-[768px]:grid-cols-2 max-[747px]:mt-[64px]
+                 max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[747px]:gap-[48px] max-[747px]:w-[100%]
-                 max-[747px]:grid-cols-2
+                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -412,11 +412,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px] max-[747px]:px-[0px]"
+                     max-[746px]:max-w-[331px] max-[746px]:px-[0px]"
                  >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -425,7 +425,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   3 Main C++ Compiler Tips to Develop Successful Apps
                   
@@ -433,7 +433,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -453,11 +453,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -466,7 +466,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   Top 5 Platforms For Windows Applications Development in 2022
                   
@@ -474,7 +474,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -502,7 +502,7 @@ const LearnMoreBlog = () => {
          <img
           className="max-w-[60px] w-full h-[80px] absolute top-[-1px] right-[300px] max-[1440px]:right-[149px]
             max-[1550px]:hidden
-            max-[747px]:hidden"
+            max-[746px]:hidden"
           src={MLB_Arrow}
           alt="MLB_Arrow"
        />
@@ -524,10 +524,10 @@ const LearnMoreBlog = () => {
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
-                 max-[768px]:grid-cols-2 max-[747px]:mt-[64px]
+                 max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[747px]:gap-[48px] max-[747px]:w-[100%]
-                 max-[747px]:grid-cols-2
+                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -540,11 +540,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                  >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -553,7 +553,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  Everything You Need to Know About Cross-Platform Development
                   
@@ -561,7 +561,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -581,11 +581,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -594,7 +594,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  A Complete Guide To Programming In C++ – Visual Programming
                   
@@ -602,7 +602,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -636,10 +636,10 @@ const LearnMoreBlog = () => {
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
-                 max-[768px]:grid-cols-2 max-[747px]:mt-[64px]
+                 max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[747px]:gap-[48px] max-[747px]:w-[100%]
-                 max-[747px]:grid-cols-2
+                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -652,11 +652,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                  >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -665,7 +665,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                   A Complete Guide To Programming In C++ – Object Oriented Programming
                   
@@ -673,7 +673,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -693,11 +693,11 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[747px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px]"
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -706,7 +706,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  How C++ Works With Libraries and More
                   
@@ -714,7 +714,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -743,10 +743,10 @@ const LearnMoreBlog = () => {
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
-                 max-[768px]:grid-cols-2 max-[747px]:mt-[64px]
+                 max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[747px]:gap-[48px] max-[747px]:w-[100%]
-                 max-[747px]:grid-cols-2
+                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -763,7 +763,7 @@ const LearnMoreBlog = () => {
                  >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -772,7 +772,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  3 Main C++ Compiler Tips to Develop Successful Apps
                   
@@ -780,7 +780,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -804,7 +804,7 @@ const LearnMoreBlog = () => {
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -813,7 +813,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                 Top 5 Platforms For Windows Applications Development in 2022
                   
@@ -821,7 +821,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -845,7 +845,7 @@ const LearnMoreBlog = () => {
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -854,14 +854,14 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                 Everything You Need to Know About Cross-Platform Development
                 </p>
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -885,7 +885,7 @@ const LearnMoreBlog = () => {
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -894,7 +894,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  A Complete Guide To Programming In C++ – Visual Programming
                   
@@ -902,7 +902,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -926,7 +926,7 @@ const LearnMoreBlog = () => {
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -935,7 +935,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  A Complete Guide To Programming In C++ – Object Oriented Programming
                   
@@ -943,7 +943,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
@@ -967,7 +967,7 @@ const LearnMoreBlog = () => {
                >
                 <p
                   className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
-                         max-[1440px]:h-[30px] max-[747px]:text-[18px]"
+                         max-[1440px]:h-[30px] max-[746px]:text-[18px]"
                 >
                   Learning & Development
                 </p>
@@ -976,7 +976,7 @@ const LearnMoreBlog = () => {
                   className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
                 
                 max-[1024px]:text-[23px]
-                max-[747px]:text-[28px]"
+                max-[746px]:text-[28px]"
                 >
                  How C++ Works With Libraries and More
                   
@@ -984,7 +984,7 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[747px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
                            group z-10"
                   >
                     Read More
