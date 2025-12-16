@@ -405,7 +405,7 @@ const Navbar = () => {
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
-              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+              max-[363px]:text-[12px] max-[316px]:text-[11px]"
                 href="#"
               >
                 What's New?
@@ -419,7 +419,7 @@ const Navbar = () => {
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
-              max-[356px]:text-[12px] max-[316px]:text-[11px] "
+              max-[363px]:text-[12px] max-[316px]:text-[11px] "
                 href="#"
               >
                 Product Edition
@@ -432,7 +432,7 @@ const Navbar = () => {
                 className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
-              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+              max-[363px]:text-[12px] max-[316px]:text-[11px]"
                 href="#"
               >
                 Previous Version
@@ -445,7 +445,7 @@ const Navbar = () => {
               className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
-              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+              max-[363px]:text-[12px] max-[316px]:text-[11px]"
               href="#"
             >
               Customer
