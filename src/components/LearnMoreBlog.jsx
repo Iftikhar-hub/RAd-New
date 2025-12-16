@@ -984,11 +984,11 @@ const LearnMoreBlog = () => {
 
                 <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                   <p
-                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
+                    className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer  
                            group z-10"
                   >
                     Read More
-                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full "></span>
                   </p>
 
                   <img
@@ -998,7 +998,7 @@ const LearnMoreBlog = () => {
                   />
                  </div>
                  </div>
-                 <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  max-[544px]:block"></div> 
+                 <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  "></div> 
 
                  
          </div>
