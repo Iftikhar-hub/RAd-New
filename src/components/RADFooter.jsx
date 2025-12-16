@@ -7,7 +7,7 @@ import logoGithub from "../assets/icons/logoGithub.png";
 const RADFooter = () => {
   return (
     <section
-      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  px-4 max-[1440px]:px-[30px] bg-white z-10 
+      className="RAD_Footer relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99]  px-4 max-[1440px]:px-[30px] bg-white z-100 
         max-[1441px]:max-w-[1440px] max-[1441px]:h-[593px] max-[1441px]:py-[48px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
@@ -237,16 +237,16 @@ const RADFooter = () => {
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
               C++ Compiler
             </p>
-            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
+            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#4B5563] cursor-pointer">
               C++Builder Community ED
             </p>
-            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
+            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#4B5563] cursor-pointer">
               DELPHI Community ED
             </p>
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
               REST Debugger
             </p>
-            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
+            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[150%]  tracking-[0px] text-[#4B5563] cursor-pointer">
               INTERBASE Developer Edition
             </p>
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
@@ -327,7 +327,7 @@ const RADFooter = () => {
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
               MVP Program
             </p>
-            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
+            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[150%]  tracking-[0px] text-[#4B5563] cursor-pointer">
               WEB APP Development
             </p>
           </div>
@@ -367,7 +367,7 @@ const RADFooter = () => {
                 max-[425px]:mt-[32px]
 
                 max-[377px]:max-w-[343px] max-[375px]:h-auto max-[377px]:flex-col max-[375px]:gap-[16px]
-                max-[377px]:mt-[32px] "
+                max-[377px]:mt-[32px] max-[377px]:pb-[8px]"
       >
         <p
           className="BF_P font-[Archivo]  font-normal text-[14px] leading-[14px] text-[#1F2937]

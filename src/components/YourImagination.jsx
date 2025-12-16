@@ -150,7 +150,8 @@ const YourImagination = () => {
 
         max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden max-[768px]:max-w-[760px] max-[768px]:w-full max-[768px]:h-[60px] max-[768px]:justify-start max-[768px]:items-center max-[768px]:py-[35px]
         
-        max-[746px]:max-w-[744px] max-[746px]:w-full max-[746px]:h-[68px] max-[746px]:overflow-x-scroll max-[746px]:overflow-y-hidden max-[746px]:justify-start max-[746px]:items-center max-[746px]:py-[35px]"
+        max-[746px]:max-w-[744px] max-[746px]:w-full max-[746px]:h-[68px] max-[746px]:overflow-x-scroll max-[746px]:overflow-y-hidden max-[746px]:justify-start max-[746px]:items-center max-[746px]:py-[35px]
+        max-[377px]:w-[375px]"
         >
           {dataTab.map((tab) => (
             <a
@@ -180,13 +181,13 @@ const YourImagination = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="ImaginationHero flex justify-center items-center mx-auto w-full max-w-[1920px] rounded-[16px] mt-[32px]
+            className="ImaginationHero flex justify-center items-center mx-auto w-full max-w-[1920px] rounded-[16px] mt-[32px] z-10
             max-[1441px]:w-[96%] max-[144px]:h-auto max-[1440px]:gap-[32px]
             max-[1024px]:flex-col max-[1024px]:max-w-[974px]
             max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-   [768px]:justify-center max-[768px]:gap-[0px]
 
             max-[746px]:w-full max-[746px]:h-auto max-[746px]:flex-col max-[746px]:items-center max-   [744px]:justify-center max-[746px]:gap-[0px]
-            max-[425px]:max-w-[393px] max-[376px]:max-w-[343px]"
+            max-[425px]:max-w-[393px] max-[376px]:max-w-[343px] max-[377px]:mt-[0px]"
           >
             <div
               className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] 
@@ -198,7 +199,7 @@ const YourImagination = () => {
                 max-[746px]:h-[460px] max-[746px]:p-[64px]
                max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[376px]:px-[32px]
-               max-[425px]:rounded-[12px]"
+               max-[425px]:rounded-[12px] "
             >
               <img
                 className="IgnitPic max-w-[482px] h-[394px] max-[425px]:max-w-[297px]  max-[376px]:max-w-[247px] max-[425px]:h-[188px] 
@@ -212,7 +213,7 @@ const YourImagination = () => {
               className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 
               max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px]  max-[1440px]:px-[32px]
               max-[746px]:max-w-[696px] max-[746px]:gap-[16px] max-[377px]:max-w-[343px]
-              max-[1024px]:max-w-[1024px]"
+              max-[1024px]:max-w-[1024px] max-[377px]:pt-[24px] max-[377px]:px-[24px]"
             >
               <div
                 className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px] 
@@ -224,7 +225,7 @@ const YourImagination = () => {
                 <p
                   className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717] 
               max-[746px]:text-[23px]
-              max-[377px]:text-[21px] max-[377px]:leading-[32px]"
+              max-[377px]:text-[22px] max-[377px]:leading-[32px]"
                 >
                   {currentTab?.title}
                 </p>
@@ -236,7 +237,8 @@ const YourImagination = () => {
                   {currentTab?.points.map((point, i) => (
                     <p
                       key={i}
-                      className="ipTag-1-1 list-item opacity-100 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#171717] max-[425px]:text-[14px]"
+                      className="ipTag-1-1 list-item opacity-100 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#171717] max-[425px]:text-[14px]
+                      max-[377px]:text-[16px]"
                     >
                       {point}
                     </p>
@@ -255,11 +257,11 @@ const YourImagination = () => {
               <div
                 className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px] 
                   z-10
-                 max-[376px]:max-w-[295px] max-[376px]:w-full max-[376px]:ml-[0px] max-[376px]:items-center "
+                 max-[377px]:max-w-[295px] max-[376px]:w-full max-[377px]:ml-[0px] max-[376px]:items-center "
               >
                 <p
                   className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group
-                max-[425px]:text-[14px]"
+                max-[425px]:text-[14px] max-[377px]:text-[16px]" 
                 >
                   Download RAD Studio Feature Matrix
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>

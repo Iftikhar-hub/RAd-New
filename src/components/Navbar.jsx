@@ -1,8 +1,9 @@
 import logo from "../assets/icons/logo.png";
 import rightArrow from "../assets/icons/rightArrow.png";
 import downArrow from "../assets/icons/downArrow.png";
+import menaImage from "../assets/icons/menaImage.png";
 import { useState } from "react";
-import { FaBars, FaTimes, FaArrowRight, FaArrowDown, FaMinus } from "react-icons/fa";
+import {  FaTimes, FaArrowRight, FaArrowDown, FaMinus } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -197,7 +198,11 @@ const Navbar = () => {
               onClick={toggleNavbar}
               className="text-neutral-600 focus:outline-none"
             >
-              {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+              {isOpen ? (
+                <FaTimes size={24} />
+              ) : (
+                <img src={menaImage} className="w-[24px] h-[24px]" />
+              )}
             </button>
           </div>
 

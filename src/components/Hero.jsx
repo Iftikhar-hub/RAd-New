@@ -111,7 +111,7 @@ const Hero = () => {
             />
 
             <div className="absolute inset-0 bg-black/80 flex justify-center items-center rounded-[16px]">
-              <img src={playbutton} alt="Play" className="w-10 h-10 max-[377px]:w-[28px] max-[377px]:h-[28px]" />
+              <img src={playbutton} alt="Play" className="w-10 h-10 max-[377px]:w-[23px] max-[377px]:h-[23px]" />
             </div>
           </div>
 
@@ -139,8 +139,8 @@ const Hero = () => {
                     max-[600px]:mx-auto max-[600px]:flex-col
                     max-[600px]:p-[16px]
                     
-                      max-[375px]:flex-col
-                    max-[377px]:px-[16px] max-[377px]:w-[343px]
+                      max-[375px]:flex-col max-[377px]:pt-[0px]
+                    max-[377px]:px-[16px] max-[377px]:w-[343px] max-[377px]:mt-[24px]
                     "
         >
           <div

@@ -109,7 +109,7 @@ const JoinOurCoummunity = () => {
                         max-[800px]:text-[36px] 
                         
                         max-[425px]:block max-[425px]:text-[32px]
-                        max-[376px]:text-[27px]"
+                        max-[377px]:text-[30px]"
               >
                 Join Our
                 <span
@@ -118,7 +118,7 @@ const JoinOurCoummunity = () => {
                        max-[800px]:text-[36px] 
                     
                        max-[425px]:text-[32px]
-                       max-[376px]:text-[27px]"
+                       max-[377px]:text-[30px]"
                 >
                   Global Developer Community
                 </span>
@@ -128,7 +128,8 @@ const JoinOurCoummunity = () => {
             <p
               className="JOC_d1 font-archivo font-normal text-[24px] leading-[150%] tracking-[0px] text-[#525252]
                    
-                    max-[800px]:text-[20px] max-[800px]:text-center"
+                    max-[800px]:text-[20px] max-[800px]:text-center
+                    max-[377px]:px-[6px]"
             >
               Join our email list and receive the latest case studies, event
               updates, product news, and much more.
@@ -176,10 +177,11 @@ const JoinOurCoummunity = () => {
             max-[768px]:max-w-[718px] max-[800px]:mt-[30px]
            max-[746px]:max-w-[695px] 
             max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-[209px] max-[425px]:mt-[30px] 
-            max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] max-[376px]:mt-[40px]"
+            max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-[209px] 
+            max-[377px]:bg-[#FFFF] max-[377px]:z-10 max-[377px]:mt-[60px]"
         >
           <img
-            className="jm w-[100%]  
+            className="jm w-[100%]  max-[377px]:mt-[40px] 
              
            "
             src={GlobalUsers}

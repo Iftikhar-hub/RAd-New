@@ -17,7 +17,7 @@ const GetRADStudio = () => {
         max-[744px]:max-w-[744px] z-100
 
         max-[425px]:max-w-[425px] max-[425px]:w-full
-        max-[375px]:max-w-[375px] max-[375px]:w-full"
+        max-[377px]:max-w-[375px] max-[377px]:w-full max-[377px]:mt-[80px]"
       >
         <img
           className="left_vector w-full max-w-[873px] h-[810px] absolute top-[-20] left-[-520px] 
@@ -83,11 +83,11 @@ const GetRADStudio = () => {
                 className="GRC-ps font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
                         max-[744px]:text-[40px]
                         max-[425px]:text-[32px]
-                        max-[375px]:text-[32px]"
+                        max-[377px]:text-[32px]"
               >
                 Get RAD
                 <span
-                  className="RGC-ps1 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[10px]
+                  className="RGC-ps1 font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[10px]
                             max-[744px]:text-[40px]
                             max-[425px]:text-[32px]
                             max-[375px]:text-[32px]"
@@ -117,7 +117,7 @@ const GetRADStudio = () => {
                 className="radsImage1 max-w-[64px] w-full h-[64px] 
                         max-[744px]:max-w-[56px] max-[744px]:h-[56px]
                         max-[425px]:max-w-[48px] max-[425px]:h-[48px]
-                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                        max-[377px]:max-w-[48px] max-[377px]:h-[48px]"
                 src={RADs}
                 alt="RADs"
               />
@@ -126,7 +126,7 @@ const GetRADStudio = () => {
                 className="radsImage1 w-full max-w-[64px] h-[64px]
                         max-[744px]:max-w-[56px] max-[744px]:h-[56px]
                         max-[425px]:max-w-[48px] max-[425px]:h-[48px]
-                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                        max-[377px]:max-w-[48px] max-[377px]:h-[48px]"
                 src={rrr}
                 alt="rrr"
               />
@@ -135,7 +135,7 @@ const GetRADStudio = () => {
                 className="radsImage1 w-full max-w-[64px] h-[64px]
                         max-[744px]:max-w-[56px] max-[744px]:h-[56px]
                         max-[425px]:max-w-[48px] max-[425px]:h-[48px]
-                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                        max-[377px]:max-w-[48px] max-[377px]:h-[48px]"
                 src={cplus}
                 alt="cplus"
               />
@@ -144,7 +144,7 @@ const GetRADStudio = () => {
                 className="radsImage1 w-full max-w-[64px] h-[64px]
                         max-[744px]:max-w-[56px] max-[744px]:h-[56px]
                         max-[425px]:max-w-[48px] max-[425px]:h-[48px]
-                        max-[375px]:max-w-[48px] max-[375px]:h-[48px]"
+                        max-[377px]:max-w-[48px] max-[377px]:h-[48px]"
                 src={shaheen}
                 alt="shaheen"
               />
@@ -177,8 +177,6 @@ const GetRADStudio = () => {
         <div className="elip-6 w-full -z-10 max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]"></div>
 
         <div className="elip-7 w-full -z-10 max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]"></div>
-
-       
       </section>
     );
 

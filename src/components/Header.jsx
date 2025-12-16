@@ -1,4 +1,8 @@
-import { FaSearch, FaShoppingCart, FaGlobe } from "react-icons/fa";
+// import { FaSearch, FaShoppingCart, FaGlobe } from "react-icons/fa";
+
+import Search from "../assets/icons/Search.png";
+import mart from "../assets/icons/mart.png";
+import Languag from "../assets/icons/Languag.png";
 
 const Header = () => {
     return (
@@ -17,7 +21,8 @@ const Header = () => {
                max-[745px]:px-[10px]
                
                max-[425px]:flex-col max-[425px]:m-[0px]  max-[425px]:gap-[10px]
-               max-[375px]:flex-col max-[375px]:m-[0px]  max-[375px]:gap-[8px]"
+               max-[375px]:flex-col max-[375px]:m-[0px]  max-[375px]:gap-[8px]
+               max-[377px]:gap-[16px]"
         >
           <div
             className="text-sm flex flex-row
@@ -34,7 +39,8 @@ const Header = () => {
             max-[378px]:text-[13px] max-[353px]:text-[12px] 
             max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
             max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
-            max-[325px]:text-[10px]"
+            max-[325px]:text-[10px]
+            max-[377px]:font-light"
             >
               See what’s new in Delphi,
               <span
@@ -43,7 +49,7 @@ const Header = () => {
                 [378px]:text-[13px] max-[353px]:text-[12px]
                max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
                max-[514px]:text-[17px]
-               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]"
+               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-median"
               >
                 C++ Builder, and RAD Studio
               </span>
@@ -56,7 +62,8 @@ const Header = () => {
               max-[578px]:text-[15px] max-[546px]:text-[14px]
               max-[514px]:text-[16px]
               max-[460px]:text-[14px] max-[411px]:text-[13px]
-              max-[373px]:text-[12px] max-[349px]:text-[11px]"
+              max-[373px]:text-[12px] max-[349px]:text-[11px]
+              max-[377px]:mt-[6px]"
             >
               Watch the Replay
             </a>
@@ -84,17 +91,25 @@ const Header = () => {
             </div>
 
             <div className="flex items-center space-x-4 text-lg ">
-              <FaSearch
-                className="cursor-pointer hover:text-gray-300 max-[375px]:max-w-[20px] 
-                        max-[375px]:h-[20px]"
+              <img
+                src={Search}
+                alt="Search"
+                className="cursor-pointer hover:text-gray-300 max-[377px]:max-w-[20px] 
+                        max-[377px]:h-[20px]"
               />
-              <FaShoppingCart
-                className="cursor-pointer hover:text-gray-300 max-[375px]:max-w-[20px] 
-                        max-[375px]:h-[20px]"
+
+              <img
+                src={mart}
+                alt="mart"
+                className="cursor-pointer hover:text-gray-300 max-[377px]:max-w-[20px] 
+                        max-[377px]:h-[20px]"
               />
-              <FaGlobe
-                className="cursor-pointer hover:text-gray-300 max-[375px]:max-w-[20px] 
-                        max-[375px]:h-[20px]"
+
+              <img
+                src={Languag}
+                alt="Languag"
+                className="cursor-pointer hover:text-gray-300 max-[377px]:max-w-[20px] 
+                        max-[377px]:h-[20px]"
               />
             </div>
           </div>

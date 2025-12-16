@@ -276,6 +276,8 @@ const RADStudioHere = () => {
 
           <div className="MS-rs1 hidden w-full max-w-[869px] h-[1520px]  absolute top-[-90px]  left-[-235px] opacity-[10%] border border-white bg-[#3B82F6] blur-[100px] max-[377px]:block"></div>
 
+          <div className="MS-rsi2 hidden w-full max-w-[650px] h-[650px]  absolute top-[1753px]  left-[183px] opacity-[10%] border border-white bg-[#DC2626] blur-[240px] max-[377px]:block"></div>
+
           <div
             className="rads-2 flex flex-row max-w-[88px] h-[36px] gap-[16px]
            cursor-pointer"
