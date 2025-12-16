@@ -211,20 +211,20 @@ const YourImagination = () => {
             <div
               className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 
               max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px]  max-[1440px]:px-[32px]
-              max-[746px]:max-w-[696px] max-[746px]:gap-[16px] max-[375px]:max-w-[343px]
+              max-[746px]:max-w-[696px] max-[746px]:gap-[16px] max-[377px]:max-w-[343px]
               max-[1024px]:max-w-[1024px]"
             >
               <div
                 className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px] 
             max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
             max-[746px]:max-w-[632px] max-[746px]:h-auto max-[746px]:items-center
-            max-[425px]:max-w-[295px] z-10
+            max-[425px]:max-w-[295px] z-10 max-[377px]:gap-[24px]
             max-[345px]:h-auto max-[376px]:w-[100%] max-[375px]:h-auto max-[1024px]:max-w-[900px]"
               >
                 <p
                   className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717] 
               max-[746px]:text-[23px]
-              max-[376px]:text-[21px]"
+              max-[377px]:text-[21px] max-[377px]:leading-[32px]"
                 >
                   {currentTab?.title}
                 </p>
@@ -271,7 +271,7 @@ const YourImagination = () => {
                 />
               </div>
 
-              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[250px] absolute top-[0]"></div>
+              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[250px] max-[377px]:blur-[100px] absolute top-[0]"></div>
             </div>
           </motion.div>
         </AnimatePresence>

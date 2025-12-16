@@ -1,7 +1,6 @@
 import logo from "../assets/icons/logo.png";
 import rightArrow from "../assets/icons/rightArrow.png";
 import downArrow from "../assets/icons/downArrow.png";
-// import menaImage from "../assets/icons/menaImage.png";
 import { useState } from "react";
 import { FaBars, FaTimes, FaArrowRight, FaArrowDown, FaMinus } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
@@ -38,20 +37,24 @@ const Navbar = () => {
     >
       <section
         className="max-w-[1920px] mx-auto h-[70px] px-[196px] py-[16px] flex justify-between items-center
-              max-[1440px]:max-w-[1440px] max-[1441px]:px-[80px] max-[1230px]:px-[30px] 
-
+              max-[1440px]:max-w-[1440px] max-[1441px]:px-[80px] max-[1230px]:px-[30px]
               max-[768px]:max-w-[768px] max-[768px]:py-[16px] max-[768px]:px-[24px]
               max-[744px]:max-w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]
               max-[747px]:relative max-[747px]:z-100 max-[747px]:bg-white
 
-              max-[375px]:w-full max-[375px]:max-w-[375px]"
+              max-[375px]:w-full max-[375px]:max-w-[375px]
+              max-[377px]:bg-white/36 max-[377px]:backdrop-blur-[32px]"
       >
         <div
           className="log cursor-pointer flex items-center max-[1440px]:h-[24px] max-[1440px]:gap-[8px]
                 
                 "
         >
-          <img src={logo} alt="Logo" className="right-icon" />
+          <img
+            src={logo}
+            alt="Logo"
+            className="right-icon max-[376px]:w-[237.6px] max-[376px]:h-[24px] "
+          />
         </div>
 
         <div
@@ -177,7 +180,7 @@ const Navbar = () => {
             type="button"
             className="btn w-full cursor-pointer max-w-[89px] h-[38px] rounded-lg border border-[#262626] bg-[#262626] flex items-center justify-center gap-[10px] font-archivo font-medium text-[14px] leading-[22px] tracking-[0px] text-white
             
-            hover:bg-[#565454]"
+            hover:bg-[#565454] max-[377px]:w-[91px] max-[377px]:h-[38px]"
           >
             Free trial
           </button>
@@ -393,7 +396,7 @@ const Navbar = () => {
           >
             <div className="flex items-center gap-2 mx-auto  max-[376px]:mx-none">
               <a
-                className="flex items-center  gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline decoration-[#262626]
+                className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[150%] tracking-[0px] text-[#262626] underline decoration-[#262626]
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
@@ -407,11 +410,11 @@ const Navbar = () => {
 
             <div className="flex items-center gap-2 mx-auto max-[376px]:mx-none">
               <a
-                className="flex items-center gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+                className="flex items-center gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
             
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
-              max-[356px]:text-[12px] max-[316px]:text-[11px]"
+              max-[356px]:text-[12px] max-[316px]:text-[11px] "
                 href="#"
               >
                 Product Edition
@@ -421,7 +424,7 @@ const Navbar = () => {
 
             <div className="flex items-center gap-2 ">
               <a
-                className="flex items-center  gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+                className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
               max-[356px]:text-[12px] max-[316px]:text-[11px]"
@@ -434,7 +437,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-2 ">
             <a
-              className="flex items-center  gap-[10px] font-archivo font-500 text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
+              className="flex items-center  gap-[10px] font-archivo font-medium text-[14px] leading-[21px] tracking-[0px] text-[#262626] underline
              hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
               hover:bg-clip-text hover:text-transparent  hover:decoration-[#b67085]
               max-[356px]:text-[12px] max-[316px]:text-[11px]"

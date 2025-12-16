@@ -22,7 +22,7 @@ const RADStudioHere = () => {
        max-[747px]:mt-[80px]
         
         max-[425px]:w-[100%] max-[425px]:gap-[48px] max-[425px]:mt-[80px] 
-         max-[375px]:gap-[48px] max-[375px]:mt-[0px] "
+         max-[375px]:gap-[48px]  "
       >
         <div
           className="RAD-Studio-Here-1 flex flex-col justify-center items-center mx-auto w-full 
@@ -42,15 +42,15 @@ const RADStudioHere = () => {
                 max-[744px]:text-[40px] 
                 
                 max-[425px]:text-[30px]
-                max-[376px]:text-[28px]"
+                max-[377px]:text-[32px]"
           >
             RAD Studio 11.2
             <span
-              className="font-archivo font-[600] text-[48px] leading-[150%] tracking-[-1px] text-center text-[#262626]
+              className="font-archivo font-semibold text-[48px] leading-[150%] tracking-[-1px] text-center text-[#262626]
               max-[1024px]:text-[42px]
                     max-[744px]:text-[40px]
                     max-[426px]:text-[32px]
-                    max-[376px]:text-[32px]"
+                    max-[377px]:text-[32px]"
             >
               {" "}
               is here!
@@ -58,10 +58,11 @@ const RADStudioHere = () => {
           </p>
 
           <p
-            className="pTag-2 font-archivo font-[400] text-[24px] leading-[150%] text-center text-[#525252] tracking-[-1px]
+            className="pTag-2 font-archivo font-normal text-[24px] leading-[150%] text-center text-[#525252] tracking-[-1px]
             max-[1024px]:text-[22px]
 
-               max-[747px]:text-[20px] max-[376px]:text-[18px]"
+               max-[747px]:text-[20px] 
+               max-[377px]:text-[18px]"
           >
             RAD Studio 11.2 is here! The new release introduces Markdown support
             and an iOS Simulator on macOS ARM 64 for Delphi, and migrates the

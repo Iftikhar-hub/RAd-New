@@ -10,7 +10,7 @@ const Hero = () => {
         max-[745px]:mt-[48px]
          
         max-[745px]:max-w-[744px] 
-        max-[375px]:max-w-[375px] "
+        max-[375px]:max-w-[375px] max-[377px]:gap-[80px] "
     >
       <div
         className="hero-container relative opacity-100 flex flex-col justify-center items-center 
@@ -22,7 +22,8 @@ const Hero = () => {
           <p
             className="hero_cp1 font-Archivo font-[600] text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)]  
                     bg-clip-text text-transparent
-                    max-[744px]:text-[40px] "
+                    max-[744px]:text-[40px]
+                    max-[377px]:text-[32px] "
           >
             RAD Studio 11.2
           </p>
@@ -30,7 +31,8 @@ const Hero = () => {
           <p
             className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-[400] text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
             max-[425px]:px-[20px]
-            max-[375px]:px-[10px]"
+            max-[375px]:px-[10px]
+            max-[377px]:text-[18px]"
           >
             Build Apps 5x Faster With One Codebase for Windows, Android, iOS,
             macOS, and Linux.
@@ -42,7 +44,7 @@ const Hero = () => {
             max-[425px]:flex-col max-[425px]:items-center max-[425px]:mt-auto
                 max-[375px]:flex-col max-[375px]:items-center max-[375px]:mt-auto 
                 max-[425px]:w-[86%]
-                max-[375px]:w-[93%]"
+                max-[376px]:w-[343px]"
         >
           <div
             className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] 
@@ -71,7 +73,7 @@ const Hero = () => {
               type="secondary"
               className="font-archivo cursor-pointer font-medium text-[15px] leading-[24px] text-[#171717]
                  hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
-                    hover:bg-clip-text hover:text-transparent "
+                    hover:bg-clip-text hover:text-transparent max-[377px]:text-[16px]"
             >
               Request a Product Demo
             </button>
@@ -95,21 +97,21 @@ const Hero = () => {
               max-[744px]:max-w-[695px] max-[747px]:h-min
               max-[744px]:gap-[48px]
               max-[425px]:max-w-[393px]
-              max-[375px]:w-[100%]"
+              max-[377px]:w-[100%]"
       >
-        <div className="relative  w-[100%] mx-auto px-4 sm:px-6 z-100">
+        <div className="relative  w-full mx-auto   z-100 max-[377px]:mx-auto">
           <div
-            className="md:hidden w-full aspect-video relative 
+            className="md:hidden w-full max-[377px]:w-[343px] aspect-video max-[377px]:mx-auto relative 
              "
           >
             <img
               src={Group}
               alt="Group"
-              className="w-full h-full object-cover rounded-[16px]"
+              className="w-full h-full object-cover  rounded-[16px]"
             />
 
             <div className="absolute inset-0 bg-black/80 flex justify-center items-center rounded-[16px]">
-              <img src={playbutton} alt="Play" className="w-10 h-10" />
+              <img src={playbutton} alt="Play" className="w-10 h-10 max-[377px]:w-[28px] max-[377px]:h-[28px]" />
             </div>
           </div>
 
@@ -138,7 +140,7 @@ const Hero = () => {
                     max-[600px]:p-[16px]
                     
                       max-[375px]:flex-col
-                    max-[376px]:px-[16px] max-[376px]:w-[90%]
+                    max-[377px]:px-[16px] max-[377px]:w-[343px]
                     "
         >
           <div
@@ -157,7 +159,7 @@ const Hero = () => {
                 RAD Studio 11.2 Resources
               </p>
 
-              <p className="text-[#262626] font-archivo font-[400] text-[17px] leading-[150%] tracking-normal max-[376px]:text-[16px] max-[375px]:text-[14px]">
+              <p className="text-[#262626] font-archivo font-normal text-[17px] leading-[150%] tracking-normal max-[377px]:text-[17px] max-[375px]:text-[14px]">
                 PDF's Videos & Courses of the Product
               </p>
             </div>
