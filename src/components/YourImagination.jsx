@@ -139,7 +139,8 @@ const YourImagination = () => {
 
       <div
         className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1441px]:px-[30px] max-[1441px]:w-[95%] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] 
-      max-[746px]:w-[95%] max-[746px]:gap-[24px] max-[376px]:w-[100%] max-[376px]:h-auto "
+      max-[746px]:w-[95%] max-[746px]:gap-[24px] max-[376px]:w-[100%] max-[376px]:h-auto
+      max-[377px]:mx-0 max-[377px]:px-[16px]"
       >
         <div
           className="ImaginationNav flex flex-row rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1540px] mx-auto overflow-x-scroll scrollHide
@@ -200,7 +201,7 @@ const YourImagination = () => {
                max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[376px]:px-[32px]
                max-[425px]:rounded-[12px] "
-            >
+             >
               <img
                 className="IgnitPic max-w-[482px] h-[394px] max-[425px]:max-w-[297px]  max-[376px]:max-w-[247px] max-[425px]:h-[188px] 
                 max-[600px]:h-[300px]"
@@ -217,15 +218,15 @@ const YourImagination = () => {
             >
               <div
                 className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px] 
-            max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
-            max-[746px]:max-w-[632px] max-[746px]:h-auto max-[746px]:items-center
-            max-[425px]:max-w-[295px] z-10 max-[377px]:gap-[24px]
-            max-[345px]:h-auto max-[376px]:w-[100%] max-[375px]:h-auto max-[1024px]:max-w-[900px]"
+                max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
+                max-[746px]:max-w-[632px] max-[746px]:h-auto max-[746px]:items-center
+               max-[425px]:max-w-[295px] z-10 max-[377px]:gap-[24px]
+            max-[345px]:h-auto max-[376px]:w-full max-[375px]:h-auto max-[1024px]:max-w-[900px]"
               >
                 <p
                   className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717] 
-              max-[746px]:text-[23px]
-              max-[377px]:text-[22px] max-[377px]:leading-[32px]"
+              max-[746px]:text-[24px]
+              max-[377px]:text-[24px] max-[377px]:leading-[32px]"
                 >
                   {currentTab?.title}
                 </p>
@@ -237,15 +238,24 @@ const YourImagination = () => {
                   {currentTab?.points.map((point, i) => (
                     <p
                       key={i}
-                      className="ipTag-1-1 list-item opacity-100 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#171717] max-[425px]:text-[14px]
-                      max-[377px]:text-[16px]"
+                      className={`ipTag-1-1 list-item opacity-100 font-archivo font-normal text-[16px] leading-[150%] tracking-[0px] text-[#171717] max-[425px]:text-[16px]
+                      max-[377px]:text-[16px] ${
+                        i >= 3 ? "max-[377px]:hidden" : ""
+                      }`}
                     >
                       {point}
                     </p>
                   ))}
-                  <p className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:hidden max-[400px]:block">
+                  <p
+                    className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid
+
+                  bg-[linear-gradient(80.32deg,_#FE3B76_53.77%,_#AF29CE_71.1%,_#2931DD_88.44%)] bg-clip-text text-transparent
+
+                  max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:hidden max-[400px]:block
+                  max-[377px]:underline"
+                  >
                     Read More
-                    <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
+                    <span className=" max-[377px]:hidden absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
                   </p>
                 </div>
               </div>
@@ -257,11 +267,12 @@ const YourImagination = () => {
               <div
                 className="Icontent-2 flex flex-row w-full max-w-[343px] h-[28px] gap-[8px] 
                   z-10
-                 max-[377px]:max-w-[295px] max-[376px]:w-full max-[377px]:ml-[0px] max-[376px]:items-center "
+                 max-[377px]:max-w-[295px] max-[376px]:w-full max-[377px]:ml-[0px] max-[376px]:items-center
+                 max-[377px]:mt-[16px] "
               >
                 <p
                   className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group
-                max-[425px]:text-[14px] max-[377px]:text-[16px]" 
+                max-[425px]:text-[14px] max-[377px]:text-[18px]"
                 >
                   Download RAD Studio Feature Matrix
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -273,7 +284,7 @@ const YourImagination = () => {
                 />
               </div>
 
-              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[250px] max-[377px]:blur-[100px] absolute top-[0]"></div>
+              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[250px] max-[377px]:blur-[80px] absolute top-[0] "></div>
             </div>
           </motion.div>
         </AnimatePresence>

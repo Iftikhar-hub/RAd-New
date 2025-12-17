@@ -7,10 +7,10 @@ const Hero = () => {
     <section
       className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]  mx-auto overflow-x-clip 
 
-        max-[745px]:mt-[48px]
+        max-[747px]:mt-[48px]
          
-        max-[745px]:max-w-[744px] 
-        max-[375px]:max-w-[375px] max-[377px]:gap-[80px] "
+        max-[747px]:max-w-[744px] 
+        max-[377px]:max-w-[375px] max-[377px]:gap-[80px] "
     >
       <div
         className="hero-container relative opacity-100 flex flex-col justify-center items-center 
@@ -44,13 +44,14 @@ const Hero = () => {
             max-[425px]:flex-col max-[425px]:items-center max-[425px]:mt-auto
                 max-[375px]:flex-col max-[375px]:items-center max-[375px]:mt-auto 
                 max-[425px]:w-[86%]
-                max-[376px]:w-[343px]"
-        >
+                max-[377px]:max-w-[370px] max-[377px]:w-full max-[377px]:mx-0 max-[377px]:px-[16px]
+                "
+         >
           <div
             className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] 
 
               max-[425px]:max-w-[393px] 
-                    max-[375px]:max-w-[343px] justify-center items-center max-[375px]:px-[0px]
+                    justify-center items-center max-[375px]:px-[0px]
                     hover:bg-[#565454]"
           >
             <button
@@ -97,11 +98,11 @@ const Hero = () => {
               max-[744px]:max-w-[695px] max-[747px]:h-min
               max-[744px]:gap-[48px]
               max-[425px]:max-w-[393px]
-              max-[377px]:w-[100%]"
+              max-[377px]:w-full "
       >
         <div className="relative  w-full mx-auto   z-100 max-[377px]:mx-auto">
           <div
-            className="md:hidden w-full max-[377px]:w-[343px] aspect-video max-[377px]:mx-auto relative 
+            className="md:hidden w-full max-[377px]:max-w-[343px] aspect-video max-[377px]:mx-auto relative 
              "
           >
             <img
@@ -140,7 +141,7 @@ const Hero = () => {
                     max-[600px]:p-[16px]
                     
                       max-[375px]:flex-col max-[377px]:pt-[0px]
-                    max-[377px]:px-[16px] max-[377px]:w-[343px] max-[377px]:mt-[24px]
+                    max-[377px]:px-[16px] max-[377px]:max-w-[343px] max-[377px]:mt-[24px]
                     "
         >
           <div

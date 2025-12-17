@@ -1,4 +1,6 @@
 import GlobalUsers from "../assets/icons/GlobalUsers.png";
+import global from "../assets/icons/global.png";
+
 
 const JoinOurCoummunity = () => {
     return (
@@ -54,7 +56,9 @@ const JoinOurCoummunity = () => {
                 Join Our
               </p>
               <p
-                className="JOC_developer font-archivo font-semibold text-[45px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent 
+                className="JOC_developer font-archivo font-semibold text-[45px] leading-[120%] tracking-[-1px] 
+                bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)]
+                bg-clip-text text-transparent 
                 max-[1441px]:hidden
                     
                        max-[800px]:text-[36px] 
@@ -79,7 +83,7 @@ const JoinOurCoummunity = () => {
               >
                 Join Our
                 <span
-                  className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
+                  className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px]  bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
                   
                     max-[766px]:text-[34px]
                        max-[1150px]:text-[36px] 
@@ -91,7 +95,7 @@ const JoinOurCoummunity = () => {
                 </span>
               </p>
               <span
-                className=" hidden JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
+                className=" hidden JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px]  bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
                   max-[1441px]:block
                   max-[425px]:hidden
                     max-[766px]:text-[34px]
@@ -113,7 +117,7 @@ const JoinOurCoummunity = () => {
               >
                 Join Our
                 <span
-                  className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
+                  className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px]  bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
                     
                        max-[800px]:text-[36px] 
                     
@@ -146,18 +150,18 @@ const JoinOurCoummunity = () => {
                 max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:flex-col"
           >
             <input
-              className="JOC_emailAddress w-full max-w-[354px] h-[100%] rounded-[8px] border 
-              border-[#055e05] bg-[#FFFFFFCC] py-[18px] px-[20px] gap=[10px] backdrop-blur-[32px]
+              className="JOC_emailAddress w-full max-w-[354px] h-[100%] rounded-[8px] border border-[#D4D4D4] 
+              focus:border-[#055e05] bg-[#FFFFFFCC] py-[18px] px-[20px] gap=[10px] backdrop-blur-[32px]
                     max-[1440px]:max-w-[361px] max-[1440px]:h-[48px] max-[1440px]:py-[12px] max-[1440px]:px-[20px] max-[1440px]:gap-[10px]"
               type="text"
               placeholder="Your Email"
             />
 
             <button
-              className="Btn_Subs w-full cursor-pointer max-w-[121px] h-[52px] px-[24px] py-[14px] rounded-[8px] bg-[#262626] shadow-[0_4px_32px_0_#FF5E651A] font-figtree font-medium text-[16px] leading-[24px] tracking-[0px] text-white flex items-center justify-center gap-[10px]
+              className="Btn_Subs w-full cursor-pointer max-w-[121px] h-[52px] px-[24px] py-[14px] rounded-[8px] bg-[#262626] shadow-[0_4px_32px_0_#FF5E651A] font-medium text-[16px] leading-[24px] tracking-[0px] text-white flex items-center justify-center gap-[10px]
                     max-[1440px]:max-w-[122px] max-[1440px]:h-[48px]
                     max-[425px]:max-w-[393px]
-                    max-[375px]:max-w-[343px] hover:bg-[#565454]"
+                    max-[375px]:max-w-[343px] hover:bg-[#565454] max-[377px]:h-[52px]"
               type="button"
             >
               Subscribe
@@ -182,9 +186,16 @@ const JoinOurCoummunity = () => {
         >
           <img
             className="jm w-[100%]  max-[377px]:mt-[40px] 
-             
+             max-[425px]:hidden
            "
             src={GlobalUsers}
+            alt="GlobalUsers"
+          />
+          <img
+            className="jm w-[100%]  max-[377px]:mt-[40px] 
+             hidden max-[425px]:block
+           "
+            src={global}
             alt="GlobalUsers"
           />
         </div>

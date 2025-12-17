@@ -1,4 +1,5 @@
-import logo from "../assets/icons/logo.png";
+// import logo from "../assets/icons/logo.png";
+import logoSVG from "../assets/icons/logoSVG.svg";
 import logoTwitter from "../assets/icons/logoTwitter.png";
 import logoFacebook from "../assets/icons/logoFacebook.png";
 import logoDribbble from "../assets/icons/logoDribbble.png";
@@ -30,7 +31,7 @@ const RADFooter = () => {
         >
           <img
             className="FC_log max-w-[202px] z-20 h-[35px]"
-            src={logo}
+            src={logoSVG}
             alt="logo"
           />
         </div>
@@ -258,7 +259,7 @@ const RADFooter = () => {
           </div>
 
           <div
-            className="FCR_4 flex flex-col gap-[26px] max-[425px]:mt-[-130px]  max-[376px]:mt-[-140px]
+            className="FCR_4 flex flex-col gap-[26px] max-[425px]:mt-[-130px]  max-[376px]:mt-[-155px]
                     "
           >
             <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937]">
@@ -366,7 +367,7 @@ const RADFooter = () => {
                 max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:flex-col max-[425px]:gap-[16px]
                 max-[425px]:mt-[32px]
 
-                max-[377px]:max-w-[343px] max-[375px]:h-auto max-[377px]:flex-col max-[375px]:gap-[16px]
+                max-[377px]:max-w-[343px] max-[375px]:h-auto max-[377px]:flex-col max-[377px]:gap-[16px]
                 max-[377px]:mt-[32px] max-[377px]:pb-[8px]"
       >
         <p

@@ -1,4 +1,6 @@
-import logo from "../assets/icons/logo.png";
+// import logo from "../assets/icons/logo.png";
+import logoSVG from "../assets/icons/logoSVG.svg";
+
 import rightArrow from "../assets/icons/rightArrow.png";
 import downArrow from "../assets/icons/downArrow.png";
 import menaImage from "../assets/icons/menaImage.png";
@@ -52,7 +54,7 @@ const Navbar = () => {
                 "
         >
           <img
-            src={logo}
+            src={logoSVG}
             alt="Logo"
             className="right-icon max-[376px]:w-[237.6px] max-[376px]:h-[24px] "
           />
@@ -448,7 +450,7 @@ const Navbar = () => {
               max-[363px]:text-[12px] max-[316px]:text-[11px]"
               href="#"
             >
-              Customer
+              Customers
             </a>
           </div>
         </div>

@@ -28,7 +28,7 @@ const GetRADStudio = () => {
 
             max-[425px]:max-w-[873px] max-[425px]:w-full max-[425px]:h-[365px] max-[425px]:top-[-45px] max-[425px]:left-[-285px] max-[425px]:-rotate-90
 
-            max-[375px]:max-w-[873px] max-[375px]:w-full max-[375px]:h-[365px] max-[375px]:top-[-45px] max-[375px]:left-[-285px] max-[375px]:-rotate-90"
+            max-[377px]:max-w-[873px] max-[377px]:w-full max-[377px]:h-[711px] max-[377px]:top-[13px] max-[377px]:left-[-305px] max-[377px]:rotate-360"
           src={leftVector}
           alt="leftVector"
         />
@@ -43,7 +43,7 @@ const GetRADStudio = () => {
 
              max-[425px]:max-w-[811px] max-[425px]:w-full max-[425px]:h-[339px] max-[425px]:top-[222px] max-[425px]:left-[237px] max-[425px]:rotate-90
 
-            max-[375px]:max-w-[811px] max-[375px]:w-full max-[375px]:h-[339px] max-[375px]:top-[222px] max-[375px]:left-[237px] max-[375px]:rotate-90"
+            max-[377px]:max-w-[811px] max-[375px]:w-full max-[377px]:h-[791px] max-[377px]:top-[223px] max-[377px]:left-[227px] max-[377px]:rotate-360"
           src={rightVector}
           alt="rightVector"
         />
