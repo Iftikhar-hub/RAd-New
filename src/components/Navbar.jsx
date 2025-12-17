@@ -43,7 +43,7 @@ const Navbar = () => {
               max-[1440px]:max-w-[1440px] max-[1441px]:px-[80px] max-[1230px]:px-[30px]
               max-[768px]:max-w-[768px] max-[768px]:py-[16px] max-[768px]:px-[24px]
               max-[744px]:max-w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]
-              max-[747px]:relative max-[747px]:z-100 max-[747px]:bg-white
+              max-[747px]:relative max-[747px]:z-100 max-[747px]:bg-[#FFFFFF5C]
 
               max-[375px]:w-full max-[375px]:max-w-[375px]
               max-[377px]:bg-white/36 max-[377px]:backdrop-blur-[32px]"

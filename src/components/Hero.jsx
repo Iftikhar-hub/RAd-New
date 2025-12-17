@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
 
           <p
-            className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-[400] text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
+            className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-normal text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
             max-[425px]:px-[20px]
             max-[375px]:px-[10px]
             max-[377px]:text-[18px]"

@@ -9,8 +9,8 @@ const Header = () => {
       <section
         className="headerTopp w-[100%] relative bg-[#262626] text-white px-4 py-2
           max-[1440px]:max-w-[1440px] 
-          max-[744px]:max-w-[744px]
-          max-[375px]:max-w-[375px] z-[100]"
+          max-[747px]:max-w-[747px] max-[747px]:w-full
+          max-[375px]:max-w-[375px] z-[100] max-[747px]:px-0"
       >
         <div
           className="hd_t1 w-[100%] mx-auto flex justify-between items-center  
@@ -34,7 +34,8 @@ const Header = () => {
                    "
           >
             <p
-              className="header_PS max-[612px]:text-[13px] max-[471px]:text-[16px] text-white
+              className="header_PS max-[747px]:text-[14px]  max-[747px]:font-light  max-[612px]:text-[13px] 
+              max-[471px]:text-[16px] text-white
               max-[460px]:text-[15px] max-[435px]:text-[14px] max-[411px]:text-[13px]
             max-[378px]:text-[13px] max-[353px]:text-[12px] 
             max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
@@ -48,7 +49,7 @@ const Header = () => {
                 max-[460px]:text-[16px] max-[435px]:text-[15px]
                 [378px]:text-[13px] max-[353px]:text-[12px]
                max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
-               max-[514px]:text-[17px]
+               max-[514px]:text-[17px] max-[747px]:text-[14px]  max-[747px]:font-median
                max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-median"
               >
                 C++ Builder, and RAD Studio
