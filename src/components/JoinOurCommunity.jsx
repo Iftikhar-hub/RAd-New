@@ -118,6 +118,9 @@ const JoinOurCoummunity = () => {
                 Join Our
                 <span
                   className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px]  bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
+
+                  max-[377px]:bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)]
+
                     
                        max-[800px]:text-[36px] 
                     

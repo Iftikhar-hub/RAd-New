@@ -10,7 +10,7 @@ const Header = () => {
         className="headerTopp w-[100%] relative bg-[#262626] text-white px-24 py-2
           max-[1441px]:max-w-[1440px] max-[1441px]:px-[10px]
           max-[747px]:max-w-[747px] max-[747px]:w-full
-          max-[375px]:max-w-[375px] z-[100] max-[747px]:px-0"
+          max-[375px]:max-w-[375px] z-[100] "
       >
         <div
           className="hd_t1 w-[100%] mx-auto flex justify-between items-center  
@@ -25,7 +25,7 @@ const Header = () => {
                max-[377px]:gap-[16px]"
         >
           <div
-            className="text-sm flex flex-row
+            className="text-sm flex flex-row items-center
            
 
               max-[500px]:flex  max-[545px]:items-center
@@ -34,16 +34,18 @@ const Header = () => {
                    "
           >
             <p
-              className="header_PS max-[747px]:text-[14px]  max-[747px]:font-light  max-[612px]:text-[13px] 
+              className="header_PS max-[747px]:text-[14px]  max-[747px]:font-light max-[747px]:leading-[150%]
+              
+              max-[612px]:text-[13px] 
               max-[471px]:text-[16px] text-white
               max-[460px]:text-[15px] max-[435px]:text-[14px] max-[411px]:text-[13px]
             max-[378px]:text-[13px] max-[353px]:text-[12px] 
             max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
             max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
             max-[325px]:text-[10px]
-            max-[377px]:font-light"
+            max-[377px]:font-light  max-[713px]:hidden"
             >
-              See what’s new in Delphi,
+              See what’s new in
               <span
                 className="font-semibold ml-1 max-[612px]:text-[13px] max-[471px]:text-[17px] text-white max-
                 max-[460px]:text-[16px] max-[435px]:text-[15px]
@@ -52,13 +54,36 @@ const Header = () => {
                max-[514px]:text-[17px] max-[747px]:text-[14px]  max-[747px]:font-median
                max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-median"
               >
-                C++ Builder, and RAD Studio
+                Delphi, C++ Builder, and RAD Studio Wacth the Reply
+              </span>
+            </p>
+            <p
+              className="header_PS max-[747px]:text-[14px]  max-[747px]:font-light  max-[612px]:text-[13px] 
+              max-[471px]:text-[16px] text-white
+              max-[460px]:text-[15px] max-[435px]:text-[14px] max-[411px]:text-[13px]
+            max-[378px]:text-[13px] max-[353px]:text-[12px] 
+            max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
+            max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
+            max-[325px]:text-[10px]
+            max-[377px]:font-light hidden max-[713px]:block"
+            >
+              See what’s new in
+              <span
+                className="font-semibold ml-1 max-[612px]:text-[13px] max-[471px]:text-[17px] text-white max-
+                max-[460px]:text-[16px] max-[435px]:text-[15px]
+                [378px]:text-[13px] max-[353px]:text-[12px]
+               max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
+               max-[514px]:text-[17px] max-[747px]:text-[14px]  max-[747px]:font-median
+               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-median"
+              >
+                Delphi, C++ Builder, and RAD Studio
               </span>
             </p>
 
             <a
               href="#"
-              className="underline ml-2 text-white 
+              className="underline ml-2 text-white  max-[747px]:text-[#FFFFFF]
+              max-[747px]:text-[14px]
               max-[592px]:flex max-[592px]:items-center max-[592px]:text-[16px] 
               max-[578px]:text-[15px] max-[546px]:text-[14px]
               max-[514px]:text-[16px]

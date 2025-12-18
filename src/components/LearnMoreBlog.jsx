@@ -36,8 +36,8 @@ const LearnMoreBlog = () => {
     return (
       <section
         className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto
-         max-[1440px]:w-[95%] max-[1441px]:px-[30px]   max-[1440px]:gap-[80px] px-[196px]
-          overflow-x-clip
+         max-[1441px]:max-w-[1440px] max-[1441px]:px-[30px]   max-[1440px]:gap-[80px] px-[196px]
+          
 
          max-[768px]:px-0
           max-[746px]:gap-[64px]
@@ -54,22 +54,24 @@ const LearnMoreBlog = () => {
             max-[1440px]:left-[232px]
             max-[746px]:text-[36px] max-[746px]:left-[54px]
             max-[425px]:text-[30px]
-            max-[376px]:text-[30px]
+            max-[376px]:text-[30px] max-[377px]:leading-[140%]
             "
         >
           Learn More on the <span></span>
           <span
-            className="LMB_S font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] bg-[linear-gradient(80.32deg,_#FE3B76_53.77%,_#AF29CE_71.1%,_#2931DD_88.44%)] bg-clip-text text-transparent
+            className="LMB_S font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] 
+            bg-[linear-gradient(80.32deg,_#FE3B76_53.77%,_#AF29CE_71.1%,_#2931DD_88.44%)]
+             bg-clip-text text-transparent
             pl-[8px]
                 max-[746px]:text-[36px] 
                 max-[425px]:text-[30px]
-                max-[377px]:text-[30px]"
+                max-[377px]:text-[30px] max-[377px]:leading-[140%] "
           >
             Embarcadero Blog
           </span>
         </p>
 
-        <div className=" w-full relative max-w-[1540px] mx-auto z-10 max- ">
+        <div className=" w-full relative max-w-[1540px] mx-auto z-10 overflow-x-clip">
           {/* for more then 900px start  */}
 
           <div
@@ -215,7 +217,7 @@ const LearnMoreBlog = () => {
           </div>
           <div
             className="SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
-        max-[900px]:hidden"
+             max-[900px]:hidden"
           ></div>
 
           <div
@@ -365,7 +367,7 @@ const LearnMoreBlog = () => {
 
           <div
             className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-606px]  right-[-267px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4]
-          max-[377px]:top-[-165px] max-[377px]:right-[160px] max-[377px]:blur-[150px]"
+          max-[377px]:top-[-165px] max-[377px]:right-[160px] max-[377px]:blur-[200px]"
           ></div>
 
           <div
@@ -392,8 +394,9 @@ const LearnMoreBlog = () => {
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
-                 max-[746px]:grid-cols-2
+                 max-[747px]:gap-[32px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2 max-[747px]:px-[25px]
+                 
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -404,8 +407,9 @@ const LearnMoreBlog = () => {
             className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
                      max-[1440px]:gap-[16px] z-10
                      
+                     
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px] max-[746px]:px-[0px]"
+                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -445,7 +449,7 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px] max-[747px]:pl-0  "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -490,8 +494,8 @@ const LearnMoreBlog = () => {
         />
 
         <div
-          className="SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
-       hidden max-[900px]:block max-[544px]:hidden"
+          className=" SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
+       hidden max-[900px]:block max-[544px]:hidden max-[900px]:max-w-[695px] max-[900px]:mx-auto"
         ></div>
 
         {/* 2nd row */}
@@ -508,8 +512,8 @@ const LearnMoreBlog = () => {
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
-                 max-[746px]:grid-cols-2
+                 max-[747px]:gap-[32px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2 max-[747px]:px-[25px]
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -521,7 +525,7 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -561,7 +565,7 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -599,7 +603,7 @@ const LearnMoreBlog = () => {
 
         <div
           className="SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
-       hidden max-[900px]:block max-[544px]:hidden"
+       hidden max-[900px]:block max-[544px]:hidden max-[900px]:max-w-[695px] max-[900px]:mx-auto"
         ></div>
 
         {/* 3rd row */}
@@ -616,8 +620,8 @@ const LearnMoreBlog = () => {
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
-                 max-[746px]:grid-cols-2
+                 max-[747px]:gap-[32px] max-[746px]:w-[100%]
+                 max-[746px]:grid-cols-2 max-[747px]:px-[25px]
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
@@ -629,7 +633,7 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -670,7 +674,7 @@ const LearnMoreBlog = () => {
                      max-[1440px]:gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -753,7 +757,7 @@ const LearnMoreBlog = () => {
             <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  ">
               <p
                 className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-median text-[#262626] text-[19px] leading-[150%]  max-[746px]:text-[18px] cursor-pointer 
-                           group z-10 max-[377px]:underline"
+                           group z-10 max-[377px]:underline max-[377px]:leading-[28px] "
               >
                 Read More
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>

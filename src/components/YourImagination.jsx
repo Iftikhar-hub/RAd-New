@@ -129,9 +129,16 @@ const YourImagination = () => {
     max-[376px]:w-[100%] max-[375px]:h-auto max-[375px]:mt-[80px]"
     >
       <div className="Imagination-pTag-span m-auto max-[425px]:hidden">
-        <p className="Imagination-p1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] text-[#262626] max-[746px]:text-[36px]">
+        <p className="Imagination-p1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] text-[#262626] max-[747px]:text-[36px] max-[747px]:font-medium">
           Ignite
-          <span className="Imagination-s1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[746px]:text-[36px]">
+          <span
+            className="Imagination-s1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] 
+
+          bg-[linear-gradient(0deg,_#262626,_#262626)] bg-[linear-gradient(77.72deg,_#FE3B76_51.97%,_rgba(254,59,118,0.8)_63.95%,_rgba(41,49,221,0.8)_76.53%,_#2931DD_90.31%)]
+
+
+           bg-clip-text text-transparent max-[747px]:text-[36px] max-[747px]:font-medium"
+          >
             {" "}
             Your Imagination
           </span>
@@ -214,16 +221,20 @@ const YourImagination = () => {
 
             <div
               className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 
-              max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px]  max-[1440px]:px-[32px]
-              max-[746px]:max-w-[696px] max-[746px]:gap-[16px] max-[377px]:max-w-[343px]
-              max-[1024px]:max-w-[1024px] max-[377px]:pt-[24px] max-[377px]:px-[24px]"
+              max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px]  max-[1440px]:px-[32px] max-[747px]:overflow-hidden
+
+              max-[747px]:max-w-[696px] max-[746px]:gap-[16px] max-[377px]:max-w-[343px]
+              max-[1024px]:max-w-[1024px] max-[377px]:pt-[24px] max-[377px]:px-[24px]
+              max-[747px]:rounded-bl-[16px]
+              max-[747px]:rounded-br-[16px] max-[747px]:pb-[32px]"
             >
               <div
                 className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px] 
                 max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
                 max-[746px]:max-w-[632px] max-[746px]:h-auto max-[746px]:items-center
                max-[425px]:max-w-[295px] z-10 max-[377px]:gap-[24px]
-            max-[345px]:h-auto max-[376px]:w-full max-[375px]:h-auto max-[1024px]:max-w-[900px]"
+               max-[345px]:h-auto max-[377px]:w-full max-[377px]:h-auto max-[377px]:max-w-[343px]
+                max-[1024px]:max-w-[900px]"
               >
                 <p
                   className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717] 
@@ -273,11 +284,12 @@ const YourImagination = () => {
                  max-[377px]:mt-[16px] "
               >
                 <p
-                  className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px] underline decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group
+                  className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group
                 max-[425px]:text-[14px] max-[377px]:text-[18px]"
                 >
                   Download RAD Studio Feature Matrix
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+                  <span className="absolute left-0  bottom-[4px] h-[1px] w-full bg-[#262626] "></span>
                 </p>
                 <img
                   className="cloudImage cursor-pointer w-full max-w-[28px] h-[28px]"

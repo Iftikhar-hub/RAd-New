@@ -30,7 +30,7 @@ const RADStudioHere = () => {
              [204px] gap-[24px] relative max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
              max-[1024px]:max-w-[863px] 
              max-[747px]:px-0
-             max-[747px]:px-[10px]
+             
              max-[700px]:px-[20px]
 
              max-[747px]:max-w-[696px] max-[745px]:gap-[16px]
@@ -40,7 +40,8 @@ const RADStudioHere = () => {
              px-[35px]"
         >
           <p
-            className="pTag-1  font-archivo font-[600] text-[48px] leading-[100%] tracking-[-1px] text-center bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
+            className="pTag-1  font-archivo font-[600] text-[48px] leading-[100%] tracking-[-1px] text-center bg-[linear-gradient(79.71deg,_#FE3B76_10.22%,_#AF29CE_35.92%,_#2931DD_61.61%)]
+ bg-clip-text text-transparent
             max-[1024px]:text-[42px]
                 max-[747px]:text-[40px] 
                 
@@ -89,7 +90,7 @@ const RADStudioHere = () => {
              auto gap-[24px] max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
              max-[1024px]:max-w-[863px]
 
-             max-[747px]:pl-0 max-[747px]:pr-0
+             max-[747px]:px-0 max-[747px]:pr-0
              max-[747px]:max-w-[696px] max-[747px]:gap-[48px]
               max-[375px]:max-w-[343px]
               px-[35px]"
@@ -101,16 +102,18 @@ const RADStudioHere = () => {
                       max-[768px]:gap-[48px]
 
                       max-[747px]:max-w-[696px] max-[747px]:grid max-[747px]:grid-cols-2
-                      max-[747px]:gap-[48px]
+                      max-[747px]:gap-[48px] 
+                      max-[720px]:px-[20px]
+                      max-[377px]:px-0
 
                       max-[376px]:grid-cols-1 "
-           >
+          >
             <div
               className="row1-1 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
                         max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
-                        cursor-pointer"
-             >
+                        cursor-pointer max-[377px]:mx-auto"
+            >
               <img
                 src={codeBase}
                 alt="codeBase"
@@ -138,7 +141,7 @@ const RADStudioHere = () => {
               className="row1-2 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
                         max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
-                        cursor-pointer"
+                        cursor-pointer max-[377px]:mx-auto"
             >
               <img
                 src={productivity}
@@ -168,7 +171,7 @@ const RADStudioHere = () => {
               className="row1-3 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
                         max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
-                        cursor-pointer"
+                        cursor-pointer max-[377px]:mx-auto"
             >
               <img src={linux} alt="linux" className="max-w-[48px] h-[48px]" />
               <p
@@ -194,7 +197,7 @@ const RADStudioHere = () => {
               className="row2-1 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
                         max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
-                        cursor-pointer"
+                        cursor-pointer max-[377px]:mx-auto"
             >
               <img
                 src={microsoft}
@@ -222,7 +225,7 @@ const RADStudioHere = () => {
               className="row2-2 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
                         max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
-                        cursor-pointer"
+                        cursor-pointer max-[377px]:mx-auto"
             >
               <img src={ue} alt="ue" className="max-w-[48px] h-[48px]" />
               <p
@@ -246,7 +249,7 @@ const RADStudioHere = () => {
               className="row2-3 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
                         max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
-                        cursor-pointer"
+                        cursor-pointer max-[377px]:mx-auto"
             >
               <img
                 src={andriod}

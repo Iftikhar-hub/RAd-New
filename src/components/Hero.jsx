@@ -15,8 +15,8 @@ const Hero = () => {
     >
       <div
         className="hero-container  relative opacity-100 flex flex-col justify-center items-center 
-             max-w-[434px] w-full h-auto gap-[24px]  z-10
-             max-[747px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
+              w-full h-auto gap-[24px]  z-10
+              max-[747px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
       >
         <div className="hero-container-1 flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
@@ -31,12 +31,25 @@ const Hero = () => {
 
           <p
             className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-normal text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
+            max-[747px]:hidden max-[425px]:block
             max-[425px]:px-[20px]
             max-[375px]:px-[10px]
             max-[377px]:text-[18px]
             max-[747px]:text-[18px] "
           >
             Build Apps 5x Faster With One Codebase for Windows, Android, iOS,
+            macOS, and Linux.
+          </p>
+
+          <p
+            className="hero_cp2 hidden  flex-col  gap-[16px]  font-[archivo] font-normal text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
+            max-[747px]:block max-[425px]:hidden
+            max-[425px]:px-[20px]
+            max-[375px]:px-[10px]
+            max-[377px]:text-[18px]
+            max-[747px]:text-[18px] "
+          >
+            Build Apps 5x Faster With One Codebase <br /> for Windows, Android, iOS,
             macOS, and Linux.
           </p>
         </div>
@@ -64,23 +77,27 @@ const Hero = () => {
             </button>
           </div>
 
-          <div
+          {/* <div
             className="btn-2 cursor-pointer flex w-full max-w-[229px] h-[48px] rounded-[10px]   gap-[8px] justify-center items-center border border-[#171717] 
               max-[425px]:max-w-[393px] cursor-pointer
                     max-[375px]:max-w-[343px]
                     
                     
              "
-          >
-            <button
-              type="secondary"
-              className="font-archivo cursor-pointer font-medium text-[15px] leading-[24px] text-[#171717]
+           > */}
+          <button
+            type="secondary"
+            className="w-[229px] h-[48px] gap-2 border border-solid rounded-[10px] 
+       px-6 py-3 opacity-100 max-[425px]:max-w-[393px]  max-[375px]:max-w-[343px] w-full max-w-[229px]
+       max-[462px]:px-[0px]
+
+              font-archivo cursor-pointer font-medium text-[15px] leading-[24px] text-[#171717]
                  hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
                     hover:bg-clip-text hover:text-transparent max-[377px]:text-[16px]"
-            >
-              Request a Product Demo
-            </button>
-          </div>
+          >
+            Request a Product Demo
+          </button>
+          {/* </div> */}
         </div>
       </div>
 
@@ -164,7 +181,7 @@ const Hero = () => {
           >
             <img src={rad} alt="rad" className="w-[48px] h-[48px]" />
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-start">
               <p className="text-[#262626] font-archivo font-semibold text-[22px] leading-[33px] tracking-normal max-[375px]:text-[18px]">
                 RAD Studio 11.2 Resources
               </p>

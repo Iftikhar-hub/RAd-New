@@ -154,7 +154,9 @@ const Navbar = () => {
                   max-[1200px]:justify-end
 
                   
-                  max-[744px]:max-w-[320px]  max-[744px]:items-center
+                  max-[747px]:max-w-[370px]  max-[747px]:items-center max-[747px]:flex max-[747px]:flex-row  max-[747px]:gap-[24px] 
+                  max-[600px]:gap-[15px]
+                
                   max-[425px]:justify-end"
         >
           <button
