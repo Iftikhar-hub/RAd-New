@@ -39,7 +39,7 @@ const Navbar = () => {
           max-[375px]:w-full max-[375px]:max-w-[375px]"
     >
       <section
-        className="max-w-[1920px] mx-auto h-[70px] px-[196px] py-[16px] flex justify-between items-center
+        className="max-w-[1920px] mx-auto h-[70px] px-[196px]  py-[16px] flex justify-between items-center
               max-[1440px]:max-w-[1440px] max-[1441px]:px-[80px] max-[1230px]:px-[30px]
               max-[768px]:max-w-[768px] max-[768px]:py-[16px] max-[768px]:px-[24px]
               max-[744px]:max-w-[744px] max-[744px]:py-[16px] max-[744px]:px-[24px]

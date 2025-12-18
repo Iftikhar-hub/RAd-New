@@ -39,7 +39,7 @@ const LearnMoreBlog = () => {
          max-[1440px]:w-[95%] max-[1441px]:px-[30px]   max-[1440px]:gap-[80px] px-[196px]
           overflow-x-clip
 
-         
+         max-[768px]:px-0
           max-[746px]:gap-[64px]
 
          max-[425px]:max-w-[393px]  max-[425px]:h-auto max-[425px]:gap-[30px]

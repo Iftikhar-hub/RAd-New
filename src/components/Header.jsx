@@ -7,8 +7,8 @@ import Languag from "../assets/icons/Languag.png";
 const Header = () => {
     return (
       <section
-        className="headerTopp w-[100%] relative bg-[#262626] text-white px-4 py-2
-          max-[1440px]:max-w-[1440px] 
+        className="headerTopp w-[100%] relative bg-[#262626] text-white px-24 py-2
+          max-[1441px]:max-w-[1440px] max-[1441px]:px-[10px]
           max-[747px]:max-w-[747px] max-[747px]:w-full
           max-[375px]:max-w-[375px] z-[100] max-[747px]:px-0"
       >

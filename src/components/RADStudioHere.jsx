@@ -28,9 +28,12 @@ const RADStudioHere = () => {
           className="RAD-Studio-Here-1 flex flex-col justify-center items-center mx-auto w-full 
           max-w-[1250px]  h- 
              [204px] gap-[24px] relative max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
-             max-[1024px]:max-w-[863px] max-[744px]:pl-[20px] max-[744px]:pr-[20px]
+             max-[1024px]:max-w-[863px] 
+             max-[747px]:px-0
+             max-[747px]:px-[10px]
+             max-[700px]:px-[20px]
 
-             max-[745px]:max-w-[696px] max-[745px]:gap-[16px]
+             max-[747px]:max-w-[696px] max-[745px]:gap-[16px]
 
               max-[375px]:gap-[16px]
              
@@ -39,7 +42,7 @@ const RADStudioHere = () => {
           <p
             className="pTag-1  font-archivo font-[600] text-[48px] leading-[100%] tracking-[-1px] text-center bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent
             max-[1024px]:text-[42px]
-                max-[744px]:text-[40px] 
+                max-[747px]:text-[40px] 
                 
                 max-[425px]:text-[30px]
                 max-[377px]:text-[32px]"
@@ -48,7 +51,7 @@ const RADStudioHere = () => {
             <span
               className="font-archivo font-semibold text-[48px] leading-[150%] tracking-[-1px] text-center text-[#262626]
               max-[1024px]:text-[42px]
-                    max-[744px]:text-[40px]
+                    max-[747px]:text-[40px]
                     max-[426px]:text-[32px]
                     max-[377px]:text-[32px]"
             >
@@ -74,7 +77,7 @@ const RADStudioHere = () => {
 
           <img
             className="max-w-[58.89px] h-[114.07] absolute top-[10px] right-[-40px]
-                max-[744px]:hidden
+                max-[747px]:hidden
                 max-[1440px]:hidden"
             src={radsImage}
             alt="radsImage"
@@ -86,8 +89,8 @@ const RADStudioHere = () => {
              auto gap-[24px] max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
              max-[1024px]:max-w-[863px]
 
-             max-[745px]:pl-[20px] max-[745px]:pr-[20px]
-             max-[744px]:max-w-[696px] max-[744px]:gap-[48px]
+             max-[747px]:pl-0 max-[747px]:pr-0
+             max-[747px]:max-w-[696px] max-[747px]:gap-[48px]
               max-[375px]:max-w-[343px]
               px-[35px]"
         >
@@ -97,17 +100,17 @@ const RADStudioHere = () => {
                       max-[768px]:max-w-[718px] max-[768px]:grid max-[768px]:grid-cols-2
                       max-[768px]:gap-[48px]
 
-                      max-[744px]:max-w-[696px] max-[744px]:grid max-[744px]:grid-cols-2
-                      max-[744px]:gap-[48px]
+                      max-[747px]:max-w-[696px] max-[747px]:grid max-[747px]:grid-cols-2
+                      max-[747px]:gap-[48px]
 
                       max-[376px]:grid-cols-1 "
-          >
+           >
             <div
               className="row1-1 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
-                        max-[744px]:max-w-[336px]
+                        max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer"
-            >
+             >
               <img
                 src={codeBase}
                 alt="codeBase"
@@ -115,8 +118,8 @@ const RADStudioHere = () => {
               />
               <p
                 className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
-                max-[1024px]:text-[22px]
-                            max-[744px]:text-[20px]"
+                max-[1024px]:text-[22px] max-[747px]:font-medium
+                            max-[747px]:text-[20px]"
               >
                 Single Code Base
               </p>
@@ -124,7 +127,7 @@ const RADStudioHere = () => {
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
                 max-[1024px]:text-[20px]
-                            max-[744px]:text-[18px] max-[376px]:text-center"
+                            max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Create apps for all major platforms with less coding effort.
                 Write once, compile everywhere..
@@ -133,7 +136,7 @@ const RADStudioHere = () => {
 
             <div
               className="row1-2 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
-                        max-[744px]:max-w-[336px]
+                        max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer"
             >
@@ -144,8 +147,8 @@ const RADStudioHere = () => {
               />
               <p
                 className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
-                max-[1024px]:text-[22px]
-                            max-[744px]:text-[20px]"
+                max-[1024px]:text-[22px] max-[747px]:font-medium
+                            max-[747px]:text-[20px]"
               >
                 Productivity
               </p>
@@ -153,7 +156,7 @@ const RADStudioHere = () => {
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070] 
                 max-[1024px]:text-[20px]
-                            max-[744px]:text-[18px] max-[376px]:text-center"
+                            max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 VCL Styles with design-time support: Prototype stylish UIs even
                 faster by seeing immediately at design-time how your styled
@@ -163,15 +166,15 @@ const RADStudioHere = () => {
 
             <div
               className="row1-3 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
-                        max-[744px]:max-w-[336px]
+                        max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer"
             >
               <img src={linux} alt="linux" className="max-w-[48px] h-[48px]" />
               <p
                 className="font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
-                max-[1024px]:text-[22px]
-                            max-[744px]:text-[20px]"
+                max-[1024px]:text-[22px] max-[747px]:font-medium
+                            max-[747px]:text-[20px]"
               >
                 Linux
               </p>
@@ -179,7 +182,7 @@ const RADStudioHere = () => {
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
                 max-[1024px]:text-[20px]
-                            max-[744px]:text-[18px] max-[376px]:text-center"
+                            max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Develop both server and FireMonkey GUI applications for Linux.
                 Delphi now has LLDB version 12 support for debugging on Linux,
@@ -189,7 +192,7 @@ const RADStudioHere = () => {
 
             <div
               className="row2-1 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
-                        max-[744px]:max-w-[336px]
+                        max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer"
             >
@@ -200,8 +203,8 @@ const RADStudioHere = () => {
               />
               <p
                 className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
-                max-[1024px]:text-[22px]
-                            max-[744px]:text-[20px]"
+                max-[1024px]:text-[22px] max-[747px]:font-medium
+                            max-[747px]:text-[20px]"
               >
                 Windows 11
               </p>
@@ -209,7 +212,7 @@ const RADStudioHere = () => {
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
                 max-[1024px]:text-[20px]
-                            max-[744px]:text-[18px] max-[376px]:text-center"
+                            max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Modernize VCL apps for Windows 11 with up-to-date user interface
                 controls, WinRT APIs, and HighDPI-related features
@@ -217,15 +220,15 @@ const RADStudioHere = () => {
             </div>
             <div
               className="row2-2 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
-                        max-[744px]:max-w-[336px]
+                        max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer"
             >
               <img src={ue} alt="ue" className="max-w-[48px] h-[48px]" />
               <p
                 className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
-                max-[1024px]:text-[22px]
-                            max-[744px]:text-[20px]"
+                max-[1024px]:text-[22px] max-[747px]:font-medium
+                            max-[747px]:text-[20px]"
               >
                 User Experience
               </p>
@@ -233,7 +236,7 @@ const RADStudioHere = () => {
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
                 max-[1024px]:text-[20px]
-                            max-[744px]:text-[18px] max-[376px]:text-center"
+                            max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Completely rebuilt Welcome Page with a native look and feel, and
                 a UI that fits the IDE, and customizable layout and content.
@@ -241,7 +244,7 @@ const RADStudioHere = () => {
             </div>
             <div
               className="row2-3 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
-                        max-[744px]:max-w-[336px]
+                        max-[747px]:max-w-[336px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer"
             >
@@ -252,8 +255,8 @@ const RADStudioHere = () => {
               />
               <p
                 className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
-                max-[1024px]:text-[22px]
-                            max-[744px]:text-[20px]"
+                max-[1024px]:text-[22px] max-[747px]:font-medium
+                            max-[747px]:text-[20px]"
               >
                 Android
               </p>
@@ -261,7 +264,7 @@ const RADStudioHere = () => {
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070] 
                 max-[1024px]:text-[20px]
-                            max-[744px]:text-[18px] max-[376px]:text-center"
+                            max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Support for the latest Android Level 32 API and latest Billing
                 APIs, and migration to use the AndroidX libraries. Android

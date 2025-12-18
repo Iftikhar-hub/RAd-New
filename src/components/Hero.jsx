@@ -8,14 +8,15 @@ const Hero = () => {
       className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]  mx-auto overflow-x-clip 
 
         max-[747px]:mt-[48px]
+        max-[747px]:gap-[80px]
          
         max-[747px]:max-w-[744px] 
         max-[377px]:max-w-[375px] max-[377px]:gap-[80px] "
     >
       <div
-        className="hero-container relative opacity-100 flex flex-col justify-center items-center 
+        className="hero-container  relative opacity-100 flex flex-col justify-center items-center 
              max-w-[434px] w-full h-auto gap-[24px]  z-10
-             max-[744px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
+             max-[747px]:max-w-[434px] max-[744px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
       >
         <div className="hero-container-1 flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
@@ -32,7 +33,8 @@ const Hero = () => {
             className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-normal text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
             max-[425px]:px-[20px]
             max-[375px]:px-[10px]
-            max-[377px]:text-[18px]"
+            max-[377px]:text-[18px]
+            max-[747px]:text-[18px] "
           >
             Build Apps 5x Faster With One Codebase for Windows, Android, iOS,
             macOS, and Linux.
@@ -46,7 +48,7 @@ const Hero = () => {
                 max-[425px]:w-[86%]
                 max-[377px]:max-w-[370px] max-[377px]:w-full max-[377px]:mx-0 max-[377px]:px-[16px]
                 "
-         >
+        >
           <div
             className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] 
 
@@ -83,20 +85,23 @@ const Hero = () => {
       </div>
 
       <div
-        className="heroPicture w-[1274px]  h-[712px] relative
+        className="heroPicture w-full max-w-[1279px]  h-[712px] relative
             z-10 
-            max-[1441px]:w-full 
+            max-[1441px]:w-full max-[1370px]:px-[40px]
             
-              max-[1441px]:px-[40px] max-[1230px]:px-[10px]
+            
+              
 
                max-[1024px]:w-full 
               max-[1440px]:w-full max-[900px]:h-[886px] max-[1440px]:gap-[64px]
                
 
-             
+             max-[768px]:px-0
+             max-[744px]:px-[10px]
+             max-[744px]:px-[20px]
 
-              max-[744px]:max-w-[695px] max-[747px]:h-min
-              max-[744px]:gap-[48px]
+              max-[747px]:max-w-[695px] max-[747px]:h-min max-[747px]:w-full
+              max-[747px]:gap-[48px]
               max-[425px]:max-w-[393px]
               max-[377px]:w-full "
       >
@@ -112,7 +117,11 @@ const Hero = () => {
             />
 
             <div className="absolute inset-0 bg-black/80 flex justify-center items-center rounded-[16px]">
-              <img src={playbutton} alt="Play" className="w-10 h-10 max-[377px]:w-[23px] max-[377px]:h-[23px]" />
+              <img
+                src={playbutton}
+                alt="Play"
+                className="w-10 h-10 max-[377px]:w-[23px] max-[377px]:h-[23px] max-[747px]:w-[46.19px] max-[747px]:h-[46.44px] "
+              />
             </div>
           </div>
 
@@ -130,12 +139,12 @@ const Hero = () => {
         </div>
 
         <div
-          className="heroLower w-[96%] mx-auto  rounded-[16px] border border-[#e5e5e5] py-[24px] px-[32px]   
+          className="heroLower w-[100%] mx-auto  rounded-[16px] border border-[#e5e5e5] py-[24px] px-[32px]   
                     gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
                     
-                     max-[1024px]:w-[95%] max-[1024px]:mx-auto
+                      max-[1024px]:mx-auto
 
-                    max-[744px]:max-w-[695px]  max-[744px]:gap-[32px]
+                    max-[747px]:max-w-[695px]  max-[744px]:gap-[32px]
 
                     max-[600px]:mx-auto max-[600px]:flex-col
                     max-[600px]:p-[16px]

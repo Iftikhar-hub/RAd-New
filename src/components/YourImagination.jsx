@@ -121,6 +121,7 @@ const YourImagination = () => {
     max-[1440px]:max-w-[1280px] max-[1440px]:gap-[48px]
     max-[1024px]:max-w-[1024px]
     max-[768px]:max-w-[768px] max-[768px]:items-center
+    
 
     max-[746px]:max-w-[744px] max-[746px]:gap-[48px] max-[746px]:mt-[80px] max-[746px]:items-center
     max-[746px]:overflow-x-hidden
@@ -138,7 +139,7 @@ const YourImagination = () => {
       </div>
 
       <div
-        className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1441px]:px-[30px] max-[1441px]:w-[95%] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px] 
+        className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1441px]:px-[30px] max-[1441px]:w-[95%] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px]  max-[768px]:px-0
       max-[746px]:w-[95%] max-[746px]:gap-[24px] max-[376px]:w-[100%] max-[376px]:h-auto
       max-[377px]:mx-0 max-[377px]:px-[16px]"
       >
@@ -148,6 +149,7 @@ const YourImagination = () => {
 
         max-[1024px]:overflow-x-scroll 
         max-[1024px]:overflow-y-hidden max-[1024px]:max-w-[900px] max-[1024px]:w-full max-[1024px]:h-[80px] max-[1024px]:justify-start max-[1024px]:items-center
+        
 
         max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden max-[768px]:max-w-[760px] max-[768px]:w-full max-[768px]:h-[60px] max-[768px]:justify-start max-[768px]:items-center max-[768px]:py-[35px]
         
@@ -201,7 +203,7 @@ const YourImagination = () => {
                max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[376px]:px-[32px]
                max-[425px]:rounded-[12px] "
-             >
+            >
               <img
                 className="IgnitPic max-w-[482px] h-[394px] max-[425px]:max-w-[297px]  max-[376px]:max-w-[247px] max-[425px]:h-[188px] 
                 max-[600px]:h-[300px]"
