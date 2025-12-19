@@ -275,7 +275,8 @@ const RADStudioHere = () => {
               </p>
             </div>
 
-            <div className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[86px]  left-[-400px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px]"></div>
+            <div className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[86px]  left-[-400px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px] 
+            max-[747px]:top-[296px] max-[747px]:left-[-81px] max-[747px]:blur-[213px]"></div>
 
             <div className="elip-4 w-full max-w-[644px] h-[644px]  absolute top-[283px]  left-[1552px] opacity-[10%] border border-white bg-[#6366F1] blur-[100px] "></div>
           </div>

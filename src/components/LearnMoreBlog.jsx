@@ -53,6 +53,7 @@ const LearnMoreBlog = () => {
           className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
             max-[1440px]:left-[232px]
             max-[746px]:text-[36px] max-[746px]:left-[54px]
+            max-[630px]:px-[20px]
             max-[425px]:text-[30px]
             max-[376px]:text-[30px] max-[377px]:leading-[140%]
             "
@@ -493,7 +494,7 @@ const LearnMoreBlog = () => {
 
         <img
           className="max-w-[60px] w-full h-[80px] absolute top-[-1px] right-[300px] max-[1440px]:right-[149px]
-            max-[1550px]:hidden
+            max-[1441px]:right-[150px] max-[1441px]:
             max-[746px]:hidden"
           src={MLB_Arrow}
           alt="MLB_Arrow"
@@ -723,6 +724,7 @@ const LearnMoreBlog = () => {
         <div
           className="LMB_content_1 w-full hidden  max-w-[1540px] gap-[100px] mx-auto z-10  
                  flex  mt-[90px]   max-[544px]:block 
+                 max-[544px]:px-[25px]
                   
                  
                  max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]

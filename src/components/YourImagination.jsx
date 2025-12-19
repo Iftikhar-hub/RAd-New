@@ -120,6 +120,7 @@ const YourImagination = () => {
   return (
     <section
       className="Your-Imagination flex flex-col w-[100%] gap-[48px] ml-auto mr-auto mt-[128px] 
+
     max-[1440px]:max-w-[1280px] max-[1440px]:gap-[48px]
     max-[1024px]:max-w-[1024px]
     max-[768px]:max-w-[768px] max-[768px]:items-center
@@ -135,8 +136,10 @@ const YourImagination = () => {
           Ignite
           <span
             className="Imagination-s1 font-archivo font-semibold text-[48px] leading-[57.6px] tracking-[-1px] 
+           
+          bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)]
 
-          bg-[linear-gradient(0deg,_#262626,_#262626)] bg-[linear-gradient(77.72deg,_#FE3B76_51.97%,_rgba(254,59,118,0.8)_63.95%,_rgba(41,49,221,0.8)_76.53%,_#2931DD_90.31%)]
+          max-[747px]:bg-[linear-gradient(0deg,_#262626,_#262626)] max-[747px]:bg-[linear-gradient(77.72deg,_#FE3B76_51.97%,_rgba(254,59,118,0.8)_63.95%,_rgba(41,49,221,0.8)_76.53%,_#2931DD_90.31%)]
 
 
            bg-clip-text text-transparent max-[747px]:text-[36px] max-[747px]:font-medium"
@@ -148,8 +151,10 @@ const YourImagination = () => {
       </div>
 
       <div
-        className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1441px]:px-[30px] max-[1441px]:w-[95%] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] max-[768px]:gap-[24px]  max-[768px]:px-0
-      max-[746px]:w-[95%] max-[746px]:gap-[24px] max-[376px]:w-[100%] max-[376px]:h-auto
+        className="Imagination-Container flex flex-col items-center mx-auto px-[196px] w-full max-w-[1920px] max-[1441px]:px-[30px] max-[1441px]:w-[95%] max-[1440px]:gap-[32px] max-[768px]:max-w-[718px] 
+        
+        max-[768px]:gap-[24px]  max-[768px]:px-0
+       max-[746px]:w-[95%]  max-[376px]:w-[100%] max-[376px]:h-auto
       max-[377px]:mx-0 max-[377px]:px-[16px]"
       >
         <div
@@ -194,9 +199,11 @@ const YourImagination = () => {
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.4, ease: "easeInOut" }}
             className="ImaginationHero flex justify-center items-center mx-auto w-full max-w-[1920px] rounded-[16px] mt-[32px] z-10
-            max-[1441px]:w-[96%] max-[144px]:h-auto max-[1440px]:gap-[32px]
+
+            max-[1441px]:w-[96%] max-[144px]:h-auto max-[1441px]:gap-[32px]
+
             max-[1024px]:flex-col max-[1024px]:max-w-[974px]
-            max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-   [768px]:justify-center max-[768px]:gap-[0px]
+            max-[747px]:mt-0            max-[768px]:max-w-[718px] max-[768px]:h-auto max-[768px]:flex-col max-[768px]:items-center max-   [768px]:justify-center max-[768px]:gap-[0px]
 
             max-[746px]:w-full max-[746px]:h-auto max-[746px]:flex-col max-[746px]:items-center max-   [744px]:justify-center max-[746px]:gap-[0px]
             max-[425px]:max-w-[393px] max-[376px]:max-w-[343px] max-[377px]:mt-[0px]"
@@ -204,10 +211,15 @@ const YourImagination = () => {
             <div
               className="IPicture flex flex-row items-center justify-center w-full max-w-[883px] h-[740px] 
                 p-[48px] bg-[#CECECE33] 
-               max-[1440px]:max-w-[733px] rounded-tl-[12px] rounded-bl-[12px]
+
+               max-[1441px]:max-w-[733px] rounded-tl-[12px] rounded-bl-[12px] max-[1441px]:h-[864px]
+               max-[1441px]:
+
                max-[1024px]:max-w-[1024px] max-[1024px]:h-auto
+
                max-[746px]:max-w-[696px] max-[746px]:rounded-tl-xl max-[746px]:rounded-tr-xl
                max-[746px]:rounded-bl-[0px]
+               
                 max-[746px]:h-[460px] max-[746px]:p-[64px]
                max-[425px]:max-w-[393px] max-[425px]:h-[240px] max-[425px]:py-[48px] max-[425px]:px-[32px]
                max-[375px]:max-w-[343px] max-[375px]:h-[240px] max-[375px]:py-[48px] max-[376px]:px-[32px]
@@ -223,30 +235,38 @@ const YourImagination = () => {
 
             <div
               className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 
-              max-[1440px]:max-w-[547px] max-[1440px]:h-auto max-[1440px]:gap-[56px] max-[1440px]:py-[58px]  max-[1440px]:px-[32px] max-[747px]:overflow-hidden
 
-              max-[747px]:max-w-[696px] max-[746px]:gap-[16px] max-[377px]:max-w-[343px]
+              max-[1441px]:max-w-[547px] max-[1441px]:h-auto max-[1441px]:gap-[56px] max-[1441px]:py-[58px]  max-[1441px]:px-[32px] 
+              
+              max-[747px]:overflow-hidden
+              max-[747px]:p-[32px]
+
+              max-[747px]:max-w-[696px] max-[746px]:gap-[16px] 
+              
+              max-[377px]:max-w-[343px]
               max-[1024px]:max-w-[1024px] max-[377px]:pt-[24px] max-[377px]:px-[24px]
               max-[747px]:rounded-bl-[16px]
               max-[747px]:rounded-br-[16px] max-[747px]:pb-[32px]"
             >
               <div
                 className="Icontent-1 flex flex-col w-full max-w-[589px] h-auto gap-[29px] 
+                
                 max-[1440px]:max-w-[483px] max-[1440px]:h-auto max-[1440px]:gap-[24px]
-                max-[746px]:max-w-[632px] max-[746px]:h-auto max-[746px]:items-center
+
+                max-[746px]:max-w-[632px] max-[746px]:h-auto max-[746px]:items-start
                max-[425px]:max-w-[295px] z-10 max-[377px]:gap-[24px]
                max-[345px]:h-auto max-[377px]:w-full max-[377px]:h-auto max-[377px]:max-w-[343px]
                 max-[1024px]:max-w-[900px]"
               >
                 <p
                   className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717] 
-              max-[746px]:text-[24px]
+              max-[747px]:text-[24px]
               max-[377px]:text-[24px] max-[377px]:leading-[32px]"
                 >
                   {currentTab?.title}
                 </p>
                 <div
-                  className="ipTag-1 list-disc pl-5 flex flex-col max-w-[589px] h-auto gap-[24px] max-[1440px]:gap-[24px] 
+                  className="ipTag-1 list-disc pl-5 flex flex-col  h-auto gap-[24px] max-[1440px]:gap-[24px] 
                   max-[376px]:w-[100%] 
                   "
                 >

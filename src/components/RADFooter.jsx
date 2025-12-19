@@ -15,6 +15,10 @@ const RADFooter = () => {
         max-[744px]:max-[744px] max-[744px]:px-4 max-[744px]:h-[930px] 
         max-[747px]:overflow-x-clip max-[747px]:pb-[7px]
 
+        max-[747px]:h-auto
+
+        max-[747px]:justify-center max-[747px]:items-center max-[747px]:gap-[40px]
+
         max-[425px]:max-w-[425px] max-[425px]:w-full
         max-[375px]:max-w-[375px] max-[375px]:w-full"
     >
@@ -189,7 +193,7 @@ const RADFooter = () => {
             <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
               DE: +49 (0)6103-3866-100
             </p>
-            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer">
+            <p className="FCR_p2 font-archivo font-normal text-[16px] leading-[16px] tracking-[0px] text-[#4B5563] cursor-pointer max-[600px]:text-[15px] max-[560px]:text-[14px]">
               info@embarcadero.com
             </p>
           </div>
