@@ -38,7 +38,7 @@ const LearnMoreBlog = () => {
         className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto
          max-[1441px]:max-w-[1440px] max-[1441px]:px-[30px]   max-[1440px]:gap-[80px] px-[196px]
           
-
+        max-[747px]:mt-[80px]
          max-[768px]:px-0
           max-[746px]:gap-[64px]
 
@@ -363,17 +363,21 @@ const LearnMoreBlog = () => {
             </div>
           </div>
 
-          <div className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4]"></div>
+          <div className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4] max-[747px]:top-[353px] max-[747px]:left-[-295px] max-[747px]:blur-[500px]  "></div>
 
           <div
             className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-606px]  right-[-267px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4]
           max-[377px]:top-[-165px] max-[377px]:right-[160px] max-[377px]:blur-[200px]"
           ></div>
+          <div
+            className="hidden elip-9n w-full max-w-[497px] h-[497px]  absolute top-[710px]  right-[-258px] opacity-[10%] border border-white blur-[500px] bg-[#6366F1] max-[747px]:block max-[425px]:hidden
+             max-[747px]:opacity-[3%]"
+          ></div>
 
           <div
-            className="elip-10 hidden max-[377px]:block w-full max-w-[869px] h-[869px]  absolute 
+            className="elip-10n hidden max-[747px]:block max-[377px]:block w-full max-w-[869px] h-[869px]  absolute 
             top-[721px]  right-[6px] opacity-[10%] border border-white blur-[300px] bg-[#E11D48]
-          "
+             max-[747px]:bg-[#DC2626] max-[747px]:max-w-[650px] max-[747px]:h-[650px] max-[747px]:top-[1408px] max-[747px]:right-[-318px] max-[747px]:blur-[500px]"
           ></div>
         </div>
 
@@ -427,10 +431,11 @@ const LearnMoreBlog = () => {
               3 Main C++ Compiler Tips to Develop Successful Apps
             </p>
 
-            <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
+            <div className="LMB_ReadMore flex flex-row w-full max-w-[134px] gap-[8px] max-[747px]:gap-0">
               <p
                 className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10 max-[747px]:underline decoration-[#525252] max-[747px]:text-[#262626]
+                           underline-offset-2"
               >
                 Read More
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -470,7 +475,8 @@ const LearnMoreBlog = () => {
             <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
               <p
                 className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10 max-[747px]:underline decoration-[#525252] max-[747px]:text-[#262626]
+                           underline-offset-2"
               >
                 Read More
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -546,7 +552,8 @@ const LearnMoreBlog = () => {
             <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
               <p
                 className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10  max-[747px]:underline decoration-[#525252] max-[747px]:text-[#262626]
+                           underline-offset-2"
               >
                 Read More
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -586,7 +593,8 @@ const LearnMoreBlog = () => {
             <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
               <p
                 className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10  max-[747px]:underline decoration-[#525252] max-[747px]:text-[#262626]
+                           underline-offset-2"
               >
                 Read More
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -655,7 +663,8 @@ const LearnMoreBlog = () => {
             <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
               <p
                 className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10  max-[747px]:underline decoration-[#525252] max-[747px]:text-[#262626]
+                           underline-offset-2"
               >
                 Read More
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -695,7 +704,8 @@ const LearnMoreBlog = () => {
             <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
               <p
                 className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10  max-[747px]:underline decoration-[#525252] max-[747px]:text-[#262626]
+                           underline-offset-2"
               >
                 Read More
                 <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>

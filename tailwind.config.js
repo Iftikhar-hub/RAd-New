@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-       archivo: ["Archivo", "sans-serif"],
+        archivo: ["Archivo", "sans-serif"],
+        figtree: ['Figtree'],
       },
       screens: {
         '3xl': '1920px',   

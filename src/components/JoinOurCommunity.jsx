@@ -74,7 +74,7 @@ const JoinOurCoummunity = () => {
                 max-[1441px]:block 
                 
                 
-                
+                max-[747px]:hidden
                     max-[766px]:text-[34px]
                         max-[1150px]:text-[36px] 
                         
@@ -85,7 +85,7 @@ const JoinOurCoummunity = () => {
                 <span
                   className="JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px]  bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
                   
-                    max-[766px]:text-[34px]
+                    max-[766px]:text-[34px] max-[747px]:hidden
                        max-[1150px]:text-[36px] 
                     
                        max-[425px]:text-[32px]
@@ -97,9 +97,12 @@ const JoinOurCoummunity = () => {
               <span
                 className=" hidden JOC_developer font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px]  bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)] bg-clip-text text-transparent pl-[5px]
                   max-[1441px]:block
+                  max-[747px]:hidden
                   max-[425px]:hidden
                     max-[766px]:text-[34px]
                        max-[1150px]:text-[36px] 
+                      
+
                     
                        max-[425px]:text-[32px]
                        max-[376px]:text-[27px]"
@@ -110,9 +113,10 @@ const JoinOurCoummunity = () => {
               <p
                 className="hidden JOC_JoinOur font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-neutral-800 text-center
                     
-                        max-[800px]:text-[36px] 
+                        max-[747px]:text-[36px] 
+
                         
-                        max-[425px]:block max-[425px]:text-[32px]
+                        max-[747px]:block max-[425px]:text-[32px]
                         max-[377px]:text-[30px]"
               >
                 Join Our
@@ -121,8 +125,11 @@ const JoinOurCoummunity = () => {
 
                   max-[377px]:bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)]
 
+                  
+
+
                     
-                       max-[800px]:text-[36px] 
+                       max-[747px]:text-[36px] 
                     
                        max-[425px]:text-[32px]
                        max-[377px]:text-[30px]"
@@ -163,6 +170,7 @@ const JoinOurCoummunity = () => {
             <button
               className="Btn_Subs w-full cursor-pointer max-w-[121px] h-[52px] px-[24px] py-[14px] rounded-[8px] bg-[#262626] shadow-[0_4px_32px_0_#FF5E651A] font-medium text-[16px] leading-[24px] tracking-[0px] text-white flex items-center justify-center gap-[10px]
                     max-[1440px]:max-w-[122px] max-[1440px]:h-[48px]
+                    max-[747px]:max-w-[121px] font-figtree
                     max-[425px]:max-w-[393px]
                     max-[375px]:max-w-[343px] hover:bg-[#565454] max-[377px]:h-[52px]"
               type="button"
@@ -173,7 +181,8 @@ const JoinOurCoummunity = () => {
 
           <div
             className="elip-j11 w-full max-w-[869px] h-[869px]  absolute bottom-[-692px]  
-          right-[181px] opacity-[10%] border border-white -z-20 blur-[500px]  bg-[#E11D48]"
+          right-[181px] opacity-[10%] border border-white -z-20 blur-[500px]  bg-[#E11D48]
+          max-[747px]:top-[158px] max-[747px]:right-[120px] max-[747px]:opacity-[3%]"
           ></div>
         </div>
 

@@ -13,7 +13,7 @@ const RADFooter = () => {
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
         max-[744px]:max-[744px] max-[744px]:px-4 max-[744px]:h-[930px] 
-        max-[747px]:overflow-x-clip
+        max-[747px]:overflow-x-clip max-[747px]:pb-[7px]
 
         max-[425px]:max-w-[425px] max-[425px]:w-full
         max-[375px]:max-w-[375px] max-[375px]:w-full"
@@ -22,7 +22,7 @@ const RADFooter = () => {
         className="Footer_Content  flex flex-row justify-between w-full  mx-auto h-[342px] gap-[32px]
             max-[1441px]:max-w-[1280px] max-[1441px]:flex-col max-[1441px]:h-auto max-[1441px]:gap-[24px]
             max-[768px]:max-w-[718px]  max-[768px]:gap-[48px]
-            max-[744px]:max-w-[695px]  max-[744px]:gap-[48px]
+            max-[747px]:max-w-[695px]  max-[747px]:gap-[40px]
             "
       >
         <div
@@ -359,8 +359,9 @@ const RADFooter = () => {
         className="Bottom_Footer w-full py-5 mx-auto h-[24px] flex justify-between items-center mt-[180px]
                 max-[1441px]:max-w-[1280px] max-[1441px]:h-[24px] max-[1441px]:gap[32px]
                 max-[1441px]:mt-[40px]
+                max-[747px]:mt-0
 
-                max-[747px]:pb-[0px]
+                max-[747px]:py-[0px]
                
                 max-[768px]:max-w-[718px]
 

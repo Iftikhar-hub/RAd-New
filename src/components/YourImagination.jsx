@@ -109,6 +109,8 @@ const dataTab = [
 
 
 
+
+
 const YourImagination = () => {
   const [activeTab, setActiveTab] = useState("Design");
   
@@ -123,8 +125,8 @@ const YourImagination = () => {
     max-[768px]:max-w-[768px] max-[768px]:items-center
     
 
-    max-[746px]:max-w-[744px] max-[746px]:gap-[48px] max-[746px]:mt-[80px] max-[746px]:items-center
-    max-[746px]:overflow-x-hidden
+    max-[747px]:max-w-[744px] max-[746px]:gap-[48px] max-[747px]:mt-[80px] max-[747px]:items-center
+    max-[747px]:overflow-x-hidden
     max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:mt-[80px]
     max-[376px]:w-[100%] max-[375px]:h-auto max-[375px]:mt-[80px]"
     >

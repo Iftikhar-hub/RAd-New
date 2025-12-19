@@ -43,7 +43,8 @@ const Header = () => {
             max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
             max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
             max-[325px]:text-[10px]
-            max-[377px]:font-light  max-[713px]:hidden"
+            max-[377px]:font-light    max-[713px]:hidden
+            max-[1313px]:hidden max-[1229px]:block max-[1201px]:hidden max-[1200px]:block max-[1147px]:hidden max-[1060px]:block"
             >
               See what’s new in
               <span
@@ -51,8 +52,9 @@ const Header = () => {
                 max-[460px]:text-[16px] max-[435px]:text-[15px]
                 [378px]:text-[13px] max-[353px]:text-[12px]
                max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
-               max-[514px]:text-[17px] max-[747px]:text-[14px]  max-[747px]:font-median
-               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-median"
+               max-[514px]:text-[17px] 
+               max-[747px]:text-[14px]  max-[747px]:font-medium
+               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-medium"
               >
                 Delphi, C++ Builder, and RAD Studio Wacth the Reply
               </span>
@@ -65,7 +67,8 @@ const Header = () => {
             max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
             max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
             max-[325px]:text-[10px]
-            max-[377px]:font-light hidden max-[713px]:block"
+            max-[377px]:font-light hidden max-[713px]:block
+             max-[1313px]:block max-[1229px]:hidden max-[1201px]:block max-[1200px]:hidden max-[1147px]:block max-[1060px]:hidden"
             >
               See what’s new in
               <span
@@ -73,8 +76,8 @@ const Header = () => {
                 max-[460px]:text-[16px] max-[435px]:text-[15px]
                 [378px]:text-[13px] max-[353px]:text-[12px]
                max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
-               max-[514px]:text-[17px] max-[747px]:text-[14px]  max-[747px]:font-median
-               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-median"
+               max-[514px]:text-[17px] max-[747px]:text-[14px]  max-[747px]:font-medium
+               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-medium"
               >
                 Delphi, C++ Builder, and RAD Studio
               </span>

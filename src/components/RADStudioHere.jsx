@@ -18,7 +18,7 @@ const RADStudioHere = () => {
         [1440px]:max-w-[1280px] max-[1440px]:mt-[128px]
         max-[1024px]:mt-auto
         
-       max-[745px]:gap-[48px]
+       max-[747px]:gap-[48px]
        max-[747px]:mt-[80px]
         
         max-[425px]:w-[100%] max-[425px]:gap-[48px] max-[425px]:mt-[80px] 
@@ -102,7 +102,7 @@ const RADStudioHere = () => {
                       max-[768px]:gap-[48px]
 
                       max-[747px]:max-w-[696px] max-[747px]:grid max-[747px]:grid-cols-2
-                      max-[747px]:gap-[48px] 
+                      max-[747px]:gap-[24px] 
                       max-[720px]:px-[20px]
                       max-[377px]:px-0
 
