@@ -63,7 +63,7 @@ const Hero = () => {
                 "
         >
           <div
-            className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px] 
+            className="bg-[#171717] btn-1 flex w-full max-w-[189px] h-[48px] rounded-[10px] py-[12px] px-[24px] gap-[8px]  z-100
 
               max-[425px]:max-w-[393px] 
                     justify-center items-center max-[375px]:px-[0px]
@@ -88,10 +88,10 @@ const Hero = () => {
           <button
             type="secondary"
             className="w-[229px] h-[48px] gap-2 border border-solid rounded-[10px]  px-4
-       max-[747px]:px-6 py-3 opacity-100 max-[425px]:max-w-[393px]  max-[375px]:max-w-[343px] w-full max-w-[229px]
+       max-[747px]:px-5 py-3 opacity-100 max-[425px]:max-w-[393px]  max-[375px]:max-w-[343px] w-full max-w-[229px]
        max-[462px]:px-[0px] text-[16px]
 
-              font-archivo cursor-pointer font-medium max-[747px]:text-[15px] leading-[24px] text-[#171717]
+              font-archivo cursor-pointer font-medium max-[747px]:text-[16px] leading-[24px] text-[#171717]
                  hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
                     hover:bg-clip-text hover:text-transparent max-[377px]:text-[16px]"
           >
@@ -122,7 +122,7 @@ const Hero = () => {
               max-[425px]:max-w-[393px]
               max-[377px]:w-full "
       >
-        <div className="relative  w-full mx-auto   z-100 max-[377px]:mx-auto">
+        <div className="relative  w-full mx-auto   z-100 max-[377px]:mx-auto ">
           <div
             className="md:hidden w-full max-[377px]:max-w-[343px] aspect-video max-[377px]:mx-auto relative 
              "
@@ -133,7 +133,10 @@ const Hero = () => {
               className="w-full h-full object-cover  rounded-[16px]"
             />
 
-            <div className="absolute inset-0 bg-black/80 flex justify-center items-center rounded-[16px] z-[100]">
+            <div
+              className="absolute inset-0 bg-black/80 backdrop-blur-[2px] shadow-[0px_3.12px_4.68px_0px_#00000026] flex justify-center items-center rounded-[16px] z-[100] 
+"
+            >
               <img
                 src={playbutton}
                 alt="Play"
@@ -224,7 +227,12 @@ const Hero = () => {
         <div
           className="MSE_1 hidden w-full max-w-[765px] h-[765px]  absolute top-[-670px]  
           left-[-121px] opacity-[10%] border border-white blur-[500px] bg-[#3B82F6] -z-10
-          max-[1024px]:block"
+          max-[435px]:block"
+        ></div>
+        <div
+          className="MSE_1new hidden w-full max-w-[906px] h-[906px]  absolute top-[-350px]  
+          left-[-47px] opacity-[10%] border border-white blur-[150px] bg-[#06B6D4] -z-10
+          max-[747px]:block max-[425px]:hidden"
         ></div>
 
         <div
@@ -234,9 +242,14 @@ const Hero = () => {
         ></div>
 
         <div
-          className="MSE_2 hidden w-full max-w-[869px] h-[869px]  absolute top-[-140px]  
-          left-[458px] opacity-10 border border-white blur-[100px] bg-[#E11D48] 
-          max-[1024px]:block max-[377px]:hidden"
+          className="MSE_2 hidden w-full max-w-[869px] h-[869px]  absolute top-[-471px]  
+          left-[228px] opacity-[10%] border border-white blur-[270px] bg-[#E11D48] 
+          max-[747px]:block max-[377px]:hidden"
+        ></div>
+        <div
+          className="MSE_2po hidden w-full max-w-[869px] h-[869px]  absolute top-[-89px]  
+          left-[458px] opacity-[10%] border border-white blur-[200px] bg-[#F43F5E] 
+          max-[747px]:block max-[377px]:hidden"
         ></div>
 
         <div

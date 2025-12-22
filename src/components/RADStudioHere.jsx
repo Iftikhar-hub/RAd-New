@@ -110,7 +110,7 @@ const RADStudioHere = () => {
           >
             <div
               className="row1-1 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
-                        max-[747px]:max-w-[336px]
+                        max-[747px]:max-w-[336px] max-[747px]:gap-[16px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer max-[377px]:mx-auto"
             >
@@ -119,6 +119,7 @@ const RADStudioHere = () => {
                 alt="codeBase"
                 className="max-w-[48px] h-[48px]"
               />
+
               <p
                 className=" font-archivo font-semibold text-[28px] leading-[33.6px] tracking-[-4%] text-[#222222]
                 max-[1024px]:text-[22px] max-[747px]:font-medium
@@ -128,7 +129,7 @@ const RADStudioHere = () => {
               </p>
 
               <p
-                className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
+                className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070] max-[747px]:mt-[-10px] max-[377px]:mt-[0px]
                 max-[1024px]:text-[20px]
                             max-[747px]:text-[18px] max-[376px]:text-center"
               >
@@ -139,7 +140,7 @@ const RADStudioHere = () => {
 
             <div
               className="row1-2 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
-                        max-[747px]:max-w-[336px]
+                        max-[747px]:max-w-[336px] max-[747px]:gap-[16px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer max-[377px]:mx-auto"
             >
@@ -158,7 +159,7 @@ const RADStudioHere = () => {
 
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070] 
-                max-[1024px]:text-[20px]
+                max-[1024px]:text-[20px] max-[747px]:mt-[-10px] max-[377px]:mt-[0px]
                             max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 VCL Styles with design-time support: Prototype stylish UIs even
@@ -169,7 +170,7 @@ const RADStudioHere = () => {
 
             <div
               className="row1-3 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
-                        max-[747px]:max-w-[336px]
+                        max-[747px]:max-w-[336px] max-[747px]:gap-[16px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer max-[377px]:mx-auto"
             >
@@ -184,7 +185,7 @@ const RADStudioHere = () => {
 
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
-                max-[1024px]:text-[20px]
+                max-[1024px]:text-[20px] max-[747px]:mt-[-10px] max-[377px]:mt-[0px]
                             max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Develop both server and FireMonkey GUI applications for Linux.
@@ -195,7 +196,7 @@ const RADStudioHere = () => {
 
             <div
               className="row2-1 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
-                        max-[747px]:max-w-[336px]
+                        max-[747px]:max-w-[336px] max-[747px]:gap-[16px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer max-[377px]:mx-auto"
             >
@@ -214,7 +215,7 @@ const RADStudioHere = () => {
 
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
-                max-[1024px]:text-[20px]
+                max-[1024px]:text-[20px] max-[747px]:mt-[-10px] max-[377px]:mt-[0px]
                             max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Modernize VCL apps for Windows 11 with up-to-date user interface
@@ -223,7 +224,7 @@ const RADStudioHere = () => {
             </div>
             <div
               className="row2-2 flex flex-col max-w-[403.33px] gap-[24px] rounded-[24px]
-                        max-[747px]:max-w-[336px]
+                        max-[747px]:max-w-[336px] max-[747px]:gap-[16px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer max-[377px]:mx-auto"
             >
@@ -238,7 +239,7 @@ const RADStudioHere = () => {
 
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070]
-                max-[1024px]:text-[20px]
+                max-[1024px]:text-[20px] max-[747px]:mt-[-10px] max-[377px]:mt-[0px]
                             max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Completely rebuilt Welcome Page with a native look and feel, and
@@ -247,7 +248,7 @@ const RADStudioHere = () => {
             </div>
             <div
               className="row2-3 flex flex-col max-w-[403.33px]  gap-[24px] rounded-[24px]
-                        max-[747px]:max-w-[336px]
+                        max-[747px]:max-w-[336px] max-[747px]:gap-[16px]
                         max-[376px]:justify-center max-[376px]:items-center max-[376px]:gap-[16px]
                         cursor-pointer max-[377px]:mx-auto"
             >
@@ -266,7 +267,7 @@ const RADStudioHere = () => {
 
               <p
                 className=" font-archivo font-normal text-[20px] leading-[30px] tracking-normal text-[#707070] 
-                max-[1024px]:text-[20px]
+                max-[1024px]:text-[20px] max-[747px]:mt-[-10px] max-[377px]:mt-[0px]
                             max-[747px]:text-[18px] max-[376px]:text-center"
               >
                 Support for the latest Android Level 32 API and latest Billing
@@ -275,12 +276,14 @@ const RADStudioHere = () => {
               </p>
             </div>
 
-            <div className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[86px]  left-[-400px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px] 
+            <div
+              className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[86px]  left-[-400px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px] 
 
             max-[1441px]:top-[-162px] max-[1441px]:left-[-353px]
 
 
-            max-[747px]:top-[296px] max-[747px]:left-[-81px] max-[747px]:blur-[213px]"></div>
+            max-[747px]:top-[296px] max-[747px]:left-[-81px] max-[747px]:blur-[213px]"
+            ></div>
 
             <div className="elip-4 w-full max-w-[644px] h-[644px]  absolute top-[283px]  left-[1552px] opacity-[10%] border border-white bg-[#6366F1] blur-[100px] "></div>
           </div>

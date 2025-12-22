@@ -168,14 +168,14 @@ const YourImagination = () => {
         max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden max-[768px]:max-w-[760px] max-[768px]:w-full max-[768px]:h-[60px] max-[768px]:justify-start max-[768px]:items-center max-[768px]:py-[35px]
         
          max-[746px]:w-auto max-[746px]:h-[68px] max-[746px]:overflow-x-scroll max-[746px]:overflow-y-hidden max-[746px]:justify-start max-[746px]:items-center max-[746px]:py-[35px]
-        max-[377px]:w-[375px]"
+        max-[377px]:w-[375px] "
         >
           {dataTab.map((tab) => (
             <a
               key={tab.name}
               onClick={() => setActiveTab(tab.name)}
               className={`cursor-pointer flex flex-row max-w-[217.14px] h-[57px] py-[14px] px-[24px] rounded-[12px] justify-center items-center font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-center whitespace-nowrap
-               
+               max-[747px]:px-[21px] max-[425px]:px-[24px]
                  max-[747px]:max-w-[154px] max-[747px]:h-[52px] max-[747px]:text-[20px] group relative
                    ${
                      activeTab === tab.name
@@ -294,9 +294,18 @@ const YourImagination = () => {
                   </p>
                 </div>
               </div>
-              <p className="ipReadMore hidden relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:block max-[400px]:hidden">
+              <p
+                className="ipReadMore hidden relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 
+                bg-[linear-gradient(77.38deg,_#FE3B76_9.15%,_#AF29CE_49.65%,_#2931DD_90.16%,_#2931DD_90.16%)]
+
+                bg-clip-text text-transparent max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:block max-[400px]:hidden
+              "
+              >
                 Read More
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
+                <span
+                  className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]
+                max-[747px]:w-[14%] max-[747px]:h-[1px] max-[747px]:bottom-[5px] max-[747px] max-[747px]:bg-[linear-gradient(77.38deg,_#FE3B76_9.15%)]"
+                ></span>
               </p>
 
               <div
@@ -311,7 +320,7 @@ const YourImagination = () => {
                 >
                   Download RAD Studio Feature Matrix
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
-                  <span className="absolute left-0  bottom-[4px] h-[1px] w-full bg-[#262626] "></span>
+                  <span className="max-[377px]:hidden absolute left-0  bottom-[4px] h-[1px] w-full bg-[#262626] "></span>
                 </p>
                 <img
                   className="cloudImage cursor-pointer w-full max-w-[28px] h-[28px]"

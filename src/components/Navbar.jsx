@@ -154,14 +154,14 @@ const Navbar = () => {
                   max-[1200px]:justify-end
 
                   
-                  max-[747px]:max-w-[370px]  max-[747px]:items-center max-[747px]:flex max-[747px]:flex-row  max-[747px]:gap-[24px] 
+                  max-[747px]:max-w-[370px]  max-[747px]:items-center max-[747px]:flex max-[747px]:flex-row  max-[747px]:gap-[8px] 
                   max-[600px]:gap-[15px]
-                
+                max-[500px]:gap-[24px] 
                   max-[425px]:justify-end"
         >
           <button
             className="btn cursor-pointer w-full max-w-[76px] h-[38px] rounded-lg py-[8px] px-[11px] gap-[10px]
-                    max-[425px]:hidden
+                    max-[500px]:hidden
                     hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
                     hover:bg-clip-text hover:text-transparent"
             type="button"
@@ -197,7 +197,10 @@ const Navbar = () => {
             "
           /> */}
           {/* Humbergur mobile view */}
-          <div className="HamburgerMenue w-full  max-w-[24px] h-[24px] hidden max-[1200px]:block">
+          <div
+            className="HamburgerMenue w-full  max-w-[24px] h-[24px] hidden max-[1200px]:block
+          max-[747px]:ml-[24px] max-[500px]:ml-[0px]"
+          >
             <button
               onClick={toggleNavbar}
               className="text-neutral-600 focus:outline-none"
