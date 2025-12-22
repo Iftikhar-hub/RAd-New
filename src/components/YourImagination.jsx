@@ -67,9 +67,9 @@ const dataTab = [
     ],
   },
   {
-    name: "Extend",
-    image: extend,
-    title: "Extend the Delphi IDE With Hundreds of Components.",
+    name: "Code Quality",
+    image: coswQuility,
+    title: "Improve the Quality of Your Code with Delphi.",
     points: [
       "Find coding errors automatically and solve them with Fast Error Insight.",
       "Use Visual Studio Code to edit Delphi source with full code completion.",
@@ -85,23 +85,23 @@ const dataTab = [
     title:
       "Collaborate Better with Delphi Teamwork and Remote Desktop Features.",
     points: [
-      "Use enhanced Remote Desktop support (for VCL and IDE) to collaborate remotely with your team.",
-      "Track and manage changes quickly using version control systems including Subversion, Git and Mercurial repositories.",
-      "Easily navigate changes and history using the history tab in the code viewer with the built-in difference viewer.",
-      "Use RAD Studio command-line compilers ideal for quickly integrating into continuous build configurations using our support for MSBuild.",
-    ],
-  },
-  {
-    name: "Quality",
-    image: coswQuility,
-    title: "Improve the Quality of Your Code with Delphi.",
-    points: [
       "Find coding errors automatically and solve them with Fast Error Insight.",
       "Use Visual Studio Code to edit Delphi source with full code completion.",
       "LSP awareness of Include files and auto-restart of LSP server.",
       "Auto code completion with Tab key.",
       "RTL Quality focus: TZipFile, 64bit improvements for large data structures, Bluetooth LE Record Helper for TDateTime in System.DateUtils.",
       "Use built-in refactoring to streamline, simplify and improve both the performance and readability of your application code.",
+    ],
+  },
+  {
+    name: "Extend",
+    image: extend,
+    title: "Extend the Delphi IDE With Hundreds of Components.",
+    points: [
+      "Use enhanced Remote Desktop support (for VCL and IDE) to collaborate remotely with your team.",
+      "Track and manage changes quickly using version control systems including Subversion, Git and Mercurial repositories.",
+      "Easily navigate changes and history using the history tab in the code viewer with the built-in difference viewer.",
+      "Use RAD Studio command-line compilers ideal for quickly integrating into continuous build configurations using our support for MSBuild.",
     ],
   },
 ];
@@ -167,19 +167,19 @@ const YourImagination = () => {
 
         max-[768px]:overflow-x-scroll max-[768px]:overflow-y-hidden max-[768px]:max-w-[760px] max-[768px]:w-full max-[768px]:h-[60px] max-[768px]:justify-start max-[768px]:items-center max-[768px]:py-[35px]
         
-        max-[746px]:max-w-[744px] max-[746px]:w-full max-[746px]:h-[68px] max-[746px]:overflow-x-scroll max-[746px]:overflow-y-hidden max-[746px]:justify-start max-[746px]:items-center max-[746px]:py-[35px]
+         max-[746px]:w-auto max-[746px]:h-[68px] max-[746px]:overflow-x-scroll max-[746px]:overflow-y-hidden max-[746px]:justify-start max-[746px]:items-center max-[746px]:py-[35px]
         max-[377px]:w-[375px]"
         >
           {dataTab.map((tab) => (
             <a
               key={tab.name}
               onClick={() => setActiveTab(tab.name)}
-              className={`cursor-pointer flex flex-row max-w-[217.14px] h-[57px] py-[14px] px-[24px] rounded-[12px] justify-center items-center font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-center 
+              className={`cursor-pointer flex flex-row max-w-[217.14px] h-[57px] py-[14px] px-[24px] rounded-[12px] justify-center items-center font-archivo font-medium text-[24px] leading-[120%] tracking-[-1px] text-center whitespace-nowrap
                
-                 max-[746px]:max-w-[107px] max-[746px]:h-[52px] max-[746px]:text-[20px] group relative
+                 max-[747px]:max-w-[154px] max-[747px]:h-[52px] max-[747px]:text-[20px] group relative
                    ${
                      activeTab === tab.name
-                       ? "bg-[#262626] text-white px-[50px] "
+                       ? "bg-[#262626] text-white px-[50px] max-[747px]:px-[24px]"
                        : "text-[#525252] hover:text-[#055e05]"
                    }`}
             >

@@ -65,13 +65,13 @@ const GetRADStudio = () => {
 
               max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto
               max-[375px]:top-[144px]"
-         >
+        >
           <div
             className="GRC-logos w-full max-w-[1038px] flex flex-col gap-[32px] justify-center items-center opacity-100 
                  max-[1440px]:w-[598px] 
                  
                  max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto"
-           >
+          >
             <div
               className="RGC-l1 justify-center items-center h-[110px] opacity-100 flex flex-col gap-[16px] 
                     max-[1440px]:max-w-[598px] max-[1440px]:w-full
@@ -112,7 +112,7 @@ const GetRADStudio = () => {
               className="RGC-logo2 justify-center items-center h-[64px] flex flex-row gap-[32px]
                     max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:gap-[8px]
                     max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:gap-[8px]"
-             >
+            >
               <img
                 className="radsImage1 max-w-[64px] w-full h-[64px] 
                         max-[747px]:max-w-[56px] max-[747px]:h-[56px]
@@ -174,9 +174,15 @@ const GetRADStudio = () => {
           </div>
         </div>
 
-        <div className="elip-6 w-full -z-10 max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]"></div>
+        <div
+          className="elip-6 w-full -z-10 max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]
+        max-[1441px]:max-w-[678px] max-[1441px]:h-[678px]  max-[1441px]:top-[-230px] max-[1441px]:left-[-54px]max-[1441px]:blur-[250px]"
+        ></div>
 
-        <div className="elip-7 w-full -z-10 max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]"></div>
+        <div
+          className="elip-7 w-full -z-10 max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]
+        max-[1441px]:top-[172px] max-[1441px]:right-[-539px]"
+        ></div>
       </section>
     );
 

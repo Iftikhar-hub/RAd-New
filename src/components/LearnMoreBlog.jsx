@@ -36,7 +36,8 @@ const LearnMoreBlog = () => {
     return (
       <section
         className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto
-         max-[1441px]:max-w-[1440px] max-[1441px]:px-[30px]   max-[1440px]:gap-[80px] px-[196px]
+
+         max-[1441px]:max-w-[1440px] max-[1441px]:px-[0px]   max-[1441px]:gap-[80px] px-[196px]
           
         max-[747px]:mt-[80px]
          max-[768px]:px-0
@@ -47,7 +48,7 @@ const LearnMoreBlog = () => {
 
          max-[377px]:w-[100%]  max-[377px]:h-auto max-[377px]:gap-[30px]
          max-[377px]:mt-[80px]
-         max-[377px]:mx-0 max-[377px]:px-[16px]"
+         max-[377px]:mx-0 "
       >
         <p
           className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
@@ -72,7 +73,8 @@ const LearnMoreBlog = () => {
           </span>
         </p>
 
-        <div className=" w-full relative max-w-[1540px] mx-auto z-10 overflow-x-clip">
+        <div className=" w-full relative max-w-[1540px] mx-auto z-10 overflow-x-clip
+        max-[1441px]:px-[30px] max-[375px]:px-[0px]">
           {/* for more then 900px start  */}
 
           <div
@@ -122,7 +124,9 @@ const LearnMoreBlog = () => {
               <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                 <p
                   className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10
+                           max-[1441px]:underline decoration-[#525252] max-[1441px]:text-[#262626]
+                           underline-offset-2"
                 >
                   Read More
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -162,7 +166,9 @@ const LearnMoreBlog = () => {
               <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                 <p
                   className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10
+                           max-[1441px]:underline decoration-[#525252] max-[1441px]:text-[#262626]
+                           underline-offset-2"
                 >
                   Read More
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -202,7 +208,9 @@ const LearnMoreBlog = () => {
               <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                 <p
                   className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10
+                           max-[1441px]:underline decoration-[#525252] max-[1441px]:text-[#262626]
+                           underline-offset-2"
                 >
                   Read More
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -268,7 +276,9 @@ const LearnMoreBlog = () => {
               <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                 <p
                   className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10
+                           max-[1441px]:underline decoration-[#525252] max-[1441px]:text-[#262626]
+                           underline-offset-2"
                 >
                   Read More
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -309,7 +319,9 @@ const LearnMoreBlog = () => {
               <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                 <p
                   className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10
+                           max-[1441px]:underline decoration-[#525252] max-[1441px]:text-[#262626]
+                           underline-offset-2"
                 >
                   Read More
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -349,7 +361,9 @@ const LearnMoreBlog = () => {
               <div className="LMB_ReadMore flex flex-row w-full max-w-[134px]  gap-[8px]">
                 <p
                   className="LMB_RM_1 relative inline-block w-[98px]  font-archivo font-normal text-[19px] leading-[150%] text-[#525252] max-[746px]:text-[18px] cursor-pointer 
-                           group z-10"
+                           group z-10
+                           max-[1441px]:underline decoration-[#525252] max-[1441px]:text-[#262626]
+                           underline-offset-2"
                 >
                   Read More
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>

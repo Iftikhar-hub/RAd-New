@@ -56,7 +56,7 @@ const Navbar = () => {
           <img
             src={logoSVG}
             alt="Logo"
-            className="right-icon max-[376px]:w-[237.6px] max-[376px]:h-[24px] "
+            className="right-icon max-[747px]:max-w-[139px] max-[376px]:w-[237.6px] max-[376px]:h-[24px] "
           />
         </div>
 

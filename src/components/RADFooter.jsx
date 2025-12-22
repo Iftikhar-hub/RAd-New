@@ -8,7 +8,7 @@ import logoGithub from "../assets/icons/logoGithub.png";
 const RADFooter = () => {
   return (
     <section
-      className="RAD_Footer max-w-[1920px] relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99] mx-auto  px-4 max-[1440px]:px-[30px] bg-white z-100 
+      className="RAD_Footer max-w-[1920px] relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99] mx-auto  px-4 max-[1441px]:px-[30px] bg-white z-100 
         max-[1441px]:max-w-[1440px] max-[1441px]:h-[593px] max-[1441px]:py-[48px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
@@ -18,20 +18,28 @@ const RADFooter = () => {
         max-[747px]:h-auto
 
         max-[747px]:justify-center max-[747px]:items-center max-[747px]:gap-[40px]
-
+        max-[425px]:mt-[200px]
         max-[425px]:max-w-[425px] max-[425px]:w-full
         max-[375px]:max-w-[375px] max-[375px]:w-full"
     >
       <div
+        className="elip-f hidden max-[1441px]:block max-[1050px]:hidden w-full max-w-[400px] h-[400px]  absolute top-[0px]  
+          left-[0px] opacity-[10%] border border-white -z-20 blur-[200px]  bg-[#E11D48]
+          max-[747px]:top-[158px] max-[747px]:right-[120px] max-[747px]:opacity-[3%]"
+      ></div>
+
+      <div
         className="Footer_Content  flex flex-row justify-between w-full  mx-auto h-[342px] gap-[32px]
-            max-[1441px]:max-w-[1280px] max-[1441px]:flex-col max-[1441px]:h-auto max-[1441px]:gap-[24px]
+
+            max-[1441px]:max-w-[1280px] max-[1441px]:flex-col max-[1441px]:h-auto max-[1441px]:gap-[48px]
+
             max-[768px]:max-w-[718px]  max-[768px]:gap-[48px]
             max-[747px]:max-w-[695px]  max-[747px]:gap-[40px]
             "
       >
         <div
           className="Footer_Content_left flex flex-row gap-[16px]
-                max-[1440px]:max-w-[202px] max-[1440px]:h-[35px] cursor-pointer"
+                max-[1441px]:max-w-[202px] max-[1441px]:h-[35px] cursor-pointer"
         >
           <img
             className="FC_log max-w-[202px] z-20 h-[35px]"
@@ -42,7 +50,7 @@ const RADFooter = () => {
 
         <div
           className="Footer_Content_right flex justify-between gap-[70px]
-                     max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[32px]
+                     max-[1441px]:max-w-[1280px]  max-[1441px]:gap-[32px]
 
 
                      max-[1024]:max-w-[974] max-[1024px]:grid max-[1024px]:grid-cols-3
@@ -201,7 +209,7 @@ const RADFooter = () => {
 
         <div
           className="hidden Footer_Content_right  justify-between gap-[70px]
-                     max-[1440px]:max-w-[1280px]  max-[1440px]:gap-[32px]
+                     max-[1441px]:max-w-[1280px]  max-[1441px]:gap-[32px]
 
 
                      
@@ -377,7 +385,7 @@ const RADFooter = () => {
       >
         <p
           className="BF_P font-[Archivo]  font-normal text-[14px] leading-[14px] text-[#1F2937]
-            max-[1440px]:ml-[0]
+            max-[1441px]:ml-[0]
                 max-[377px]:hidden"
         >
           2022 Embarcadero Inc. All Rights Reserved
@@ -385,7 +393,7 @@ const RADFooter = () => {
 
         <div
           className="BF_Icons flex flex-row l  max-w-[864px] justify-end h-[24px] gap-[24px]
-                max-[1440px]:max-w-[624px] max-[1440px]:mr-[0]
+                max-[1441px]:max-w-[624px] max-[1441px]:mr-[0]
                 max-[768px]:max-w-[431px]
                 max-[425px]:max-w-[168px] max-[425px]:justify-between
                 max-[375px]:max-w-[168px] max-[375px]:justify-between"
