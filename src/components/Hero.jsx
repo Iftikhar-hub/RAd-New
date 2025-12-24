@@ -102,7 +102,7 @@ const Hero = () => {
       </div>
 
       <div
-        className="heroPicture w-full max-w-[1279px]  h-[712px] relative
+        className="heroPicture w-full max-w-[1279px]   relative
             z-10 
             max-[1441px]:w-full max-[1370px]:px-[40px]
             
