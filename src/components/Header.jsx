@@ -1,150 +1,135 @@
-// import { FaSearch, FaShoppingCart, FaGlobe } from "react-icons/fa";
-
 import Search from "../assets/icons/Search.png";
 import mart from "../assets/icons/mart.png";
 import Languag from "../assets/icons/Languag.png";
 
 const Header = () => {
-    return (
-      <section
-        className="headerTopp w-[100%] relative bg-[#262626] text-white px-24 py-2
-          max-[1441px]:max-w-[1440px] max-[1441px]:px-[10px]
-          max-[747px]:max-w-[747px] max-[747px]:w-full
-          max-[375px]:max-w-[375px] z-[100] "
+  return (
+    <section
+      className="
+        w-full relative bg-[#262626] text-white py-2 z-[100]
+        px-[10px]
+        sm:px-[10px]
+        md:px-[20px]
+        lg:px-[40px]
+        xl:px-[70px]
+        2xl:px-24
+      "
+    >
+      <div
+        className="
+          w-full mx-auto flex justify-between items-center py-4
+          flex-col gap-2
+          sm:gap-3
+          sm:flex-row sm:gap-0
+        "
       >
+        {/* LEFT CONTENT */}
         <div
-          className="hd_t1 w-[100%] mx-auto flex justify-between items-center  
-               py-[16px]
-               
-               max-[1440px]:w-[100%] max-[1441px]:px-[70px]  max-[1230px]:px-[20px]
-               max-[744px]:w-[100%] max-[592px]:flex-col max-[744px]:gap-[12px]
-               max-[745px]:px-[10px]
-               
-               max-[425px]:flex-col max-[425px]:m-[0px]  max-[425px]:gap-[10px]
-               max-[375px]:flex-col max-[375px]:m-[0px]  max-[375px]:gap-[8px]
-               max-[377px]:gap-[16px]"
+          className="
+            flex items-center text-white
+            flex-col sm:flex-row
+          "
         >
-          <div
-            className="text-sm flex flex-row items-center
-           
-
-              max-[500px]:flex  max-[545px]:items-center
-            
-           ] max-[470px]:flex max-[514px]:flex-col max-[470px]:items-center
-                   "
+          {/* TEXT VARIANT – LARGE */}
+          <p
+            className=" 
+              text-[10px] font-light
+              hidden
+              sm:block sm:text-[14px]
+              lg:hidden
+              lg:text-[15px]
+              xl:hidden
+              2xl:block
+            "
           >
-            <p
-              className="header_PS max-[747px]:text-[14px]  max-[747px]:font-light max-[747px]:leading-[150%]
-              
-              max-[612px]:text-[13px] 
-              max-[471px]:text-[16px] text-white
-              max-[460px]:text-[15px] max-[435px]:text-[14px] max-[411px]:text-[13px]
-            max-[378px]:text-[13px] max-[353px]:text-[12px] 
-            max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
-            max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
-            max-[325px]:text-[10px]
-            max-[377px]:font-light    max-[713px]:hidden
-            max-[1313px]:hidden max-[1229px]:block max-[1201px]:hidden max-[1200px]:block max-[1147px]:hidden max-[1060px]:block"
-            >
-              See what’s new in
-              <span
-                className="font-semibold ml-1 max-[612px]:text-[13px] max-[471px]:text-[17px] text-white max-
-                max-[460px]:text-[16px] max-[435px]:text-[15px]
-                [378px]:text-[13px] max-[353px]:text-[12px]
-               max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
-               max-[514px]:text-[17px] 
-               max-[747px]:text-[14px]  max-[747px]:font-medium
-               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-medium"
-              >
-                Delphi, C++ Builder, and RAD Studio Wacth the Reply
-              </span>
-            </p>
-            <p
-              className="header_PS max-[747px]:text-[14px]  max-[747px]:font-light  max-[612px]:text-[13px] 
-              max-[471px]:text-[16px] text-white
-              max-[460px]:text-[15px] max-[435px]:text-[14px] max-[411px]:text-[13px]
-            max-[378px]:text-[13px] max-[353px]:text-[12px] 
-            max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
-            max-[514px]:text-[17px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[11px]
-            max-[325px]:text-[10px]
-            max-[377px]:font-light hidden max-[713px]:block
-             max-[1313px]:block max-[1229px]:hidden max-[1201px]:block max-[1200px]:hidden max-[1147px]:block max-[1060px]:hidden"
-            >
-              See what’s new in
-              <span
-                className="font-semibold ml-1 max-[612px]:text-[13px] max-[471px]:text-[17px] text-white max-
-                max-[460px]:text-[16px] max-[435px]:text-[15px]
-                [378px]:text-[13px] max-[353px]:text-[12px]
-               max-[592px]:text-[16px]  max-[591px]:px-[0px] max-[578px]:text-[15px] max-[546px]:text-[14px]
-               max-[514px]:text-[17px] max-[747px]:text-[14px]  max-[747px]:font-medium
-               max-[411px]:text-[14px] max-[386px]:text-[13px] max-[373px]:text-[12px] max-[349px]:text-[12px] max-[338px]:text-[11px] max-[313px]:text-[10px]  max-[377px]:font-medium"
-              >
-                Delphi, C++ Builder, and RAD Studio
-              </span>
-            </p>
+            See what’s new in
+            <span className="font-medium ml-1">
+              Delphi, C++ Builder, and RAD Studio Watch the Replay
+            </span>
+          </p>
 
-            <a
-              href="#"
-              className="underline ml-2 text-white  max-[747px]:text-[#FFFFFF]
-              max-[747px]:text-[14px]
-              max-[592px]:flex max-[592px]:items-center max-[592px]:text-[16px] 
-              max-[578px]:text-[15px] max-[546px]:text-[14px]
-              max-[514px]:text-[16px]
-              max-[460px]:text-[14px] max-[411px]:text-[13px]
-              max-[373px]:text-[12px] max-[349px]:text-[11px]
-              max-[377px]:mt-[6px]"
-            >
-              Watch the Replay
+          {/* TEXT VARIANT – MID */}
+          <p
+            className=" text-[14px]
+              text-[10px] font-light
+              block  
+              sm:hidden
+              md:hidden
+              lg:block
+              xl:block
+              2xl:hidden
+              
+            "
+          >
+            See what’s new in
+            <span className="font-medium ml-1">
+              Delphi, C++ Builder, and RAD Studio
+            </span>
+          </p>
+
+          {/* LINK */}
+          <a
+            href="#"
+            className=" text-[14px]
+              underline text-white mt-1
+              text-[11px] max-[695px]:hidden max-[377px]:block
+              sm:text-[14px] sm:mt-0 sm:ml-2
+              md:text-[16px]
+              lg:text-[14px]
+            "
+          >
+            Watch the Replay
+          </a>
+        </div>
+
+        {/* RIGHT CONTENT */}
+        <div className="flex items-center gap-6">
+          {/* LINKS */}
+          <div
+            className="
+              hidden
+               xl:gap-6 xl:text-[14px]
+              lg:text-sm
+              xl:flex
+              
+            "
+          >
+            <a href="#" className="hover:text-gray-300">
+              My Downloads
+            </a>
+            <a href="#" className="hover:text-gray-300">
+              Upgrade Center
+            </a>
+            <a href="#" className="hover:text-gray-300">
+              My Customer Portal
+            </a>
+            <a href="#" className="hover:text-gray-300">
+              Contact Us
             </a>
           </div>
 
-          <div className="flex items-center space-x-6 ">
-            <div
-              className="flex space-x-6 text-sm
-                    max-[1200px]:text-[12px]
-                    max-[1060px]:hidden
-                   "
-            >
-              <a href="#" className="hover:text-[#A3A3A3] group">
-                My Downloads
-              </a>
-              <a href="#" className="hover:text-gray-300">
-                Upgrade Center
-              </a>
-              <a href="#" className="hover:text-gray-300">
-                My Customer Portal
-              </a>
-              <a href="#" className="hover:text-gray-300">
-                Contact Us
-              </a>
-            </div>
-
-            <div className="flex items-center space-x-4 text-lg ">
-              <img
-                src={Search}
-                alt="Search"
-                className="cursor-pointer hover:text-gray-300 max-[377px]:max-w-[20px] 
-                        max-[377px]:h-[20px]"
-              />
-
-              <img
-                src={mart}
-                alt="mart"
-                className="cursor-pointer hover:text-gray-300 max-[377px]:max-w-[20px] 
-                        max-[377px]:h-[20px]"
-              />
-
-              <img
-                src={Languag}
-                alt="Languag"
-                className="cursor-pointer hover:text-gray-300 max-[377px]:max-w-[20px] 
-                        max-[377px]:h-[20px]"
-              />
-            </div>
+          {/* ICONS */}
+          <div className="flex items-center gap-4">
+            <img
+              src={Search}
+              alt="Search"
+              className="w-[20px] h-[20px] cursor-pointer"
+            />
+            <img
+              src={mart}
+              alt="Mart"
+              className="w-[20px] h-[20px] cursor-pointer"
+            />
+            <img
+              src={Languag}
+              alt="Language"
+              className="w-[20px] h-[20px] cursor-pointer"
+            />
           </div>
         </div>
-      </section>
-    );
+      </div>
+    </section>
+  );
 };
 
 export default Header;

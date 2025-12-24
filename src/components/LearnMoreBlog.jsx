@@ -35,7 +35,7 @@ const data = [
 const LearnMoreBlog = () => {
     return (
       <section
-        className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto
+        className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto overflow-x-clip
 
          max-[1441px]:max-w-[1440px] max-[1441px]:px-[0px]   max-[1441px]:gap-[80px] px-[196px]
           
