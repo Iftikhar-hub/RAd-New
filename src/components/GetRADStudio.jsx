@@ -69,7 +69,7 @@ const GetRADStudio = () => {
           <div
             className="GRC-logos w-full max-w-[1038px] flex flex-col gap-[32px] justify-center items-center opacity-100 
                  max-[1440px]:w-[598px] 
-                 
+                 max-[747px]:gap-[20px] max-[425px]:gap-[32px]
                  max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto"
           >
             <div
@@ -84,10 +84,13 @@ const GetRADStudio = () => {
                         max-[747px]:text-[40px]
                         max-[425px]:text-[32px]
                         max-[377px]:text-[32px]"
-              >
+               >
                 Get RAD
                 <span
-                  className="RGC-ps1 font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] bg-gradient-to-r from-[#FE3B76] via-[#AF29CE] to-[#2931DD] bg-clip-text text-transparent pl-[10px]
+                  className="RGC-ps1 font-archivo font-bold text-[48px] leading-[120%] tracking-[-1px] 
+                  bg-[linear-gradient(80.74deg,_#FE3B76_50.17%,_#AF29CE_69.65%,_#2931DD_89.13%)]
+
+                  bg-clip-text text-transparent pl-[10px]
                             max-[747px]:text-[40px]
                             max-[425px]:text-[32px]
                             max-[375px]:text-[32px]"
@@ -175,12 +178,18 @@ const GetRADStudio = () => {
         </div>
 
         <div
-          className="elip-6 w-full -z-10 max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border border-white blur-[100px] bg-[#6366F1]
-        max-[1441px]:max-w-[678px] max-[1441px]:h-[678px]  max-[1441px]:top-[-230px] max-[1441px]:left-[-54px]max-[1441px]:blur-[250px]"
+          className="elip-6 w-full -z-10 max-w-[457px] h-[457px]  absolute top-[230px]  left-[0] opacity-[10%] border rounded-[50%] border-white blur-[100px] bg-[#6366F1]
+        max-[1441px]:max-w-[678px] max-[1441px]:h-[678px]  max-[1441px]:top-[-230px] max-[1441px]:left-[-54px]max-[1441px]:blur-[250px] max-[747px]:block max-[425px]:block
+        max-[747px]:top-[-138px] max-[747px]:left-[-55px] max-[747px]:blur-[200px]"
         ></div>
 
         <div
-          className="elip-7 w-full -z-10 max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]
+          className="elip-6-tb hidden rounded-[50%] max-[425px]:hidden w-full max-w-[731px] h-[731px] blur-[500px] opacity-[10%] max-[747px]:block
+        bg-[#06B6D4] -z-10 absolute border border-[#FFFFFF] top-[130px] left-[376px]"
+        ></div>
+
+        <div
+          className="elip-7 w-full max-[747px]:hidden max-[425px]:block -z-10 max-w-[731px] h-[731px]  absolute top-[230px]  right-[0] opacity-[10%] border border-white blur-[500px] bg-[#06B6D4]
         max-[1441px]:top-[172px] max-[1441px]:right-[-539px]"
         ></div>
       </section>

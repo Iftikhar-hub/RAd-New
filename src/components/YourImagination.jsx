@@ -119,7 +119,7 @@ const YourImagination = () => {
 
   return (
     <section
-      className="Your-Imagination flex flex-col w-[100%] gap-[48px] ml-auto mr-auto mt-[128px] 
+      className="Your-Imagination relative flex flex-col w-[100%] gap-[48px] ml-auto mr-auto mt-[128px] 
 
     max-[1440px]:max-w-[1280px] max-[1440px]:gap-[48px]
     max-[1024px]:max-w-[1024px]
@@ -320,7 +320,7 @@ const YourImagination = () => {
                 >
                   Download RAD Studio Feature Matrix
                   <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
-                  <span className="max-[377px]:hidden absolute left-0  bottom-[4px] h-[1px] w-full bg-[#262626] "></span>
+                  <span className="max-[377px]:hidden absolute left-0  bottom-[4px] h-[1px] w-full bg-neutral-800 "></span>
                 </p>
                 <img
                   className="cloudImage cursor-pointer w-full max-w-[28px] h-[28px]"
@@ -334,6 +334,8 @@ const YourImagination = () => {
           </motion.div>
         </AnimatePresence>
       </div>
+
+      <div className="hidden max-[747px]:block max-[425px]:hidden w-full max-w-[650px] h-[650px] bg-[#DC2626] absolute top-[429px] left-[423px] rounded-[50%] border border-[#FFFFFF] opacity-[10%] blur-[270px]"></div>
     </section>
   );
 };

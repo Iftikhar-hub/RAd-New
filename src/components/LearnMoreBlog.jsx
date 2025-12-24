@@ -73,8 +73,10 @@ const LearnMoreBlog = () => {
           </span>
         </p>
 
-        <div className=" w-full relative max-w-[1540px] mx-auto z-10 overflow-x-clip
-        max-[1441px]:px-[30px] max-[375px]:px-[0px]">
+        <div
+          className=" w-full relative max-w-[1540px] mx-auto z-10 max-[1441px]:overflow-x-clip
+        max-[1441px]:px-[30px] max-[375px]:px-[0px]"
+        >
           {/* for more then 900px start  */}
 
           <div
