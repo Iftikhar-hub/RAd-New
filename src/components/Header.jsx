@@ -23,14 +23,14 @@ const Header = () => {
           sm:flex-row sm:gap-0
         "
       >
-        {/* LEFT CONTENT */}
+        
         <div
           className="
             flex items-center text-white
             flex-col sm:flex-row
           "
         >
-          {/* TEXT VARIANT – LARGE */}
+          
           <p
             className=" 
               text-[10px] font-light
@@ -48,7 +48,7 @@ const Header = () => {
             </span>
           </p>
 
-          {/* TEXT VARIANT – MID */}
+          
           <p
             className=" text-[14px]
               text-[10px] font-light
@@ -67,7 +67,7 @@ const Header = () => {
             </span>
           </p>
 
-          {/* LINK */}
+          
           <a
             href="#"
             className=" text-[14px]
@@ -82,9 +82,9 @@ const Header = () => {
           </a>
         </div>
 
-        {/* RIGHT CONTENT */}
+       
         <div className="flex items-center gap-6">
-          {/* LINKS */}
+          
           <div
             className="
               hidden
@@ -108,7 +108,7 @@ const Header = () => {
             </a>
           </div>
 
-          {/* ICONS */}
+          
           <div className="flex items-center gap-4">
             <img
               src={Search}

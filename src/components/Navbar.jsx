@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full">
-      {/* ================= TOP NAV ================= */}
+     
       <section
         className="
           mx-auto flex justify-between items-center h-[70px] py-4
@@ -27,12 +27,12 @@ const Navbar = () => {
           bg-white/40 sm:relative backdrop-blur-2xl
         "
       >
-        {/* LOGO */}
+        
         <div className="flex items-center cursor-pointer">
           <img src={logoSVG} alt="Logo" className="h-[24px] sm:max-w-[140px]" />
         </div>
 
-        {/* CENTER LINKS (Desktop) */}
+    
         <div className="hidden lg:flex gap-6 text-sm">
           {[
             "Products",
@@ -54,7 +54,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* RIGHT BUTTONS */}
+       
         <div className="flex items-center gap-3 ">
           <button className="hidden md:block text-sm hover:text-pink-500">
             Sign in
@@ -68,7 +68,7 @@ const Navbar = () => {
             Free trial
           </button>
 
-          {/* HAMBURGER */}
+         
           <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden ml-2">
             {isOpen ? (
               <FaTimes size={22} />
@@ -79,7 +79,7 @@ const Navbar = () => {
         </div>
       </section>
 
-      {/* ================= MOBILE MENU ================= */}
+     
       {isOpen && (
         <motion.div
           initial={{ opacity: 0, y: -30 }}
@@ -88,7 +88,7 @@ const Navbar = () => {
           transition={{ duration: 0.4 }}
           className="lg:hidden mx-2 mt-4 bg-gray-200 rounded p-4 space-y-3"
         >
-          {/* Products */}
+          
           <div className="bg-gray-100 p-2 rounded">
             <div className="flex justify-between items-center">
               <p>Products</p>
@@ -106,7 +106,7 @@ const Navbar = () => {
             )}
           </div>
 
-          {/* New Tools */}
+          
           <div className="bg-gray-100 p-2 rounded">
             <div className="flex justify-between items-center">
               <p>New Tools</p>
@@ -132,7 +132,7 @@ const Navbar = () => {
         </motion.div>
       )}
 
-      {/* ================= BOTTOM NAV ================= */}
+      
       <div
         className="
           mx-auto flex flex-col md:flex-row justify-between items-center gap-4
@@ -145,7 +145,7 @@ const Navbar = () => {
           py-4
         "
       >
-        {/* BREADCRUMB */}
+        
         <div className="flex items-center gap-2 text-sm">
           <a className="hover:text-pink-500">Home</a>
           <img src={rightArrow} className="w-3" />
@@ -154,7 +154,7 @@ const Navbar = () => {
           <a className="text-pink-600">RAD Studio</a>
         </div>
 
-        {/* LINKS */}
+      
         <div className="hidden md:flex items-center gap-4 text-sm">
           {[
             "What's New?",
