@@ -18,14 +18,11 @@ const Navbar = () => {
 
   return (
     <div className="w-full max-w-[1920px] mx-auto">
-    
       <section className=" px-4 py-4 flex justify-between items-center 2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4 sm:py-4 bg-white/5 backdrop-blur-sm relative z-100">
-       
         <div className="flex items-center cursor-pointer">
           <img src={logoSVG} alt="Logo" className="h-6 xl:h-6 sm:h-6" />
         </div>
 
-       
         <div className="hidden lg:flex gap-6">
           <div className="group relative flex items-center cursor-pointer">
             <p className="hover:text-[#055e05]">Products</p>
@@ -76,25 +73,23 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="cursor-pointer">Getit</div>
-          <div className="cursor-pointer">New Tools</div>
+          <div className="cursor-pointer hover:text-[#055e05]">Getit</div>
+          <div className="cursor-pointer hover:text-[#055e05]">New Tools</div>
         </div>
 
-      
         <div className="flex items-center gap-4">
-          <button className="hidden sm:block bg-transparent hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD] hover:text-transparent hover:bg-clip-text rounded-lg py-2 px-3">
+          <button className="hidden sm:block bg-transparent hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD] hover:text-transparent hover:bg-clip-text rounded-lg py-2 px-3 cursor-pointer">
             Sign in
           </button>
 
-          <button className="hidden sm:block border border-black rounded-lg py-2 px-3 font-medium text-black hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD] hover:text-transparent hover:bg-clip-text">
+          <button className="hidden sm:block border border-black rounded-lg py-2 px-3 font-medium text-black hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD] hover:text-transparent hover:bg-clip-text cursor-pointer">
             Buy now
           </button>
 
-          <button className="bg-black max-[305px]:hidden text-white rounded-lg py-2 px-3">
+          <button className="bg-black cursor-pointer max-[305px]:hidden text-white rounded-lg py-2 px-3">
             Free trial
           </button>
 
-         
           <div className="lg:hidden flex items-center ">
             <button onClick={toggleNavbar}>
               {isOpen ? (
@@ -106,7 +101,6 @@ const Navbar = () => {
           </div>
         </div>
 
-       
         {isOpen && (
           <motion.div
             initial={{ opacity: 0, y: -30 }}
