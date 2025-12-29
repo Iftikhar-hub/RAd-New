@@ -79,7 +79,7 @@ const Hero = () => {
             type="secondary"
             className="w-[229px] h-[48px] gap-2 border border-solid rounded-[10px]  px-4
        max-[747px]:px-5 py-3 opacity-100 max-[425px]:max-w-[393px]  max-[375px]:max-w-[343px] w-full max-w-[229px]
-       max-[462px]:px-[0px] text-[16px]
+       max-[462px]:px-[0px] text-[16px] hover:border-[green] hover:border-2
 
               font-archivo cursor-pointer font-medium max-[747px]:text-[16px] leading-[24px] text-[#171717]
                  hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
