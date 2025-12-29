@@ -18,7 +18,7 @@ const Hero = () => {
               w-full h-auto gap-[24px]  z-10
               max-[747px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
-       >
+      >
         <div className="hero-container-1  flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
           <p
             className="hero_cp1 font-Archivo font-semibold text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)]  
@@ -30,11 +30,9 @@ const Hero = () => {
           </p>
 
           <p
-            className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-normal text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
-            max-[1441px]:hidden max-[425px]:block
-            max-[425px]:px-[20px]
-            max-[375px]:px-[10px]
-            max-[377px]:text-[18px]
+            className="hero_cp2 flex flex-col  gap-[16px]  font-[archivo] font-normal 2xl:text-[18px] text-[17px] leading-[150%] text-center text-[#525252] tracking-[0px]
+            hidden max-[425px]:block
+            max-[425px]:px-[20px]  max-[375px]:px-[10px] max-[377px]:text-[18px]
             "
           >
             Build Apps 5x Faster With One Codebase for Windows, Android, iOS,
@@ -42,8 +40,8 @@ const Hero = () => {
           </p>
 
           <p
-            className="hero_cp2 hidden  flex-col  gap-[16px]  font-[archivo] font-normal text-[18px] leading-[150%] text-center text-[#525252] tracking-[0px]
-            max-[1441px]:block max-[425px]:hidden
+            className="hero_cp2   flex-col  gap-[16px]  font-[archivo] font-normal text-[18px] leading-[150%] text-center text-[#525252] tracking-[0px]
+             max-[425px]:hidden
             
             max-[747px]:text-[18px] "
           >

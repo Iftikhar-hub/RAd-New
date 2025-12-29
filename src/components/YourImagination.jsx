@@ -158,7 +158,7 @@ const YourImagination = () => {
       max-[377px]:mx-0 max-[377px]:px-[16px]"
       >
         <div
-          className="ImaginationNav flex flex-row rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1540px] mx-auto overflow-x-scroll scrollHide
+          className="ImaginationNav flex flex-row rounded-[16px] border border-[#E5E5E5] p-[8px] justify-between w-full max-w-[1536px] mx-auto overflow-x-scroll scrollHide 2xl:pr-[55px]
         max-[1441px]:w-[96%] max-[1440px]:h-[73px] max-[1440px]:gap-[8px]
 
         max-[1024px]:overflow-x-scroll 
@@ -234,7 +234,7 @@ const YourImagination = () => {
             </div>
 
             <div
-              className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 
+              className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 2xl:overflow-hidden
 
               max-[1441px]:max-w-[547px] max-[1441px]:h-auto max-[1441px]:gap-[56px] max-[1441px]:py-[58px]  max-[1441px]:px-[32px] 
               
@@ -260,8 +260,8 @@ const YourImagination = () => {
               >
                 <p
                   className="ipTag opacity-100 font-archivo font-medium text-[28px] leading-[150%] tracking-[-1px] text-[#171717] 
-              max-[747px]:text-[24px]
-              max-[377px]:text-[24px] max-[377px]:leading-[32px]"
+               max-[747px]:text-[24px]
+               max-[377px]:text-[24px] max-[377px]:leading-[32px]"
                 >
                   {currentTab?.title}
                 </p>
@@ -281,18 +281,18 @@ const YourImagination = () => {
                       {point}
                     </p>
                   ))}
-                  <p
-                    className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid
+                </div>
+                <p
+                  className="ipReadMore relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid
 
                   bg-[linear-gradient(80.32deg,_#FE3B76_53.77%,_#AF29CE_71.1%,_#2931DD_88.44%)] bg-clip-text text-transparent
 
                   max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:hidden max-[400px]:block
                   max-[377px]:underline"
-                  >
-                    Read More
-                    <span className=" max-[377px]:hidden absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
-                  </p>
-                </div>
+                >
+                  Read More
+                  <span className=" max-[377px]:hidden absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
+                </p>
               </div>
               <p
                 className="ipReadMore hidden relative  opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-0 
@@ -329,7 +329,7 @@ const YourImagination = () => {
                 />
               </div>
 
-              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[250px] max-[377px]:blur-[80px] absolute top-[0] "></div>
+              <div className="elip-5 w-[90%] h-[100%] opacity-[10%] border border-white bg-[#DC2626] blur-[250px] max-[377px]:blur-[150px] absolute top-[0] "></div>
             </div>
           </motion.div>
         </AnimatePresence>

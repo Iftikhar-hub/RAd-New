@@ -20,7 +20,7 @@ const GetRADStudio = () => {
         max-[377px]:max-w-[375px] max-[377px]:w-full max-[377px]:mt-[80px]"
       >
         <img
-          className="left_vector w-full max-w-[873px] h-[810px] absolute top-[-20] left-[-520px] 
+          className="left_vector w-full max-w-[873px] h-[810px] absolute top-[-20] 2xl:left-[-480px] left-[-520px] 
             max-[1440px]:h-[722px]
 
           max-[747px]:max-w-[843px]  max-[747px]:h-[848px] max-[747px]:top-[-49px] max-[747px]:left-[-587px]

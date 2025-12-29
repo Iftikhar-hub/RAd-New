@@ -182,21 +182,53 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="hidden sm:flex items-center gap-2">
-          <a href="#" className="underline hover:text-gradient">
+        <div className="hidden sm:flex items-center  gap-2">
+          <a
+            href="#"
+            className="group relative  leading-[150%] tracking-[0px]   hover:text-gradient text-[#262626]"
+          >
             What's New?
+            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+            transition-all duration-500 ease-out"
+            ></span>
           </a>
           <FaMinus className="text-gray-400 w-1.5" />
-          <a href="#" className="underline hover:text-gradient">
+          <a
+            href="#"
+            className="relative hover:text-gradient text-[#262626] group"
+          >
             Product Edition
+            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+            transition-all duration-500 ease-out"
+            ></span>
           </a>
           <FaMinus className="text-gray-400 w-1.5" />
-          <a href="#" className="underline hover:text-gradient">
+          <a
+            href="#"
+            className="relative hover:text-gradient text-[#262626] group"
+          >
             Previous Version
+            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+            transition-all duration-500 ease-out"
+            ></span>
           </a>
           <FaMinus className="text-gray-400 w-1.5" />
-          <a href="#" className="underline hover:text-gradient">
+          <a
+            href="#"
+            className="relative hover:text-gradient text-[#262626] group"
+          >
             Customers
+            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+            transition-all duration-500 ease-out"
+            ></span>
           </a>
         </div>
 

@@ -26,7 +26,7 @@ const RADStudioHere = () => {
       >
         <div
           className="RAD-Studio-Here-1 flex flex-col justify-center items-center mx-auto w-full 
-          max-w-[1250px]  h- 
+          max-w-[1274px]  h- 
              [204px] gap-[24px] relative max-[1370px]:pl-[40px] max-[1370px]:pr-[40px]
              max-[1024px]:max-w-[863px] 
              max-[747px]:px-0
@@ -38,14 +38,14 @@ const RADStudioHere = () => {
               max-[375px]:gap-[16px] 2xl:px-[0px]
              
              px-[35px]"
-         >
-           <p
+        >
+          <p
             className="pTag-1  font-archivo font-[600] text-[32px] leading-[100%] tracking-[-1px] text-center bg-[linear-gradient(79.71deg,_#FE3B76_10.22%,_#AF29CE_35.92%,_#2931DD_61.61%)]
              bg-clip-text text-transparent
 
             lg:text-[42px]  xl:text-[48px] sm:text-[40px]
                 "
-           >
+          >
             RAD Studio 11.2
             <span
               className="font-archivo font-semibold text-[23px] leading-[150%] tracking-[-1px] text-center text-[#262626]
@@ -55,23 +55,23 @@ const RADStudioHere = () => {
               {" "}
               is here!
             </span>
-           </p>
+          </p>
 
-           <p
+          <p
             className="pTag-2 font-archivo font-normal text-[18px] leading-[150%] text-center text-[#525252] tracking-[-1px]
             md:text-[22px] lg:text-[24px] sm:text-[20px] 
                "
-           >
+          >
             RAD Studio 11.2 is here! The new release introduces Markdown support
             and an iOS Simulator on macOS ARM 64 for Delphi, and migrates the
             Delphi Linux debugger to LLDB. It also brings usability, performance
             and stability improvements to the IDE, the compilers and toolchains,
             the UX, RTL, database and Internet libraries for both Delphi and
             C++.
-           </p>
+          </p>
 
-           <img
-            className="max-w-[58.89px] h-[114.07] absolute top-[10px] right-[-40px]
+          <img
+            className="max-w-[58.89px] h-[114.07] absolute top-[4px] right-[-80px]
                 max-[747px]:hidden
                 max-[1440px]:hidden"
             src={radsImage}
@@ -271,7 +271,7 @@ const RADStudioHere = () => {
             </div>
 
             <div
-              className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[86px]  left-[-400px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px] 
+              className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[-187px]  left-[-586px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px] 
 
             max-[1441px]:top-[-162px] max-[1441px]:left-[-353px]
 
@@ -279,7 +279,7 @@ const RADStudioHere = () => {
             max-[747px]:top-[296px] max-[747px]:left-[-81px] max-[747px]:blur-[213px]"
             ></div>
 
-            <div className="elip-4 w-full max-w-[644px] h-[644px]  absolute top-[283px]  left-[1552px] opacity-[10%] border border-white bg-[#6366F1] blur-[100px] "></div>
+            <div className="elip-4 w-full max-w-[644px] h-[644px]  absolute top-[9px]  left-[1210px] opacity-[10%] border border-white bg-[#6366F1] blur-[250px] "></div>
           </div>
 
           <div className="MS-rs1 hidden w-full max-w-[869px] h-[1520px]  absolute top-[-90px]  left-[-235px] opacity-[10%] border border-white bg-[#3B82F6] blur-[100px] max-[377px]:block"></div>
