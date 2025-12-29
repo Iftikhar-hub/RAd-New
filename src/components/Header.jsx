@@ -18,14 +18,12 @@ const Header = () => {
           sm:flex-row sm:gap-0
         "
       >
-        
         <div
           className="
             flex items-center text-white
             flex-col sm:flex-row
           "
         >
-          
           <p
             className=" 
               text-[10px] font-light
@@ -43,7 +41,6 @@ const Header = () => {
             </span>
           </p>
 
-          
           <p
             className=" text-[13px]
               text-[10px] font-light
@@ -62,7 +59,6 @@ const Header = () => {
             </span>
           </p>
 
-          
           <a
             href="#"
             className=" text-[13px]
@@ -77,9 +73,7 @@ const Header = () => {
           </a>
         </div>
 
-       
         <div className="flex items-center gap-6">
-          
           <div
             className="
               hidden
@@ -89,21 +83,24 @@ const Header = () => {
               
             "
           >
-            <a href="#" className="hover:text-gray-300">
+            <a href="#" className="hover:text-gray-300 group relative">
               My Downloads
+              <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[white] transition-all duration-500 ease-out group-hover:w-full"></span>
             </a>
-            <a href="#" className="hover:text-gray-300">
+            <a href="#" className="hover:text-gray-300 group relative">
               Upgrade Center
+              <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[white] transition-all duration-500 ease-out group-hover:w-full"></span>
             </a>
-            <a href="#" className="hover:text-gray-300">
+            <a href="#" className="hover:text-gray-300 group relative">
               My Customer Portal
+              <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[white] transition-all duration-500 ease-out group-hover:w-full"></span>
             </a>
-            <a href="#" className="hover:text-gray-300">
+            <a href="#" className="hover:text-gray-300 group relative">
               Contact Us
+              <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[white] transition-all duration-500 ease-out group-hover:w-full"></span>
             </a>
           </div>
 
-          
           <div className="flex items-center gap-4">
             <img
               src={Search}

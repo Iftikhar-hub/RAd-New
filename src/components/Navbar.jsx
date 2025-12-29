@@ -54,7 +54,10 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="hover:text-[#055e05] cursor-pointer">Blog</div>
+          <div className="hover:text-[#055e05] cursor-pointer group relative">
+            Blog
+            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+          </div>
 
           <div className="group relative cursor-pointer hover:text-[#055e05]">
             Resources
@@ -73,8 +76,14 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="cursor-pointer hover:text-[#055e05]">Getit</div>
-          <div className="cursor-pointer hover:text-[#055e05]">New Tools</div>
+          <div className="cursor-pointer hover:text-[#055e05] group relative">
+            Getit
+            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+          </div>
+          <div className="cursor-pointer hover:text-[#055e05] group relative">
+            New Tools
+            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+          </div>
         </div>
 
         <div className="flex items-center gap-4">
