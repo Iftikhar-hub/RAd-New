@@ -8,7 +8,7 @@ import logoGithub from "../assets/icons/logoGithub.png";
 const RADFooter = () => {
   return (
     <section
-      className="RAD_Footer max-w-[1920px] relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99] mx-auto  px-4 max-[1441px]:px-[30px] bg-white z-100 
+      className="RAD_Footer max-w-[1920px] relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99] mx-auto  2xl:px-[80px] max-[1441px]:px-[30px] bg-white z-100 
         max-[1441px]:max-w-[1440px] max-[1441px]:h-[593px] max-[1441px]:py-[48px]
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] max-[744px]:max-[744px] 
@@ -19,7 +19,7 @@ const RADFooter = () => {
         max-[425px]:max-w-[425px] max-[425px]:w-full max-[375px]:max-w-[375px] "
     >
       <div
-        className="elip-f hidden max-[1441px]:block max-[1050px]:hidden w-full max-w-[400px] h-[400px]  absolute top-[0px]  
+        className="elip-f  max-[1441px]:block max-[1050px]:hidden w-full max-w-[400px] h-[400px]  absolute top-[0px]  
           left-[0px] opacity-[10%] border border-white -z-20 blur-[200px]  bg-[#E11D48]
           max-[747px]:top-[158px] max-[747px]:right-[120px] max-[747px]:opacity-[3%]"
       ></div>
@@ -412,7 +412,7 @@ const RADFooter = () => {
         </p>
       </div>
 
-      <div className="MS-f1 hidden max-[747px]:block  w-full max-w-[869px] h-[869px]  absolute top-[-446px]  left-[-130px] opacity-[4%] border border-white blur-[500px] bg-[#E11D48] overflow-x-hidden"></div>
+      <div className="MS-f1  hidden max-[747px]:block  w-full max-w-[869px] h-[869px]  absolute top-[-446px]  left-[-130px] opacity-[4%] border border-white blur-[500px] bg-[#E11D48] overflow-x-hidden"></div>
 
       <div className="MS-f2 hidden max-[747px]:block  w-full max-w-[731px] h-fill-available  absolute top-[644px]  left-[373px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4] overflow-x-hidden overflow-y-hidden"></div>
     </section>

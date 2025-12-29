@@ -27,7 +27,7 @@ const JoinOurCoummunity = () => {
              max-[425px]:max-w-[425px] max-[425px]:h-auto max-[425px]:gap-[32px] max-[425px]:top-[48px] 
 
              max-[375px]:max-w-[343px]  "
-        >
+         >
           <div
             className="JOC_c1 flex flex-col w-[100%]  gap-[8px]
                    max-[1441px]:gap-[8px] max-[746px]:text-center max-[375px]:mt-[-100px]

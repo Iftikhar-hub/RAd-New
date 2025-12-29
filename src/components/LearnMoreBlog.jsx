@@ -50,24 +50,13 @@ const LearnMoreBlog = () => {
       
          max-[377px]:mx-0 "
       >
-        <p
-          className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626]
-            max-[1440px]:left-[232px]
-            max-[746px]:text-[36px] max-[746px]:left-[54px]
-            max-[630px]:px-[20px]
-            max-[425px]:text-[30px]
-             max-[377px]:leading-[140%]
-            "
-        >
+        <p className="LMB_P text-center opacity-100 font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] text-[#262626] max-[1440px]:left-[232px] max-[746px]:left-[54px] max-[377px]:leading-[140%] max-[746px]:text-[36px]  max-[630px]:px-[20px] max-[425px]:text-[30px]">
           Learn More on the <span></span>
           <span
             className="LMB_S font-archivo font-semibold text-[48px] leading-[120%] tracking-[-1px] 
             bg-[linear-gradient(80.32deg,_#FE3B76_53.77%,_#AF29CE_71.1%,_#2931DD_88.44%)]
-             bg-clip-text text-transparent
-            pl-[8px]
-                max-[746px]:text-[36px] 
-                max-[425px]:text-[30px]
-                max-[377px]:leading-[140%] "
+             bg-clip-text text-transparent max-[746px]:text-[36px] max-[425px]:text-[30px]
+            pl-[8px] max-[377px]:leading-[140%] "
           >
             Embarcadero Blog
           </span>
@@ -515,9 +504,7 @@ const LearnMoreBlog = () => {
                  max-[746px]:grid-cols-2 max-[747px]:px-[25px]
 "
         >
-          <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px] z-10 max-[768px]:max-w-[331px] max-[747px]:pl-0 "
-          >
+          <div className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px] z-10 max-[768px]:max-w-[331px] max-[747px]:pl-0 ">
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
                          max-[1440px]:h-[30px] max-[746px]:text-[18px]"

@@ -18,8 +18,8 @@ const Hero = () => {
               w-full h-auto gap-[24px]  z-10
               max-[747px]:w-full max-[375px]:max-w-[343px]
              max-[375px]:w-full"
-      >
-        <div className="hero-container-1 flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
+       >
+        <div className="hero-container-1  flex flex-col justify-center items-center w-full max-w-[370px] h-auto gap-[16px]">
           <p
             className="hero_cp1 font-Archivo font-semibold text-[48px] text-center leading-[100%] tracking-[-1px] bg-[linear-gradient(77.38deg,#FE3B76_9.15%,#AF29CE_49.65%,#2931DD_90.16%,#2931DD_90.16%)]  
                     bg-clip-text text-transparent
@@ -89,6 +89,8 @@ const Hero = () => {
           </button>
           {/* </div> */}
         </div>
+
+        <div className="elip_cr1 hidden w-full max-w-[906px] h-[906px] -z-10  absolute top-[6px] left-[-268px] opacity-[20%] border border-white blur-[500px] bg-[#06B6D4] max-[1441px]:hidden"></div>
       </div>
 
       <div
@@ -134,7 +136,7 @@ const Hero = () => {
 
           <div className=" hidden md:block relative">
             <img
-              src={Group} 
+              src={Group}
               alt="Group"
               className="w-full ml-[8px] max-[1441px]:ml-[0px]  mx-auto  h-[612px] rounded-[16px]
               max-[1441px]:max-w-[1280px] max-[1441px]:h-[714px]"
@@ -151,7 +153,7 @@ const Hero = () => {
         </div>
 
         <div
-          className="heroLower w-[100%] mx-auto  rounded-[16px] border border-[#e5e5e5] py-[24px] px-[32px]   
+          className="heroLower w-[100%] mx-auto  rounded-[16px] border border-[#e5e5e5] py-[24px] px-[32px]  relative -z-10  max-[1441px]:z-10
                     gap-8 bg-[#F9F9F9] flex justify-between items-center mt-[48px]
                     
                       max-[1024px]:mx-auto

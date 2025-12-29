@@ -35,48 +35,42 @@ const RADStudioHere = () => {
 
              max-[747px]:max-w-[696px] max-[745px]:gap-[16px]
 
-              max-[375px]:gap-[16px]
+              max-[375px]:gap-[16px] 2xl:px-[0px]
              
              px-[35px]"
-        >
-          <p
-            className="pTag-1  font-archivo font-[600] text-[48px] leading-[100%] tracking-[-1px] text-center bg-[linear-gradient(79.71deg,_#FE3B76_10.22%,_#AF29CE_35.92%,_#2931DD_61.61%)]
- bg-clip-text text-transparent
-            max-[1024px]:text-[42px]
-                max-[747px]:text-[40px] 
-                
-                max-[425px]:text-[30px]
-                max-[377px]:text-[32px]"
-          >
+         >
+           <p
+            className="pTag-1  font-archivo font-[600] text-[32px] leading-[100%] tracking-[-1px] text-center bg-[linear-gradient(79.71deg,_#FE3B76_10.22%,_#AF29CE_35.92%,_#2931DD_61.61%)]
+             bg-clip-text text-transparent
+
+            lg:text-[42px]  xl:text-[48px] sm:text-[40px]
+                "
+           >
             RAD Studio 11.2
             <span
-              className="font-archivo font-semibold text-[48px] leading-[150%] tracking-[-1px] text-center text-[#262626]
+              className="font-archivo font-semibold text-[23px] leading-[150%] tracking-[-1px] text-center text-[#262626]
               max-[1024px]:text-[42px]
-                    max-[747px]:text-[40px]
-                    max-[426px]:text-[32px]
-                    max-[377px]:text-[32px]"
+                    lg:text-[42px]  xl:text-[48px] sm:text-[40px]"
             >
               {" "}
               is here!
             </span>
-          </p>
+           </p>
 
-          <p
-            className="pTag-2 font-archivo font-normal text-[24px] leading-[150%] text-center text-[#525252] tracking-[-1px]
-            max-[1024px]:text-[22px]
-
-               max-[747px]:text-[20px] 
-               max-[377px]:text-[18px]"
-          >
+           <p
+            className="pTag-2 font-archivo font-normal text-[18px] leading-[150%] text-center text-[#525252] tracking-[-1px]
+            md:text-[22px] lg:text-[24px] sm:text-[20px] 
+               "
+           >
             RAD Studio 11.2 is here! The new release introduces Markdown support
             and an iOS Simulator on macOS ARM 64 for Delphi, and migrates the
             Delphi Linux debugger to LLDB. It also brings usability, performance
             and stability improvements to the IDE, the compilers and toolchains,
             the UX, RTL, database and Internet libraries for both Delphi and
             C++.
-          </p>
+           </p>
 
-          <img
+           <img
             className="max-w-[58.89px] h-[114.07] absolute top-[10px] right-[-40px]
                 max-[747px]:hidden
                 max-[1440px]:hidden"
