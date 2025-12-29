@@ -35,7 +35,7 @@ const data = [
 const LearnMoreBlog = () => {
     return (
       <section
-        className="Learn_More_Blog w-[100%] mt-[128px] relative mx-auto overflow-x-clip
+        className="Learn_More_Blog max-w-[1920px]  w-full mt-[128px] relative mx-auto overflow-x-clip
 
          max-[1441px]:max-w-[1440px] max-[1441px]:px-[0px]   max-[1441px]:gap-[80px] px-[196px]
           
@@ -75,7 +75,7 @@ const LearnMoreBlog = () => {
 
         <div
           className=" w-full relative max-w-[1540px] mx-auto z-10 max-[1441px]:overflow-x-clip
-        max-[1441px]:px-[30px] max-[375px]:px-[0px]"
+        max-[1441px]:px-[30px] max-[375px]:px-[0px] "
         >
           {/* for more then 900px start  */}
 
@@ -509,7 +509,7 @@ const LearnMoreBlog = () => {
         </div>
 
         <img
-          className="max-w-[60px] w-full h-[80px] absolute top-[-1px] right-[300px] max-[1440px]:right-[149px]
+          className="max-w-[60px] w-full h-[80px]  absolute top-[-1px] right-[300px] max-[1440px]:right-[149px]
             max-[1441px]:right-[150px] max-[1441px]:
             max-[746px]:hidden"
           src={MLB_Arrow}

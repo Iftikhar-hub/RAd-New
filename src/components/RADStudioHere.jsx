@@ -13,7 +13,7 @@ import radsImage from "../assets/icons/radsImage.png";
 const RADStudioHere = () => {
     return (
       <section
-        className="rad-studio-here relative flex flex-col w-[100%] gap-[80px] mt-[283px] m-auto max-
+        className="rad-studio-here relative flex flex-col w-[100%] gap-[80px] mt-[128px] m-auto max-
         items-center overflow-x-clip 
         [1440px]:max-w-[1280px] max-[1440px]:mt-[128px]
         max-[1024px]:mt-auto
