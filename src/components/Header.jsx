@@ -7,12 +7,7 @@ const Header = () => {
     <section
       className="
         w-full relative bg-[#262626] text-white py-2 z-[100]
-        px-[10px]
-        sm:px-[10px]
-        md:px-[20px]
-        lg:px-[40px]
-        xl:px-[70px]
-        2xl:px-24
+        px-[10px] sm:px-[10px] md:px-[20px] lg:px-[40px] xl:px-[70px] 2xl:px-24
       "
     >
       <div
@@ -50,7 +45,7 @@ const Header = () => {
 
           
           <p
-            className=" text-[14px]
+            className=" text-[13px]
               text-[10px] font-light
               block  
               sm:hidden
@@ -70,7 +65,7 @@ const Header = () => {
           
           <a
             href="#"
-            className=" text-[14px]
+            className=" text-[13px]
               underline text-white mt-1
               text-[11px] max-[695px]:hidden max-[377px]:block
               sm:text-[14px] sm:mt-0 sm:ml-2

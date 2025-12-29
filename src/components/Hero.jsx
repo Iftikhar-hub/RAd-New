@@ -77,14 +77,6 @@ const Hero = () => {
             </button>
           </div>
 
-          {/* <div
-            className="btn-2 cursor-pointer flex w-full max-w-[229px] h-[48px] rounded-[10px]   gap-[8px] justify-center items-center border border-[#171717] 
-              max-[425px]:max-w-[393px] cursor-pointer
-                    max-[375px]:max-w-[343px]
-                    
-                    
-             "
-           > */}
           <button
             type="secondary"
             className="w-[229px] h-[48px] gap-2 border border-solid rounded-[10px]  px-4
@@ -102,7 +94,7 @@ const Hero = () => {
       </div>
 
       <div
-        className="heroPicture w-full max-w-[1279px]   relative
+        className="heroPicture w-full max-w-[1279px] relative
             z-10 
             max-[1441px]:w-full max-[1370px]:px-[40px]
             
