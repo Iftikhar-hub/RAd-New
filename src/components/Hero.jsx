@@ -123,10 +123,7 @@ const Hero = () => {
               className="w-full h-full object-cover  rounded-[16px]"
             />
 
-            <div
-              className="absolute inset-0 bg-black/80 backdrop-blur-[2px] shadow-[0px_3.12px_4.68px_0px_#00000026] flex justify-center items-center rounded-[16px] z-[100] 
-"
-            >
+            <div className="absolute inset-0 bg-black/80 backdrop-blur-[2px] shadow-[0px_3.12px_4.68px_0px_#00000026] flex justify-center items-center rounded-[16px] z-[100] ">
               <img
                 src={playbutton}
                 alt="Play"
@@ -137,13 +134,13 @@ const Hero = () => {
 
           <div className=" hidden md:block relative">
             <img
-              src={Group}
+              src={Group} 
               alt="Group"
-              className="w-full max-w-[1000px]  mx-auto  h-[612px] rounded-[16px]
+              className="w-full ml-[8px] max-[1441px]:ml-[0px]  mx-auto  h-[612px] rounded-[16px]
               max-[1441px]:max-w-[1280px] max-[1441px]:h-[714px]"
             />
 
-            <div className="absolute inset-0 bg-black/80  flex justify-center items-center rounded-[16px]">
+            <div className="absolute inset-0 bg-black/80 backdrop-blur-[2px] shadow-[0px_3.12px_4.68px_0px_#00000026]  flex justify-center items-center rounded-[16px]">
               <img
                 src={playbutton}
                 alt="Play"
