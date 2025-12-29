@@ -11,13 +11,10 @@ const JoinOurCoummunity = () => {
           
 
         max-[800px]:max-w-[800px] max-[800px]:mt-[80px] max-[800px]:flex-col
-        max-[800px]:px-[60px]
-        max-[746px]:px-[10px]
-
-       
+        max-[800px]:px-[60px] max-[746px]:px-[10px]
 
         max-[425px]:max-w-[425px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:mt-[80px]
-        max-[375px]:max-w-[375px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:mt-[80px]"
+        max-[375px]:max-w-[375px]   "
       >
         <div
           className="JOC_content flex relative flex-col w-full max-w-[655px] gap-[32px]
@@ -29,7 +26,7 @@ const JoinOurCoummunity = () => {
 
              max-[425px]:max-w-[425px] max-[425px]:h-auto max-[425px]:gap-[32px] max-[425px]:top-[48px] 
 
-             max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:gap-[32px] max-[375px]:top-[48px] "
+             max-[375px]:max-w-[343px]  "
         >
           <div
             className="JOC_c1 flex flex-col w-[100%]  gap-[8px]
@@ -43,7 +40,7 @@ const JoinOurCoummunity = () => {
               
              
                max-[662px]:block
-                max-[425px]:block
+                
                     "
             >
               <p
@@ -52,7 +49,7 @@ const JoinOurCoummunity = () => {
                         max-[800px]:text-[36px] 
                         
                         max-[425px]:hidden
-                        max-[375px]:text-[30px]"
+                        "
               >
                 Join Our
               </p>
@@ -158,9 +155,9 @@ const JoinOurCoummunity = () => {
                 max-[1441px]:h-[48px] 
 
                 max-[768px]:mt-[auto]
-               max-[746px]:mt-[auto]
+               
                 max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:flex-col
-                max-[375px]:max-w-[343px] max-[375px]:h-auto max-[375px]:flex-col"
+                max-[375px]:max-w-[343px] "
           >
             <input
               className="JOC_emailAddress w-full max-w-[354px] h-[100%] rounded-[8px] border border-[#D4D4D4] 

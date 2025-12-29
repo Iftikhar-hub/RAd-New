@@ -35,7 +35,7 @@ const Hero = () => {
             max-[425px]:px-[20px]
             max-[375px]:px-[10px]
             max-[377px]:text-[18px]
-            max-[747px]:text-[18px] "
+            "
           >
             Build Apps 5x Faster With One Codebase for Windows, Android, iOS,
             macOS, and Linux.
@@ -44,9 +44,7 @@ const Hero = () => {
           <p
             className="hero_cp2 hidden  flex-col  gap-[16px]  font-[archivo] font-normal text-[18px] leading-[150%] text-center text-[#525252] tracking-[0px]
             max-[1441px]:block max-[425px]:hidden
-            max-[425px]:px-[20px]
-            max-[375px]:px-[10px]
-            max-[377px]:text-[18px]
+            
             max-[747px]:text-[18px] "
           >
             Build Apps 5x Faster With One Codebase <br /> for Windows, Android,
@@ -106,7 +104,7 @@ const Hero = () => {
                
 
              max-[768px]:px-0
-             max-[744px]:px-[10px]
+            
              max-[744px]:px-[20px]
 
               max-[747px]:max-w-[695px] max-[747px]:h-min max-[747px]:w-full
@@ -176,8 +174,7 @@ const Hero = () => {
                      max-[744px]:justify-start
 
                      max-[600px]:flex-col max-[600px]:justify-center max-[600px]:mt-[18px]
-                     max-[375px]:flex-col max-[375px]:justify-center max-[375px]:mt-[18px]
-                     max-[375px]"
+                    "
           >
             <img src={rad} alt="rad" className="w-[48px] h-[48px]" />
 

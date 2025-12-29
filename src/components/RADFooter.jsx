@@ -11,16 +11,12 @@ const RADFooter = () => {
       className="RAD_Footer max-w-[1920px] relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99] mx-auto  px-4 max-[1441px]:px-[30px] bg-white z-100 
         max-[1441px]:max-w-[1440px] max-[1441px]:h-[593px] max-[1441px]:py-[48px]
 
-        max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] 
-        max-[744px]:max-[744px] max-[744px]:px-4 max-[744px]:h-[930px] 
+        max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] max-[744px]:max-[744px] 
         max-[747px]:overflow-x-clip max-[747px]:pb-[7px]
 
-        max-[747px]:h-auto
-
-        max-[747px]:justify-center max-[747px]:items-center max-[747px]:gap-[40px]
+        max-[747px]:h-auto max-[747px]:justify-center max-[747px]:items-center max-[747px]:gap-[40px]
         max-[425px]:mt-[200px]
-        max-[425px]:max-w-[425px] max-[425px]:w-full
-        max-[375px]:max-w-[375px] max-[375px]:w-full"
+        max-[425px]:max-w-[425px] max-[425px]:w-full max-[375px]:max-w-[375px] "
     >
       <div
         className="elip-f hidden max-[1441px]:block max-[1050px]:hidden w-full max-w-[400px] h-[400px]  absolute top-[0px]  
@@ -33,7 +29,7 @@ const RADFooter = () => {
 
             max-[1441px]:max-w-[1280px] max-[1441px]:flex-col max-[1441px]:h-auto max-[1441px]:gap-[48px]
 
-            max-[768px]:max-w-[718px]  max-[768px]:gap-[48px]
+            max-[768px]:max-w-[718px]  
             max-[747px]:max-w-[695px]  max-[747px]:gap-[40px]
             "
       >
@@ -53,12 +49,10 @@ const RADFooter = () => {
                      max-[1441px]:max-w-[1280px]  max-[1441px]:gap-[32px]
 
 
-                     max-[1024]:max-w-[974] max-[1024px]:grid max-[1024px]:grid-cols-3
-                     max-[768px]:max-w-[718px] max-[768px]:grid max-[768px]:grid-cols-3
+                     max-[1024]:max-w-[974] max-[1024px]:grid max-[1024px]:grid-cols-3 max-[768px]:max-w-[718px] 
 
-                     max-[425px]:hidden max-[425px]:h-auto  max-[425px]:grid-cols-2
-                     max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
-        >
+                     max-[425px]:hidden "
+         >
           <div className="FCR_1 flex z-10 flex-col gap-[26px]">
             <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] z-10 ">
               Products
@@ -215,7 +209,7 @@ const RADFooter = () => {
                      
                     max-[425px]:grid
                      max-[425px]:max-w-[393px] max-[425px]:h-auto  max-[425px]:grid-cols-2
-                     max-[375px]:max-w-[343px] max-[375px]:h-auto  max-[375px]:grid-cols-2"
+                     max-[375px]:max-w-[343px]"
         >
           <div className="FCR_1 flex z-10 flex-col gap-[26px] ">
             <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] z-10 ">
@@ -370,18 +364,10 @@ const RADFooter = () => {
       <div
         className="Bottom_Footer w-full py-5 mx-auto h-[24px] flex justify-between items-center mt-[180px]
                 max-[1441px]:max-w-[1280px] max-[1441px]:h-[24px] max-[1441px]:gap[32px]
-                max-[1441px]:mt-[40px]
-                max-[747px]:mt-0
-
-                max-[747px]:py-[0px]
-               
-                max-[768px]:max-w-[718px]
+                max-[1441px]:mt-[40px] max-[747px]:mt-0 max-[747px]:py-[0px] max-[768px]:max-w-[718px]
 
                 max-[425px]:max-w-[393px] max-[425px]:h-auto max-[425px]:flex-col max-[425px]:gap-[16px]
-                max-[425px]:mt-[32px]
-
-                max-[377px]:max-w-[343px] max-[375px]:h-auto max-[377px]:flex-col max-[377px]:gap-[16px]
-                max-[377px]:mt-[32px] max-[377px]:pb-[8px]"
+                max-[425px]:mt-[32px] max-[377px]:max-w-[343px] max-[377px]:pb-[8px]"
       >
         <p
           className="BF_P font-[Archivo]  font-normal text-[14px] leading-[14px] text-[#1F2937]
@@ -394,9 +380,8 @@ const RADFooter = () => {
         <div
           className="BF_Icons flex flex-row l  max-w-[864px] justify-end h-[24px] gap-[24px]
                 max-[1441px]:max-w-[624px] max-[1441px]:mr-[0]
-                max-[768px]:max-w-[431px]
-                max-[425px]:max-w-[168px] max-[425px]:justify-between
-                max-[375px]:max-w-[168px] max-[375px]:justify-between"
+                max-[768px]:max-w-[431px]  max-[425px]:max-w-[168px] max-[425px]:justify-between
+              "
         >
           <img
             className="logoBF max-w-[24px] h-[24px] cursor-pointer"

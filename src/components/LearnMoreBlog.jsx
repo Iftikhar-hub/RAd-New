@@ -44,10 +44,10 @@ const LearnMoreBlog = () => {
           max-[746px]:gap-[64px]
 
          max-[425px]:max-w-[393px]  max-[425px]:h-auto max-[425px]:gap-[30px]
-         max-[425px]:mt-[80px]
+        
 
-         max-[377px]:w-[100%]  max-[377px]:h-auto max-[377px]:gap-[30px]
-         max-[377px]:mt-[80px]
+         max-[377px]:w-[100%]  
+      
          max-[377px]:mx-0 "
       >
         <p
@@ -56,7 +56,7 @@ const LearnMoreBlog = () => {
             max-[746px]:text-[36px] max-[746px]:left-[54px]
             max-[630px]:px-[20px]
             max-[425px]:text-[30px]
-            max-[376px]:text-[30px] max-[377px]:leading-[140%]
+             max-[377px]:leading-[140%]
             "
         >
           Learn More on the <span></span>
@@ -67,7 +67,7 @@ const LearnMoreBlog = () => {
             pl-[8px]
                 max-[746px]:text-[36px] 
                 max-[425px]:text-[30px]
-                max-[377px]:text-[30px] max-[377px]:leading-[140%] "
+                max-[377px]:leading-[140%] "
           >
             Embarcadero Blog
           </span>
@@ -89,23 +89,23 @@ const LearnMoreBlog = () => {
                  max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
-                 max-[768px]:gap-[48px] max-[768px]:w-[100%]
+                 max-[768px]:gap-[48px] 
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:gap-[48px] 
                  max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
 
-                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px] "
+                 max-[375px]:max-w-[343px]  "
           >
             <div
               className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+                     z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                    "
             >
               <p
                 className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -144,10 +144,10 @@ const LearnMoreBlog = () => {
 
             <div
               className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+                     z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                    "
             >
               <p
                 className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -186,10 +186,10 @@ const LearnMoreBlog = () => {
 
             <div
               className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+                      z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     "
             >
               <p
                 className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -241,23 +241,23 @@ const LearnMoreBlog = () => {
                  max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
-                 max-[768px]:gap-[48px] max-[768px]:w-[100%]
+                 max-[768px]:gap-[48px] 
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:gap-[48px] 
                  max-[746px]:grid-cols-2
 
 
                   max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
 
-                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px] "
+                 max-[375px]:max-w-[343px]  "
           >
             <div
               className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+                     z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     "
             >
               <p
                 className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -296,10 +296,10 @@ const LearnMoreBlog = () => {
 
             <div
               className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+                      z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                     "
             >
               <p
                 className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -339,10 +339,10 @@ const LearnMoreBlog = () => {
 
             <div
               className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+                     z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px]"
+                    "
             >
               <p
                 className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -405,30 +405,14 @@ const LearnMoreBlog = () => {
         <div
           className="LMB_content_1 w-full hidden  max-w-[1540px] gap-[100px] mx-auto z-10  
                  flex  mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden
-                  
-                 
-                 max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
-
-                 max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
-                 max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
-
-                 max-[768px]:gap-[48px] max-[768px]:w-[100%]
+                 max-[768px]:gap-[48px] 
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
-
-                 max-[747px]:gap-[32px] max-[746px]:w-[100%]
+                 max-[747px]:gap-[32px] 
                  max-[746px]:grid-cols-2 max-[747px]:px-[25px]
-                 
-
-
-                  max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
-
-                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px] "
+                 "
         >
           <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
-                     
-                     
+            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px] z-10                  
                      max-[768px]:max-w-[331px]
                      max-[746px]:max-w-[331px] max-[747px]:pl-0 "
           >
@@ -467,11 +451,10 @@ const LearnMoreBlog = () => {
           </div>
 
           <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px] z-10
                      
                      max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px] max-[747px]:pl-0  "
+                      max-[747px]:pl-0  "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -524,31 +507,16 @@ const LearnMoreBlog = () => {
         {/* 2nd row */}
         <div
           className="LMB_content_1 w-full hidden  max-w-[1540px] gap-[100px] mx-auto z-10  
-                 flex  mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden
-                  
-                 
-                 max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
-
-                 max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
-                 max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
-
+                   mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
                  max-[747px]:gap-[32px] max-[746px]:w-[100%]
                  max-[746px]:grid-cols-2 max-[747px]:px-[25px]
-
-
-                  max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
-
-                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px] "
+"
         >
           <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
-                     
-                     max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
+            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px] z-10 max-[768px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -586,10 +554,7 @@ const LearnMoreBlog = () => {
 
           <div
             className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
-                     
-                     max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
+                     z-10 max-[768px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -600,7 +565,7 @@ const LearnMoreBlog = () => {
 
             <p
               className="LMB_c1_p2 font-archivo font-semibold text-[30px] leading-[150%] tracking-[0px] text-[#262626]
-                
+
                 max-[1024px]:text-[23px]
                 max-[746px]:text-[28px]"
             >
@@ -635,30 +600,15 @@ const LearnMoreBlog = () => {
         <div
           className="LMB_content_1 w-full hidden  max-w-[1540px] gap-[100px] mx-auto z-10  
                  flex  mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden
-                  
-                 
-                 max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
-
-                 max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
-                 max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
-
-                 max-[768px]:gap-[48px] max-[768px]:w-[100%]
+                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
                  max-[747px]:gap-[32px] max-[746px]:w-[100%]
-                 max-[746px]:grid-cols-2 max-[747px]:px-[25px]
-
-
-                  max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
-
-                 max-[375px]:max-w-[343px] max-[375px]:w-full max-[375px]:h-auto max-[375px]:grid-cols-1 max-[375px]:mt-[30px] "
+                 max-[746px]:grid-cols-2 max-[747px]:px-[25px]"
         >
           <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
-                     
-                     max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
+            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px] z-10  
+                     max-[768px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -696,11 +646,9 @@ const LearnMoreBlog = () => {
           </div>
 
           <div
-            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px]
-                     max-[1440px]:gap-[16px] z-10
+            className="LMB_c1 flex flex-col w-full max-w-[466px]  pl-[8px] gap-[16px] z-10
                      
-                     max-[768px]:max-w-[331px]
-                     max-[746px]:max-w-[331px] max-[747px]:pl-0 "
+                     max-[768px]:max-w-[331px] max-[747px]:pl-0 "
           >
             <p
               className="LMB_c1_p1 font-archivo font-normal text-[20px] leading-[150%] tracking-[0px] text-[#525252]
@@ -748,10 +696,10 @@ const LearnMoreBlog = () => {
                  max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
 
-                 max-[768px]:gap-[48px] max-[768px]:w-[100%]
+                 max-[768px]:gap-[48px] 
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
-                 max-[746px]:gap-[48px] max-[746px]:w-[100%]
+                 max-[746px]:gap-[48px] 
                  max-[746px]:grid-cols-2
 
 
@@ -840,8 +788,7 @@ const LearnMoreBlog = () => {
           <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  max-[544px]:block"></div>
 
           <div
-            className="LMB_c1 flex flex-col w-full    gap-[16px]
-                     max-[1440px]:gap-[16px] z-10 mt-[30px]
+            className="LMB_c1 flex flex-col w-full    gap-[16px] z-10 mt-[30px]
                      
                    "
           >
