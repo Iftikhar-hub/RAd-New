@@ -77,7 +77,7 @@ const Hero = () => {
             type="secondary"
             className="w-[229px] h-[48px] gap-2 border border-solid rounded-[10px]  px-4
        max-[747px]:px-5 py-3 opacity-100 max-[425px]:max-w-[393px]  max-[375px]:max-w-[343px] w-full max-w-[229px]
-       max-[462px]:px-[0px] text-[16px] hover:border-[green] hover:border-2
+       max-[462px]:px-[0px] text-[16px] hover:border-[black] hover:border
 
               font-archivo cursor-pointer font-medium max-[747px]:text-[16px] leading-[24px] text-[#171717]
                  hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD]
@@ -95,22 +95,9 @@ const Hero = () => {
         className="heroPicture w-full max-w-[1279px] relative
             z-10 
             max-[1441px]:w-full max-[1370px]:px-[40px]
-            
-            
-              
-
-               max-[1024px]:w-full 
-              max-[1440px]:w-full max-[900px]:h-[886px] max-[1440px]:gap-[64px]
-               
-
-             max-[768px]:px-[20px]
-            
-             
-
-              max-[747px]:max-w-[695px] max-[768px]:h-min max-[747px]:w-full
-              max-[747px]:gap-[48px]
-              max-[425px]:max-w-[393px]
-              max-[377px]:w-full "
+               max-[1024px]:w-full max-[1440px]:w-full max-[900px]:h-[886px] max-[1440px]:gap-[64px]
+              max-[768px]:px-[20px] max-[747px]:max-w-[695px] max-[768px]:h-min max-[747px]:w-full
+              max-[747px]:gap-[48px] max-[425px]:max-w-[393px] max-[377px]:w-full "
       >
         <div className="relative  w-full mx-auto   z-100 max-[377px]:mx-auto ">
           <div
@@ -159,7 +146,7 @@ const Hero = () => {
                     max-[747px]:max-w-[695px]  max-[744px]:gap-[32px]
 
                     max-[600px]:mx-auto max-[600px]:flex-col
-                    max-[600px]:p-[16px]
+                    max-[600px]:p-[16px] max-[377px]:-z-20
                     
                       max-[375px]:flex-col max-[377px]:pt-[0px]
                     max-[377px]:px-[16px] max-[377px]:max-w-[343px] max-[377px]:mt-[24px]
@@ -233,7 +220,7 @@ const Hero = () => {
           max-[747px]:block max-[377px]:hidden"
         ></div>
         <div
-          className="MSE_2po hidden w-full max-w-[869px] h-[869px]  absolute top-[-89px]  
+          className="MSE_2po hidden w-full max-w-[869px] h-[869px] z-20 absolute top-[-89px]  
           left-[458px] opacity-[10%] border border-white blur-[200px] bg-[#F43F5E] 
           max-[747px]:block max-[377px]:hidden"
         ></div>

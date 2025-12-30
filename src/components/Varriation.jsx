@@ -12,6 +12,12 @@ const Varriation = () => {
 
           <div className="Twoxl-1 hidden 2xl:hidden xl:block  w-full absolute max-w-[432px] h-[432px] bg-[#DC2626] left-[-236px] top-[152px] rounded-[100%] border border-[#FFFFFF] blur-[200px] opacity-[10%]"></div>
         </section>
+
+        <section className="hidden  overflow-x-hidden overflow-y-hidden max-[377px]:block insect-0 w-full max-w-[375px] h-[397px] absolute  top-[191px] z-10 ">
+          <div className="hidden  max-[377px]:block  w-full absolute max-w-[446px] h-[446px] bg-[#E11D48] right-[-103px] top-[-58px] rounded-[100%] border border-[#FFFFFF] blur-[200px] opacity-[5%]"></div>
+
+          <div className="hidden  max-[377px]:block  w-full absolute max-w-[465px] h-[465px] bg-[#06B6D4] right-[175px] top-[-35px] rounded-[100%] border border-[#FFFFFF] blur-[200px] opacity-[10%]"></div>
+        </section>
       </>
     );
 }

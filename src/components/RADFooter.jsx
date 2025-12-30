@@ -15,7 +15,7 @@ const RADFooter = () => {
         max-[747px]:overflow-x-clip max-[747px]:pb-[7px]
 
         max-[747px]:h-auto max-[747px]:justify-center max-[747px]:items-center max-[747px]:gap-[40px]
-        max-[425px]:mt-[200px]
+        max-[425px]:mt-[200px] max-[377px]:mt-[32px]
         max-[425px]:max-w-[425px] max-[425px]:w-full max-[375px]:max-w-[375px] "
     >
       <div
@@ -414,7 +414,7 @@ const RADFooter = () => {
 
       <div className="MS-f1  hidden max-[747px]:block  w-full max-w-[869px] h-[869px]  absolute top-[-446px]  left-[-130px] opacity-[4%] border border-white blur-[500px] bg-[#E11D48] overflow-x-hidden"></div>
 
-      <div className="MS-f2 hidden max-[747px]:block  w-full max-w-[731px] h-fill-available  absolute top-[644px]  left-[373px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4] overflow-x-hidden overflow-y-hidden"></div>
+      <div className="MS-f2 hidden max-[747px]:block  w-full max-w-[731px] h-fill-available  absolute top-[644px]  left-[373px] opacity-[10%] max-[377px]:hidden border border-white blur-[200px] bg-[#06B6D4] overflow-x-hidden overflow-y-hidden"></div>
 
       <div className="w-full hidden 2xl:block max-w-[650px] h-[650px] rounded-[100%] border border-white  bg-[#DC2626] absolute top-[-116px] right-[-27px] -z-10 opacity-[10%] blur-[200px]"></div>
     </section>

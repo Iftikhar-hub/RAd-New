@@ -273,7 +273,7 @@ const RADStudioHere = () => {
             <div
               className="elip-3 w-full max-w-[906px] h-[906px]  absolute top-[-187px]  left-[-586px] opacity-[10%] border border-white bg-[#06B6D4] blur-[100px] 
 
-            max-[1441px]:top-[-162px] max-[1441px]:left-[-353px]
+            max-[1441px]:top-[-162px] max-[1441px]:left-[-353px] max-[377px]:hidden
 
 
             max-[747px]:top-[296px] max-[747px]:left-[-81px] max-[747px]:blur-[213px]"
@@ -282,7 +282,7 @@ const RADStudioHere = () => {
             <div className="elip-4 w-full max-w-[644px] h-[644px]  absolute top-[9px]  left-[1210px] opacity-[10%] border border-white bg-[#6366F1] blur-[250px] "></div>
           </div>
 
-          <div className="MS-rs1 hidden w-full max-w-[869px] h-[1520px]  absolute top-[-90px]  left-[-235px] opacity-[10%] border border-white bg-[#3B82F6] blur-[100px] max-[377px]:block"></div>
+          <div className="MS-rs1 hidden w-full max-w-[869px] h-[1520px]  absolute top-[-90px]  left-[0px] right-[0px] opacity-[10%] border border-white bg-[#06B6D4] blur-[200px] max-[377px]:block"></div>
 
           <div className="MS-rsi2 hidden w-full max-w-[650px] h-[650px]  absolute top-[1753px]  left-[183px] opacity-[10%] border border-white bg-[#DC2626] blur-[240px] max-[377px]:block"></div>
 

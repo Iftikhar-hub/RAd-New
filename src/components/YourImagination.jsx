@@ -234,7 +234,7 @@ const YourImagination = () => {
             </div>
 
             <div
-              className="IContent relative flex flex-col w-full max-w-[653px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 2xl:overflow-hidden
+              className="IContent relative flex flex-col w-full max-w-[653px] 2xl:h-[740px] h-auto p-[32px] bg-white backdrop-blur-3xl gap-[56px] 2xl:overflow-hidden
 
               max-[1441px]:max-w-[547px] max-[1441px]:h-auto max-[1441px]:gap-[56px] max-[1441px]:py-[58px]  max-[1441px]:px-[32px] 
               
@@ -287,11 +287,11 @@ const YourImagination = () => {
 
                   bg-[linear-gradient(80.32deg,_#FE3B76_53.77%,_#AF29CE_71.1%,_#2931DD_88.44%)] bg-clip-text text-transparent
 
-                  max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:hidden max-[400px]:block max-[400px]:w-full
+                  max-[400px]:text-end cursor-pointer group  max-[1024px]:hidden max-[400px]:block max-[400px]:w-full
                   max-[377px]:underline"
                 >
                   Read More
-                  <span className=" max-[377px]:hidden absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
+                  <span className=" max-[377px]:hidden absolute left-0 bottom-0 h-[2px] w-0 bg-[#FE3B76] transition-all duration-500 ease-out group-hover:w-[17%]"></span>
                 </p>
               </div>
               <p
@@ -315,7 +315,7 @@ const YourImagination = () => {
                  max-[377px]:mt-[16px] "
               >
                 <p
-                  className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-offset-0 decoration-0 text-[#262626] hover:text-[#055e05] hover:no-underline group
+                  className="DownloadRAD relative cursor-pointer opacity-100 font-archivo font-normal text-[18px] leading-[28px] tracking-[0px]  decoration-solid decoration-offset-0 decoration-0 text-[#262626]  hover:no-underline group
                 max-[425px]:text-[14px] max-[377px]:text-[18px]"
                 >
                   Download RAD Studio Feature Matrix

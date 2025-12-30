@@ -371,14 +371,15 @@ const LearnMoreBlog = () => {
           </div>
 
           <div
-            className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4] max-[747px]:top-[353px] max-[747px]:left-[-295px] max-[747px]:blur-[500px] max-[1441px]:top-[40px] 
+            className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px]
+             opacity-[10%] border border-white blur-[200px] bg-[#06B6D4] max-[747px]:top-[353px] max-[747px]:left-[-295px] max-[747px]:blur-[500px] max-[1441px]:top-[40px] 
             max-[1441px]:left-[-300px]  "
           ></div>
 
           <div
             className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-606px]  right-[-267px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4] max-[1441px]:top-[-667px] 
             max-[1441px]:right-[-554px]
-          max-[377px]:top-[-165px] max-[377px]:right-[160px] max-[377px]:blur-[200px]"
+          max-[377px]:top-[-165px] max-[377px]:right-[160px] max-[377px]:blur-[300px]"
           ></div>
           <div
             className="hidden elip-9n w-full max-w-[497px] h-[497px]  absolute top-[710px]  right-[-258px] opacity-[10%] border border-white blur-[500px] bg-[#6366F1] max-[747px]:block max-[425px]:hidden
@@ -387,8 +388,10 @@ const LearnMoreBlog = () => {
 
           <div
             className="elip-10n hidden max-[747px]:block max-[377px]:block w-full max-w-[869px] h-[869px]  absolute 
-            top-[721px]  right-[6px] opacity-[10%] border border-white blur-[300px] bg-[#E11D48]
-             max-[747px]:bg-[#DC2626] max-[747px]:max-w-[650px] max-[747px]:h-[650px] max-[747px]:top-[1408px] max-[747px]:right-[-318px] max-[747px]:blur-[500px]"
+            max-[377px]:top-[711px] max-[377px]:left-[0px] right-[6px] opacity-[10%] border border-white 
+            max-[377px]:blur-[150px] bg-[#E11D48]
+             max-[747px]:bg-[#DC2626] max-[747px]:max-w-[650px] max-[747px]:h-[650px] 
+             max-[747px]:top-[1408px] max-[747px]:right-[-318px] max-[747px]:blur-[500px]"
           ></div>
         </div>
 
