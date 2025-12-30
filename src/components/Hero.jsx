@@ -103,11 +103,11 @@ const Hero = () => {
               max-[1440px]:w-full max-[900px]:h-[886px] max-[1440px]:gap-[64px]
                
 
-             max-[768px]:px-0
+             max-[768px]:px-[20px]
             
-             max-[744px]:px-[20px]
+             
 
-              max-[747px]:max-w-[695px] max-[747px]:h-min max-[747px]:w-full
+              max-[747px]:max-w-[695px] max-[768px]:h-min max-[747px]:w-full
               max-[747px]:gap-[48px]
               max-[425px]:max-w-[393px]
               max-[377px]:w-full "
@@ -218,7 +218,7 @@ const Hero = () => {
         <div
           className="MSE_1new hidden w-full max-w-[906px] h-[906px]  absolute top-[-350px]  
           left-[-47px] opacity-[10%] border border-white blur-[150px] bg-[#06B6D4] -z-10
-          max-[747px]:block max-[425px]:hidden"
+          max-[1024px]:block max-[425px]:hidden"
         ></div>
 
         <div

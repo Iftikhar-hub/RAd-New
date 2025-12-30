@@ -287,7 +287,7 @@ const YourImagination = () => {
 
                   bg-[linear-gradient(80.32deg,_#FE3B76_53.77%,_#AF29CE_71.1%,_#2931DD_88.44%)] bg-clip-text text-transparent
 
-                  max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:hidden max-[400px]:block
+                  max-[400px]:text-end cursor-pointer group hover:text-[#055e05] max-[1024px]:hidden max-[400px]:block max-[400px]:w-full
                   max-[377px]:underline"
                 >
                   Read More
