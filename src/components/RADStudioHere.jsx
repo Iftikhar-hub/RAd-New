@@ -48,8 +48,8 @@ const RADStudioHere = () => {
           >
             RAD Studio 11.2
             <span
-              className="font-archivo font-semibold text-[23px] leading-[150%] tracking-[-1px] text-center text-[#262626]
-              max-[1024px]:text-[42px]
+              className="font-archivo font-semibold text-[32px] leading-[150%] tracking-[-1px] text-center text-[#262626]
+             
                     lg:text-[42px]  xl:text-[48px] sm:text-[40px]"
             >
               {" "}
