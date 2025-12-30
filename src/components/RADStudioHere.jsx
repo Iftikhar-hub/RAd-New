@@ -72,7 +72,7 @@ const RADStudioHere = () => {
 
           <img
             className="max-w-[58.89px] h-[114.07] absolute top-[4px] right-[-80px]
-                max-[747px]:hidden
+                max-[747px]:hidden max-[1441px]:right-[-40px]
                 max-[1440px]:hidden"
             src={radsImage}
             alt="radsImage"

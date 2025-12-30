@@ -370,10 +370,14 @@ const LearnMoreBlog = () => {
             </div>
           </div>
 
-          <div className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4] max-[747px]:top-[353px] max-[747px]:left-[-295px] max-[747px]:blur-[500px]  "></div>
+          <div
+            className="elip-8 w-full max-w-[731px] h-[731px]  absolute top-[123px]  left-[-484px] opacity-[10%] border border-white blur-[100px] bg-[#06B6D4] max-[747px]:top-[353px] max-[747px]:left-[-295px] max-[747px]:blur-[500px] max-[1441px]:top-[40px] 
+            max-[1441px]:left-[-300px]  "
+          ></div>
 
           <div
-            className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-606px]  right-[-267px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4]
+            className="elip-9 w-full max-w-[731px] h-[731px]  absolute top-[-606px]  right-[-267px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4] max-[1441px]:top-[-667px] 
+            max-[1441px]:right-[-554px]
           max-[377px]:top-[-165px] max-[377px]:right-[160px] max-[377px]:blur-[200px]"
           ></div>
           <div

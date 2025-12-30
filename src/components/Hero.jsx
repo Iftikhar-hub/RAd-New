@@ -204,7 +204,7 @@ const Hero = () => {
         <div
           className="elip_h1 w-full max-w-[440px] h-[440px]  absolute top-[172px]  
           left-[-437px] opacity-[20%] border border-white blur-[500px] bg-[#6366F1]
-          max-[1024px]:hidden
+          hidden
           max-[1441px]:bg-[#06B6D4] max-[1441px]:max-w-[906px] max-[1441px]:h-[906px] max-[1441px]:top-[-340px] max-[1441px]:left-[-295px] max-[1441px]:opacity-[10%]  max-[1441px]:blur-[100px]
           
           "
@@ -239,16 +239,16 @@ const Hero = () => {
         ></div>
 
         <div
-          className="elip_h2  w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[20%] border border-white blur-[500px] bg-[#E11D48] max-[1024px]:hidden
+          className="elip_h2   w-full max-w-[869px] h-[869px] -z-10  absolute top-[-40px]  left-[1000px] opacity-[10%] border border-white blur-[500px] bg-[#E11D48] max-[1024px]:hidden
         
-        max-[1441px]:top-[-340px] max-[1441px]:left-[683px] max-[1441px]:opacity-[10%]  max-[1441px]:blur-[100px]"
+        max-[1441px]:top-[-340px] max-[1441px]:left-[683px] max-[1441px]:opacity-[5%]  max-[1441px]:blur-[50px]"
         ></div>
 
-        <div className="elip_h22r hidden max-[1441px]:block  w-full max-w-[869px] h-[869px] absolute top-[-3px]  left-[929px] opacity-[10%] border border-white blur-[100px] bg-[#F43F5E] max-[1024px]:hidden"></div>
+        <div className="elip_h22r hidden max-[1441px]:block z-10  w-full max-w-[869px] h-[869px] absolute top-[-3px]  left-[929px] opacity-[10%] border border-white blur-[100px] bg-[#F43F5E] max-[1024px]:hidden"></div>
 
         <div className="elip_h22b hidden max-[1441px]:block  w-full max-w-[440px] h-[440px] -z-10  absolute top-[212px]  left-[-192px] opacity-[10%] border border-white blur-[100px] bg-[#6366F1] max-[1024px]:hidden"></div>
 
-        <div className="elip_h22f hidden max-[1441px]:block  w-full max-w-[869px] h-[869px]   absolute top-[134px]  left-[-558px] opacity-[10%] border border-white blur-[230px] bg-[#6366F1] max-[1024px]:hidden"></div>
+        <div className="elip_h22f hidden max-[1441px]:block z-10  w-full max-w-[869px] h-[869px]   absolute top-[134px]  left-[-558px] opacity-[10%] border border-white blur-[230px] bg-[#3B82F6] max-[1024px]:hidden"></div>
 
         <div className="MS_h1 hidden w-full max-w-[446px] h-[350px] -z-10  absolute top-[-610px]  left-[80px] opacity-[5%] border border-white blur-[110px] bg-[#E11D48] max-[377px]:block"></div>
 

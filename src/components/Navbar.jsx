@@ -17,7 +17,7 @@ const Navbar = () => {
   const toggleNT = () => setOpenNT(!OpenNT);
 
   return (
-    <div className="w-full max-w-[1920px] mx-auto">
+    <div className="w-full max-w-[1920px] mx-auto relative">
       <section className=" px-4 py-4 flex justify-between items-center 2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4 sm:py-4 bg-white/5 backdrop-blur-sm relative z-100">
         <div className="flex items-center cursor-pointer">
           <img src={logoSVG} alt="Logo" className="h-6 xl:h-6 sm:h-6" />
@@ -263,6 +263,8 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+
+      <div className="hidden xl:block 2xl:hidden w-full absolute max-w-[432px] h-[432px] bg-[#3B82F6] left-[-146px] top-[-192px] rounded-[100%] border border-[#FFFFFF] blur-[250px] opacity-[10%]"></div>
     </div>
   );
 };
