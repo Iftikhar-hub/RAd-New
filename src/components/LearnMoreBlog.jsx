@@ -69,7 +69,7 @@ const LearnMoreBlog = () => {
           {/* for more then 900px start  */}
 
           <div
-            className="LMB_content_1 w-full  max-w-[1540px] gap-[100px] mx-auto z-10  
+            className="LMB_content_1 w-full  max-w-[1540px] 2xl:gap-[32px] gap-[100px] mx-auto z-10  
                  flex  mt-[90px] max-[900px]:hidden
                   
                  
@@ -216,12 +216,13 @@ const LearnMoreBlog = () => {
             </div>
           </div>
           <div
-            className="SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
+            className=" hidden SingleLines text-[#] border border-dashed w-[100%] mt-[80px] h-[2px]
              max-[900px]:hidden"
           ></div>
+          <div className=" w-[100%] mt-[80px]   border-t-2 border-[#D4D4D4] border-dashed max-[900px]:hidden "></div>
 
           <div
-            className="LMB_content_1 w-full  max-w-[1540px] gap-[100px] mx-auto z-10  
+            className="LMB_content_1 w-full  max-w-[1540px] 2xl:gap-[32px] gap-[100px] mx-auto z-10  
                  flex  mt-[90px]  max-[900px]:hidden
                   
                  
@@ -481,7 +482,7 @@ const LearnMoreBlog = () => {
         </div>
 
         <img
-          className="max-w-[60px] w-full h-[80px]  absolute top-[-1px] right-[300px] max-[1440px]:right-[149px]
+          className="max-w-[60px] 2xl:max-w-[71px] 2xl:h-[113px] w-full h-[80px]  absolute top-[-1px] right-[440px] max-[1440px]:right-[149px]
             max-[1441px]:right-[150px] max-[1441px]:
             max-[746px]:hidden"
           src={MLB_Arrow}
@@ -489,9 +490,10 @@ const LearnMoreBlog = () => {
         />
 
         <div
-          className=" SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
-       hidden max-[900px]:block max-[544px]:hidden max-[900px]:max-w-[695px] max-[900px]:mx-auto"
+          className="hidden SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
+       "
         ></div>
+        <div className=" w-[100%] mt-[80px]   border-t-2 border-[#D4D4D4] border-dashed max-[900px]:hidden max-[544px]:hidden hidden max-[900px]:block  max-[900px]:max-w-[695px] max-[900px]:mx-auto"></div>
 
         {/* 2nd row */}
         <div
@@ -579,9 +581,10 @@ const LearnMoreBlog = () => {
         </div>
 
         <div
-          className="SingleLines text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
-       hidden max-[900px]:block max-[544px]:hidden max-[900px]:max-w-[695px] max-[900px]:mx-auto"
+          className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[80px] h-[2px]
+      "
         ></div>
+        <div className=" w-[100%] mt-[80px]   border-t-2 border-[#D4D4D4] border-dashed  hidden max-[900px]:block max-[544px]:hidden max-[900px]:max-w-[695px] max-[900px]:mx-auto"></div>
 
         {/* 3rd row */}
         <div
@@ -733,7 +736,9 @@ const LearnMoreBlog = () => {
               />
             </div>
           </div>
-          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  max-[544px]:block"></div>
+          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px]   "></div>
+
+          <div className=" w-[100%] mt-[30px]   border-t-2 border-[#D4D4D4] border-dashed  hidden max-[544px]:block"></div>
 
           <div
             className="LMB_c1 flex flex-col w-full    gap-[16px]
@@ -772,7 +777,9 @@ const LearnMoreBlog = () => {
               />
             </div>
           </div>
-          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  max-[544px]:block"></div>
+          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] "></div>
+
+          <div className=" w-[100%] mt-[30px]   border-t-2 border-[#D4D4D4] border-dashed  hidden max-[544px]:block"></div>
 
           <div
             className="LMB_c1 flex flex-col w-full    gap-[16px] z-10 mt-[30px]
@@ -811,7 +818,9 @@ const LearnMoreBlog = () => {
               />
             </div>
           </div>
-          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  max-[544px]:block"></div>
+          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] "></div>
+
+          <div className=" w-[100%] mt-[30px]   border-t-2 border-[#D4D4D4] border-dashed  hidden max-[544px]:block"></div>
 
           <div
             className="LMB_c1 flex flex-col w-full    gap-[16px]
@@ -851,7 +860,9 @@ const LearnMoreBlog = () => {
               />
             </div>
           </div>
-          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  max-[544px]:block"></div>
+          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px]"></div>
+
+          <div className=" w-[100%] mt-[30px]   border-t-2 border-[#D4D4D4] border-dashed  hidden max-[544px]:block"></div>
 
           <div
             className="LMB_c1 flex flex-col w-full    gap-[16px]
@@ -892,7 +903,9 @@ const LearnMoreBlog = () => {
               />
             </div>
           </div>
-          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  max-[544px]:block"></div>
+          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] "></div>
+
+          <div className=" w-[100%] mt-[30px]   border-t-2 border-[#D4D4D4] border-dashed  hidden max-[544px]:block"></div>
 
           <div
             className="LMB_c1 flex flex-col w-full    gap-[16px]
@@ -932,7 +945,9 @@ const LearnMoreBlog = () => {
               />
             </div>
           </div>
-          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px] hidden  "></div>
+          <div className="SingleLines hidden text-[#D4D4D4] border border-dashed w-[100%] mt-[30px] h-[2px]   "></div>
+
+          <div className=" w-[100%] mt-[30px]   border-t-2 border-[#D4D4D4] border-dashed  hidden"></div>
         </div>
       </section>
     );

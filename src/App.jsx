@@ -1,3 +1,4 @@
+import Varriation from "./components/Varriation";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -11,6 +12,7 @@ import RADFooter from "./components/RADFooter";
 function App() {
   return (
     <>
+      <Varriation />
       <Header />
       <Navbar />
       <Hero />

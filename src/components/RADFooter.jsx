@@ -9,7 +9,7 @@ const RADFooter = () => {
   return (
     <section
       className="RAD_Footer max-w-[1920px] relative flex flex-col justify-between w-full h-[543px] py-[48px]  bg-[#FFFFFF99] mx-auto  2xl:px-[80px] max-[1441px]:px-[30px] bg-white z-100 
-        max-[1441px]:max-w-[1440px] max-[1441px]:h-[593px] max-[1441px]:py-[48px]
+        max-[1441px]:max-w-[1440px] max-[1441px]:h-[593px] max-[1441px]:py-[48px] 2xl:overflow-x-clip
 
         max-[768px]:max-[768px] max-[768px]:px-4 max-[768px]:h-[930px] max-[744px]:max-[744px] 
         max-[747px]:overflow-x-clip max-[747px]:pb-[7px]
@@ -52,7 +52,7 @@ const RADFooter = () => {
                      max-[1024]:max-w-[974] max-[1024px]:grid max-[1024px]:grid-cols-3 max-[768px]:max-w-[718px] 
 
                      max-[425px]:hidden "
-         >
+        >
           <div className="FCR_1 flex z-10 flex-col gap-[26px]">
             <p className="FCR_p1 font-archivo font-bold text-[20px] leading-[20px] tracking-[0px] text-[#1F2937] z-10 ">
               Products
@@ -415,6 +415,8 @@ const RADFooter = () => {
       <div className="MS-f1  hidden max-[747px]:block  w-full max-w-[869px] h-[869px]  absolute top-[-446px]  left-[-130px] opacity-[4%] border border-white blur-[500px] bg-[#E11D48] overflow-x-hidden"></div>
 
       <div className="MS-f2 hidden max-[747px]:block  w-full max-w-[731px] h-fill-available  absolute top-[644px]  left-[373px] opacity-[10%] border border-white blur-[200px] bg-[#06B6D4] overflow-x-hidden overflow-y-hidden"></div>
+
+      <div className="w-full hidden 2xl:block max-w-[650px] h-[650px] rounded-[100%] border border-white  bg-[#DC2626] absolute top-[-116px] right-[-27px] -z-10 opacity-[10%] blur-[200px]"></div>
     </section>
   );
 };
