@@ -25,41 +25,41 @@ const Navbar = () => {
 
         <div className="hidden lg:flex gap-6">
           <div className="group relative flex items-center cursor-pointer">
-            <p className="hover:text-[#055e05]">Products</p>
+            <p className="hover:text-[black]">Products</p>
             <img src={downArrow} alt="downArrow" className="w-4 h-4 ml-1" />
             <div className="absolute left-0 top-full mt-2 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 p-3">
               <ul className="flex flex-col gap-3 text-sm text-[#525252]">
-                <li className="hover:text-[#055e05]">RAD Studio</li>
-                <li className="hover:text-[#055e05]">Delphi</li>
-                <li className="hover:text-[#055e05]">C++ Builder</li>
-                <li className="hover:text-[#055e05]">Inter Base</li>
-                <li className="hover:text-[#055e05]">RAD Server</li>
+                <li className="hover:text-[black]">RAD Studio</li>
+                <li className="hover:text-[black]">Delphi</li>
+                <li className="hover:text-[black]">C++ Builder</li>
+                <li className="hover:text-[black]">Inter Base</li>
+                <li className="hover:text-[black]">RAD Server</li>
               </ul>
             </div>
           </div>
 
           <div className="group relative flex items-center cursor-pointer">
-            <p className="hover:text-[#055e05]">Free Tools</p>
+            <p className="hover:text-[black]">Free Tools</p>
             <img src={downArrow} alt="downArrow" className="w-4 h-4 ml-1" />
             <div className="absolute left-0 top-full mt-2 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 p-3">
               <ul className="flex flex-col gap-3 text-sm text-[#525252]">
-                <li className="hover:text-[#055e05]">C++ Compiler</li>
-                <li className="hover:text-[#055e05]">Delphi Community Ed.</li>
-                <li className="hover:text-[#055e05]">Rest Debugger</li>
-                <li className="hover:text-[#055e05]">FMX Stencils</li>
-                <li className="hover:text-[#055e05]">PyScripter</li>
-                <li className="hover:text-[#055e05]">CPP Check</li>
-                <li className="hover:text-[#055e05]">Python Libraries</li>
+                <li className="hover:text-[black]">C++ Compiler</li>
+                <li className="hover:text-[black]">Delphi Community Ed.</li>
+                <li className="hover:text-[black]">Rest Debugger</li>
+                <li className="hover:text-[black]">FMX Stencils</li>
+                <li className="hover:text-[black]">PyScripter</li>
+                <li className="hover:text-[black]">CPP Check</li>
+                <li className="hover:text-[black]">Python Libraries</li>
               </ul>
             </div>
           </div>
 
-          <div className="hover:text-[#055e05] cursor-pointer group relative">
+          <div className=" cursor-pointer group relative">
             Blog
-            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[black] transition-all duration-500 ease-out group-hover:w-full"></span>
           </div>
 
-          <div className="group relative cursor-pointer hover:text-[#055e05]">
+          <div className="group relative cursor-pointer hover:text-[black]">
             Resources
             <img
               src={downArrow}
@@ -68,21 +68,21 @@ const Navbar = () => {
             />
             <div className="absolute left-0 top-full mt-2 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 p-3">
               <ul className="flex flex-col gap-3 text-sm text-[#525252]">
-                <li>Learn</li>
-                <li>Engage</li>
-                <li>Partner</li>
-                <li>Support</li>
+                <li className="hover:text-[black]">Learn</li>
+                <li className="hover:text-[black]">Engage</li>
+                <li className="hover:text-[black]">Partner</li>
+                <li className="hover:text-[black]">Support</li>
               </ul>
             </div>
           </div>
 
-          <div className="cursor-pointer hover:text-[#055e05] group relative">
+          <div className="cursor-pointer hover:text-[black] group relative">
             Getit
-            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[black] transition-all duration-500 ease-out group-hover:w-full"></span>
           </div>
-          <div className="cursor-pointer hover:text-[#055e05] group relative">
+          <div className="cursor-pointer hover:text-[black] group relative">
             New Tools
-            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[black] transition-all duration-500 ease-out group-hover:w-full"></span>
           </div>
         </div>
 
@@ -188,9 +188,9 @@ const Navbar = () => {
             className="group relative  leading-[150%] tracking-[0px]   hover:text-gradient text-[#262626]"
           >
             What's New?
-            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span className=" 2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
             <span
-              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
             ></span>
           </a>
@@ -200,9 +200,9 @@ const Navbar = () => {
             className="relative hover:text-gradient text-[#262626] group"
           >
             Product Edition
-            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span className="2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
             <span
-              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
             ></span>
           </a>
@@ -212,9 +212,9 @@ const Navbar = () => {
             className="relative hover:text-gradient text-[#262626] group"
           >
             Previous Version
-            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span className="2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
             <span
-              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
             ></span>
           </a>
@@ -224,9 +224,9 @@ const Navbar = () => {
             className="relative hover:text-gradient text-[#262626] group"
           >
             Customers
-            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            <span className="2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
             <span
-              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[#055e05]
+              className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
             ></span>
           </a>

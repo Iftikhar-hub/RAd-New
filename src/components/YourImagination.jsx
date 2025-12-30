@@ -180,12 +180,12 @@ const YourImagination = () => {
                    ${
                      activeTab === tab.name
                        ? "bg-[#262626] text-white px-[50px] max-[747px]:px-[24px]"
-                       : "text-[#525252] hover:text-[#055e05]"
+                       : "text-[#525252] hover:text-[#636262]"
                    }`}
             >
               {tab.name}
               {activeTab !== tab.name && (
-                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#055e05] transition-all duration-500 ease-out group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-[#525252] transition-all duration-500 ease-out group-hover:w-full"></span>
               )}
             </a>
           ))}

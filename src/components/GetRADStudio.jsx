@@ -9,7 +9,7 @@ import wings from "../assets/icons/wings.png"
 const GetRADStudio = () => {
     return (
       <section
-        className="Get-RAD-Studio relative w-[100%] max-w-[1920px] 2xl:mx-auto bg-[#00000005] opacity-100  backdrop-blur-[36px] overflow-hidden mt-[128px]
+        className="Get-RAD-Studio relative w-[100%]   bg-[#00000005] opacity-100  backdrop-blur-[36px] overflow-hidden mt-[128px]
         h-[562px]
          max-[1440px]:h-[562px] 
          
