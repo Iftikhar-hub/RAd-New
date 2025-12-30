@@ -231,6 +231,11 @@ const Hero = () => {
         max-[1441px]:top-[-340px] max-[1441px]:left-[683px] max-[1441px]:opacity-[5%]  max-[1441px]:blur-[50px]"
         ></div>
 
+        <div
+          className="elip_Txl hidden -z-10 2xl:block absolute w-full max-w-[440px] h-[440px] border 
+        border-[#FFFFFF] top-[116px] rounded-[100%] blur-[100px] opacity-[10%] left-[-440px] bg-[#6366F1]"
+        ></div>
+
         <div className="elip_h22r hidden max-[1441px]:block z-10  w-full max-w-[869px] h-[869px] absolute top-[-3px]  left-[929px] opacity-[10%] border border-white blur-[100px] bg-[#F43F5E] max-[1024px]:hidden"></div>
 
         <div className="elip_h22b hidden max-[1441px]:block  w-full max-w-[440px] h-[440px] -z-10  absolute top-[212px]  left-[-192px] opacity-[10%] border border-white blur-[100px] bg-[#6366F1] max-[1024px]:hidden"></div>

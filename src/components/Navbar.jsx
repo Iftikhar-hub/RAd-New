@@ -161,7 +161,7 @@ const Navbar = () => {
       </section>
 
       {/* Bottom Navbar */}
-      <div className="flex flex-col gap-[16px] lg:flex-row justify-between items-center  rounded py-4  2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4  sm:gap-4 bg-white">
+      <div className="flex flex-col gap-[16px] lg:flex-row justify-between items-center  rounded py-4  2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4  sm:gap-4 bg-white xl:relative xl:-z-1000">
         <div className="flex items-center gap-2">
           <a
             href="#"
