@@ -24,12 +24,14 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex gap-6">
-          <div className="group relative flex items-center cursor-pointer">
+          
+          <div className="group relative  flex items-center cursor-pointer">
             <p className="hover:text-[black]">Products</p>
             <img src={downArrow} alt="downArrow" className="w-4 h-4 ml-1" />
-            <div className="absolute left-0 top-full mt-2 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 p-3">
-              <ul className="flex flex-col gap-3 text-sm text-[#525252]">
-                <li className="hover:text-[black]">RAD Studio</li>
+            <div className="absolute left-0 top-full mt-2 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:visible hover:visible hover-opacity-100 group-hover:opacity-100 transition-all duration-300 p-3 z-500">
+              
+              <ul className=" flex flex-col  gap-3 text-sm text-[#525252]">
+                <li className="relative  hover:text-[black]">RAD Studio</li>
                 <li className="hover:text-[black]">Delphi</li>
                 <li className="hover:text-[black]">C++ Builder</li>
                 <li className="hover:text-[black]">Inter Base</li>
@@ -118,14 +120,14 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
             className="absolute top-[70px] left-2 w-[calc(100%-1rem)] bg-gray-200 shadow-lg rounded p-4 flex flex-col gap-4 z-20"
           >
-            <div className="flex justify-between items-center bg-gray-100 p-2 rounded cursor-pointer">
+            <div className="flex justify-between items-center bg-gray-100  p-2 rounded cursor-pointer">
               <p>Products</p>
               <button onClick={toggleP}>
                 {Open ? <FaTimes /> : <FaArrowDown />}
               </button>
             </div>
             {Open && (
-              <div className="bg-gray-100 p-2 rounded flex flex-col gap-2">
+              <div className="bg-gray-100 p-2 rounded flex flex-col gap-2 ">
                 <p>RAD Studio</p>
                 <p>Delphi</p>
                 <p>C++ Builder</p>
@@ -171,7 +173,7 @@ const Navbar = () => {
       </section>
 
       {/* Bottom Navbar */}
-      <div className="flex flex-col gap-[16px] lg:flex-row justify-between items-center  rounded py-4  2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4  sm:gap-4 bg-white sm:bg-transparent xl:relative xl:z-30">
+      <div className="flex flex-col gap-[16px] lg:flex-row justify-between items-center  rounded py-4  2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4  sm:gap-4 bg-white sm:bg-transparent xl:relative xl:z-10">
         <div className="flex items-center gap-2">
           <a
             href="#"
