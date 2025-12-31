@@ -72,22 +72,9 @@ const LearnMoreBlog = () => {
 
           <div
             className="LMB_content_1 w-full  max-w-[1540px] 2xl:gap-[32px] gap-[100px] mx-auto z-10  
-                 flex  mt-[90px] max-[900px]:hidden
-                  
-                 
-                 max-[1441px]:w-[93%]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
-
-                 max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
-                 max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
-
-                 max-[768px]:gap-[48px] 
-                 max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
-
-                 max-[746px]:gap-[48px] 
-                 max-[746px]:grid-cols-2
-
-
-                  max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
+                 flex  mt-[90px] max-[900px]:hidden max-[1441px]:w-[93%]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px] max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
+                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
+                 max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
 
                  max-[375px]:max-w-[343px]  "
           >
@@ -491,7 +478,7 @@ const LearnMoreBlog = () => {
         </div>
 
         <img
-          className="max-w-[60px] 2xl:max-w-[71px] 2xl:h-[113px] w-full h-[80px]  absolute top-[-1px] right-[440px] max-[1440px]:right-[149px]
+          className="max-w-[60px] 2xl:max-w-[71px] 2xl:h-[113px] w-full h-[80px]  absolute top-[-1px] right-[440px] max-[1440px]:right-[149px] max-[1846px]:right-[300px]
             max-[1441px]:right-[150px] max-[1441px]:
             max-[746px]:hidden"
           src={MLB_Arrow}

@@ -182,17 +182,17 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="hidden sm:flex items-center  gap-2">
+        <div className="hidden sm:flex items-center gap-2">
           <a
             href="#"
-            className="group relative  leading-[150%] tracking-[0px]   hover:text-gradient text-[#262626]"
+            className="group relative cursor-pointer leading-[150%] tracking-[0px]   hover:text-gradient text-[#262626]"
           >
             What's New?
-            <span className=" 2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
-            <span
+            <span className="  w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            {/* <span
               className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
-            ></span>
+            ></span> */}
           </a>
           <FaMinus className="text-gray-400 w-1.5" />
           <a
@@ -200,11 +200,11 @@ const Navbar = () => {
             className="relative hover:text-gradient text-[#262626] group"
           >
             Product Edition
-            <span className="2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
-            <span
+            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            {/* <span
               className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
-            ></span>
+            ></span> */}
           </a>
           <FaMinus className="text-gray-400 w-1.5" />
           <a
@@ -212,11 +212,11 @@ const Navbar = () => {
             className="relative hover:text-gradient text-[#262626] group"
           >
             Previous Version
-            <span className="2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
-            <span
+            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            {/* <span
               className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
-            ></span>
+            ></span> */}
           </a>
           <FaMinus className="text-gray-400 w-1.5" />
           <a
@@ -224,11 +224,11 @@ const Navbar = () => {
             className="relative hover:text-gradient text-[#262626] group"
           >
             Customers
-            <span className="2xl:hidden w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
-            <span
+            <span className=" w-full absolute left-0 bottom-[3px] h-[1px] bg-[#262626]"></span>
+            {/* <span
               className=" w-0 group-hover:w-full absolute left-0 bottom-[3px] h-[2px] bg-[black]
             transition-all duration-500 ease-out"
-            ></span>
+            ></span> */}
           </a>
         </div>
 
