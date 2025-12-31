@@ -7,12 +7,17 @@ import andriod from "../assets/icons/andriod.png";
 import next from "../assets/icons/next.png";
 import previous from "../assets/icons/previous.png";
 import radsImage from "../assets/icons/radsImage.png";
+import { motion } from "framer-motion";
 
 
 
 const RADStudioHere = () => {
     return (
-      <section
+      <motion.section
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className="rad-studio-here relative flex flex-col w-[100%] gap-[80px] mt-[128px] m-auto max-
         items-center overflow-x-clip 
         [1440px]:max-w-[1280px] max-[1440px]:mt-[128px]
@@ -298,7 +303,7 @@ const RADStudioHere = () => {
             <img src={next} alt="next" />
           </div>
         </div>
-      </section>
+      </motion.section>
     );
 }
 export default RADStudioHere;

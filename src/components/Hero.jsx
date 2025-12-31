@@ -1,10 +1,15 @@
 import Group from "../assets/icons/Group.png";
 import playbutton from "../assets/icons/playbutton.png";
 import rad from "../assets/icons/rad.png";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className="heroSec w-[100%] flex flex-col relative  gap-[128px] justify-center items-center mt-[80px]  mx-auto overflow-x-clip 
 
         max-[747px]:mt-[48px]
@@ -246,7 +251,7 @@ const Hero = () => {
 
         <div className="MS_h2 hidden w-full max-w-[465px] h-[465px] -z-10  absolute top-[-577px]  left-[-171px] opacity-[5%] border border-white blur-[200px] bg-[#06B6D4] max-[377px]:block"></div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

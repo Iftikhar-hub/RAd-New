@@ -107,10 +107,6 @@ const dataTab = [
 ];
 
 
-
-
-
-
 const YourImagination = () => {
   const [activeTab, setActiveTab] = useState("Design");
   
@@ -118,7 +114,11 @@ const YourImagination = () => {
   const currentTab = dataTab.find((tab) => tab.name === activeTab);
 
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className="Your-Imagination relative flex flex-col w-[100%] gap-[48px] ml-auto mr-auto mt-[128px] 
 
     max-[1440px]:max-w-[1280px] max-[1440px]:gap-[48px]
@@ -336,7 +336,7 @@ const YourImagination = () => {
       </div>
 
       <div className="hidden max-[747px]:block max-[425px]:hidden w-full max-w-[650px] h-[650px] bg-[#DC2626] absolute top-[429px] left-[423px] rounded-[50%] border border-[#FFFFFF] opacity-[10%] blur-[270px]"></div>
-    </section>
+    </motion.section>
   );
 };
 
