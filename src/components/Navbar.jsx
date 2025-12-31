@@ -156,6 +156,16 @@ const Navbar = () => {
             <div className="bg-gray-100 p-2 rounded cursor-pointer">
               Free Tools
             </div>
+            <div className="breaker h-[2px] bg-gray-400 hidden max-[640px]:block"></div>
+
+            <div className="hidden max-[640px]:flex  flex-row gap-4">
+              <button className=" w-full bg-transparent border border-black rounded-lg py-2 px-3 font-medium text-black hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD] hover:text-transparent hover:bg-clip-text cursor-pointer">
+                Buy now
+              </button>
+              <button className=" w-full bg-transparent border border-black rounded-lg py-2 px-3 font-medium text-black hover:bg-gradient-to-r hover:from-[#FE3B76] hover:via-[#AF29CE] hover:to-[#2931DD] hover:text-transparent hover:bg-clip-text cursor-pointer">
+                Sing in
+              </button>
+            </div>
           </motion.div>
         )}
       </section>
