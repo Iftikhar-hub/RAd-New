@@ -72,7 +72,7 @@ const LearnMoreBlog = () => {
 
           <div
             className="LMB_content_1 w-full  max-w-[1540px] 2xl:gap-[32px] gap-[100px] mx-auto z-10  
-                 flex  mt-[90px] max-[900px]:hidden max-[1441px]:w-[93%]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px] max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
+                 flex  mt-[90px] max-[900px]:hidden max-[1441px]:w-[93%]   max-[1440px]:gap-[80px] max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
                   max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
                  max-[425px]:max-w-[393px] max-[425px]:w-full max-[425px]:h-auto max-[425px]:grid-cols-1 max-[425px]:mt-[30px]
 
@@ -215,7 +215,7 @@ const LearnMoreBlog = () => {
                  flex  mt-[90px]  max-[900px]:hidden
                   
                  
-                 max-[1441px]:w-[93%]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
+                 max-[1441px]:w-[93%]   max-[1440px]:gap-[80px]
 
                  max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]
@@ -390,7 +390,7 @@ const LearnMoreBlog = () => {
 
         <div
           className="LMB_content_1 w-full hidden  max-w-[1540px] gap-[100px] mx-auto z-10  
-                 flex  mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden
+                 flex  mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden max-[900px]:px-[25px]
                  max-[768px]:gap-[48px] 
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
                  max-[747px]:gap-[32px] 
@@ -478,9 +478,9 @@ const LearnMoreBlog = () => {
         </div>
 
         <img
-          className="max-w-[60px] 2xl:max-w-[71px] 2xl:h-[113px] w-full h-[80px]  absolute top-[-1px] right-[440px] max-[1440px]:right-[149px] max-[1846px]:right-[300px]
+          className="max-w-[60px] 2xl:max-w-[71px] 2xl:h-[113px] w-full h-[80px]  absolute top-[-1px] right-[440px] max-[1440px]:right-[149px] max-[1846px]:right-[100px]
             max-[1441px]:right-[150px] max-[1441px]:
-            max-[746px]:hidden"
+            max-[1440px]:hidden"
           src={MLB_Arrow}
           alt="MLB_Arrow"
         />
@@ -494,7 +494,7 @@ const LearnMoreBlog = () => {
         {/* 2nd row */}
         <div
           className="LMB_content_1 w-full hidden  max-w-[1540px] gap-[100px] mx-auto z-10  
-                   mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden
+                   mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden max-[900px]:px-[25px]
                  max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
@@ -585,7 +585,7 @@ const LearnMoreBlog = () => {
         {/* 3rd row */}
         <div
           className="LMB_content_1 w-full hidden  max-w-[1540px] gap-[100px] mx-auto z-10  
-                 flex  mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden
+                 flex  mt-[90px] max-[900px]:block max-[900px]:flex max-[544px]:hidden max-[900px]:px-[25px]
                   max-[768px]:gap-[48px] max-[768px]:w-[100%]
                  max-[768px]:grid-cols-2 max-[746px]:mt-[64px]
 
@@ -677,7 +677,7 @@ const LearnMoreBlog = () => {
                  max-[544px]:px-[25px]
                   
                  
-                 max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px] max-[1440px]:ml-[0px]
+                 max-[1440px]:max-w-[1440]   max-[1440px]:gap-[80px]
 
                  max-[1100px]:gap-[48px] max-[1100px]:w-[100%]
                  max-[1100px]:grid-cols-2 max-[1100px]:mt-[64px]

@@ -6,7 +6,7 @@ const JoinOurCoummunity = () => {
     return (
       <section
         className="Join_Our_Community relative flex justify-center items-center w-[100%] mx-auto h-[640px] bg-[#FFFFFF66] overflow-x-clip px-[196px]
-        max-[1441px]:gap-[40px] max-[747px]:gap-[0px]
+        max-[1441px]:gap-[40px] max-[747px]:gap-[0px] max-[1100px]:px-[25px]
          max-[1441px]:h-[640px] max-[1441px]:px-[80px] max-[1024px]:z-100 max-[1024px]:bg-white
           
 
@@ -204,7 +204,7 @@ const JoinOurCoummunity = () => {
             alt="GlobalUsers"
           />
           <img
-            className="jm w-[100%]  max-[377px]:mt-[40px] 
+            className="jm w-[100%]  max-[425px]:mt-[40px] 
              hidden max-[425px]:block
            "
             src={global}
