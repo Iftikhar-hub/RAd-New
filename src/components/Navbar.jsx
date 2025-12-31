@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full max-w-[1920px] mx-auto relative">
-      <section className=" px-4 py-4 flex justify-between items-center 2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4 sm:py-4 bg-white/5 backdrop-blur-sm relative z-100">
+      <section className=" px-4 py-4 flex justify-between items-center 2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4 sm:py-4 bg-white/5 backdrop-blur-sm relative z-20">
         <div className="flex items-center cursor-pointer">
           <img src={logoSVG} alt="Logo" className="h-6 xl:h-6 sm:h-6" />
         </div>
@@ -161,7 +161,7 @@ const Navbar = () => {
       </section>
 
       {/* Bottom Navbar */}
-      <div className="flex flex-col gap-[16px] lg:flex-row justify-between items-center  rounded py-4  2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4  sm:gap-4 bg-white xl:relative xl:-z-1000">
+      <div className="flex flex-col gap-[16px] lg:flex-row justify-between items-center  rounded py-4  2xl:px-[196px] xl:px-20 lg:px-8 md:px-6 sm:px-4  sm:gap-4 bg-white sm:bg-transparent xl:relative xl:z-30">
         <div className="flex items-center gap-2">
           <a
             href="#"
